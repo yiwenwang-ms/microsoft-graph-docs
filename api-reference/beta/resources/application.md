@@ -141,6 +141,7 @@ The following is a JSON representation of the resource.
   "signInAudience": "String",
   "tags": ["String"],
   "tokenEncryptionKeyId": "String",
+  "uniqueName": "String",
   "web": {"@odata.type": "microsoft.graph.webApplication"}
 }
 ```
