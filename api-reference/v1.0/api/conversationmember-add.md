@@ -11,7 +11,6 @@ ms.prod: "microsoft-teams"
 
 Namespace: microsoft.graph
 
-[!INCLUDE [V1.0-disclaimer](../../includes/V1.0-disclaimer.md)]
 
 Add a [conversationMember](../resources/conversationmember.md) to a [channel](../resources/channel.md).
 
