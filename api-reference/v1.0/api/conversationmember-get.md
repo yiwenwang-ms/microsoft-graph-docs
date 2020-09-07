@@ -29,6 +29,7 @@ One of the following permissions is required to call this API. To learn more, in
 > Before calling this API with application permissions, you must request access. For details, see [Protected APIs in Microsoft Teams](/graph/teams-protected-apis).
 
 ## HTTP request
+
 <!-- { "blockType": "ignored" } -->
 ```http
 GET /chats/{id}/members/{id}
