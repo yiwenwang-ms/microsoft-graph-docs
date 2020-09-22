@@ -3,7 +3,7 @@ title: "appConsentRequestScope resource type"
 description: "The appConsentRequestScope contains details of the dynamic permission scopes for which access is being requested."
 author: "davidmu1"
 localization_priority: Normal
-ms.prod: ""microsoft-identity-platform"
+ms.prod: "microsoft-identity-platform"
 doc_type: resourcePageType
 ---
 
