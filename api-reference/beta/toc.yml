@@ -9880,6 +9880,13 @@ items:
               href: api/subscribedsku-get.md
       - name: Identity and sign-in
         items:
+        - name: App consent request
+          href: resources/appconsentrequest.md
+          - items:
+            - name: List
+              href: api/appconsentrequest-list.md
+            - name: Get userConsentRequest
+              href: api/appconsentrequest-get-userconsentrequest.md
         - name: Authentication flows policy
           items:
           - name: Authentication flows policy
@@ -9938,7 +9945,7 @@ items:
           - name: Create
             href: api/certificatebasedauthconfiguration-post-certificatebasedauthconfiguration.md
           - name: Delete
-            href: api/certificatebasedauthconfiguration-delete.md
+            href: api/certificatebasedauthconfiguration-delete.md 
         - name: Conditional access
           items:
           - name: Policies
@@ -10111,6 +10118,13 @@ items:
               href: api/activitybasedtimeoutpolicy-update.md
             - name: Delete
               href: api/activitybasedtimeoutpolicy-delete.md
+          - name: Admin consent request policy 
+            href: resources/adminconsentrequestpolicy.md
+            items:
+            - name: Get
+              href: api/adminconsentrequestpolicy-get.md
+            - name: Update
+              href: api/adminconsentrequestpolicy-update.md
           - name: Authorization policy
             href: resources/authorizationpolicy.md
             items:

@@ -52,6 +52,8 @@ This resource supports:
 | [List calendarView](../api/user-list-calendarview.md) | [event](event.md) collection | Get an event object collection. |
 | [List events](../api/user-list-events.md) | [event](event.md) collection | Get a list of event objects in the user's mailbox. The list contains single instance meetings and series masters. |
 | [reminderView](../api/user-reminderview.md) | [Reminder](reminder.md) collection | Return a list of calendar reminders within the start and end times specified.|
+| **Consent requests** |||
+|[List appConsentRequestsForApproval](../api/user-list-appconsentrequestsforapproval.md)|[appConsentRequest](../resources/appconsentrequest.md) collection|Get the [appConsentRequest](../resources/appconsentrequest.md) resources from the appConsentRequestsForApproval.|
 | **Contacts**|||
 | [Create contact](../api/user-post-contacts.md)| [contact](contact.md) | Create a new contact by posting to the contacts collection. |
 | [Create contactFolder](../api/user-post-contactfolders.md) | [contactFolder](contactfolder.md) | Create a new contactFolder by posting to the contactFolders collection. |
@@ -266,6 +268,7 @@ The age group and minor consent properties are optional properties used by Azure
 | Relationship | Type |Description|
 |:---------------|:--------|:----------|
 |agreementAcceptances|[agreementAcceptance](agreementacceptance.md) collection| The user's terms of use acceptance statuses. Read-only. Nullable.|
+|appConsentRequestsForApproval|[appConsentRequest](../resources/appconsentrequest.md) collection|The collection of all pending app consent requests.|
 |calendar|[calendar](calendar.md)|The user's primary calendar. Read-only.|
 |calendarGroups|[calendarGroup](calendargroup.md) collection|The user's calendar groups. Read-only. Nullable.|
 |calendarView|[event](event.md) collection|The calendar view for the calendar. Read-only. Nullable.|
