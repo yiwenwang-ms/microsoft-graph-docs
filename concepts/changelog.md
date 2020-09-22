@@ -119,7 +119,7 @@ For a summary of the value of these API changes, as well as recent tools, compon
 |Addition|beta|Added the [continuousAccessEvaluationPolicy](/graph/api/resources/continuousAccessEvaluationPolicy?view=graph-rest-beta) resource type.|
 |Addition|beta|Added the [request](/graph/api/resources/request?view=graph-rest-beta) resource type. |
 |Addition|beta|Added the [userConsentRequest](/graph/api/resources/userconsentrequest?view=graph-rest-beta) resource type. |
-|Change|beta|Added the [List appConsentRequestsForApproval](../api/user-list-appconsentrequestsforapproval?view=graph-rest-beta) method to the [user](/graph/api/user?view=graph-rest-beta) resource. |
+|Change|beta|Added the [List appConsentRequestsForApproval](/graph/api/user-list-appconsentrequestsforapproval?view=graph-rest-beta) method to the [user](/graph/api/user?view=graph-rest-beta) resource. |
 
 ### Reports
 

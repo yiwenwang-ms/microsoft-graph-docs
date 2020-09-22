@@ -17,8 +17,8 @@ An appConsentRequest represents an aggregation of [userConsentRequest](userConse
 
 | Method | Return type | Description |
 |:---|:---|:---|
-| [List appConsentRequests](../api/appconsentrequest-list.md) | [appConsentRequest](../resources/appconsentrequest.md) collection|Get a list of the [appConsentRequest](../resources/appconsentrequest.md) objects and their properties. |
-| [Get userConsentRequests](../api/appconsentrequest-get-userconsentrequest.md) | [userConsentRequest](../resources/userconsentrequest.md)|Read the properties and relationships of a [userConsentRequest](../resources/userconsentrequest.md) object. |
+| [List appConsentRequests](../api/appconsentrequest-list.md) | [appConsentRequest](appconsentrequest.md) collection|Get a list of the [appConsentRequest](appconsentrequest.md) objects and their properties. |
+| [Get userConsentRequests](../api/appconsentrequest-get-userconsentrequest.md) | [userConsentRequest](userconsentrequest.md)|Read the properties and relationships of a [userConsentRequest](userconsentrequest.md) object. |
 
 
 ## Properties
@@ -29,13 +29,13 @@ An appConsentRequest represents an aggregation of [userConsentRequest](userConse
 | appId | String | The identifier of the application. |
 | consentType | String | The consent type of the request. Possible values: `Static` and `Dynamic`. |
 | id | String | The identifier of the request. |
-| pendingScopes | [appConsentRequestScope](../resources/appconsentrequestscope.md) collection | A list of pending scopes that need approval. |
+| pendingScopes | [accessReviewScope](accessreviewscope.md) collection | A list of pending scopes that need approval. |
 
 ## Relationships
 
 | Relationship | Type | Description |
 |:---|:---|:---|
-| userConsentRequests | [userConsentRequest](../resources/userconsentrequest.md) collection | Get a list of pending user consent requests. |
+| userConsentRequests | [userConsentRequest](userconsentrequest.md) collection | Get a list of pending user consent requests. |
 
 ## JSON representation
 

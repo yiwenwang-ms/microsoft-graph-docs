@@ -9882,11 +9882,11 @@ items:
         items:
         - name: App consent request
           href: resources/appconsentrequest.md
-          - items:
-            - name: List
-              href: api/appconsentrequest-list.md
-            - name: Get userConsentRequest
-              href: api/appconsentrequest-get-userconsentrequest.md
+          items:
+          - name: List
+            href: api/appconsentrequest-list.md
+          - name: Get userConsentRequest
+            href: api/appconsentrequest-get-userconsentrequest.md
         - name: Authentication flows policy
           items:
           - name: Authentication flows policy
