@@ -75,19 +75,25 @@ GET https://graph.microsoft.com/beta/me/appConsentRequestsForApproval/5a3a0f94-b
 -->
 ``` http
 HTTP/1.1 200 OK
-
 Content-Type: application/json
+
 {
   "value": [
     {
-      "@odata.type": "#microsoft.graph.appConsentRequest",
-      "id": "60354564-4564-6035-6445-356064453560",
-      "appId": "String",
-      "appDisplayName": "String",
-      "consentType": "String",
-      "pendingScopes": [
+      "@odata.context": "https://graph.microsoft.com/beta/$metadata#userConsentRequests",
+      "value": [
         {
-          "@odata.type": "microsoft.graph.appConsentRequestScope"
+          "odata.type": "#microsoft.graph.userConsentRequest",
+          "id": "5a3a0f94-b89d-4cd3-a4ad-fd78faec333f",
+          "reason": "I need this app for work",
+          "createdBy": {
+            "user": {
+              "id": "a6c7aecb-cbfd-4763-87ef-e91b4bd509d9",
+              "displayName": "Contoso user 1",
+              "userPrincipalName": "contosouser1@contoso.com"
+            }
+          },
+          "createdDateTime": "2018-08-03T21:02:30.667Z",
         }
       ]
     }
