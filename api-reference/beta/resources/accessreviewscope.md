@@ -1,5 +1,5 @@
 ---
-title: "appConsentRequestScope resource type"
+title: "accessReviewScope resource type"
 description: "The appConsentRequestScope contains details of the dynamic permission scopes for which access is being requested."
 author: "davidmu1"
 localization_priority: Normal
@@ -7,7 +7,7 @@ ms.prod: "microsoft-identity-platform"
 doc_type: resourcePageType
 ---
 
-# appConsentRequestScope resource type
+# accessReviewScope resource type
 
 Namespace: microsoft.graph
 
@@ -17,7 +17,8 @@ The appConsentRequestScope contains details of the dynamic permission scopes for
 
 | Property | Type | Description |
 |:---|:---|:---|
-| displayName | String | The name of the scope. |
+| query | String | The identifier of the reviewer. |
+| queryType | String | The type of query. The only value is `MicrosoftGraph`. |
 
 ## Relationships
 
@@ -29,12 +30,13 @@ The following is a JSON representation of the resource.
 
 <!-- {
   "blockType": "resource",
-  "@odata.type": "microsoft.graph.appConsentRequestScope"
+  "@odata.type": "microsoft.graph.accessReviewScope"
 }
 -->
 ``` json
 {
-  "@odata.type": "#microsoft.graph.appConsentRequestScope",
-  "displayName": "String"
+  "@odata.type": "#microsoft.graph.accessReviewScope",
+  "query": "String",
+  "queryType": "String"
 }
 ```

@@ -74,8 +74,8 @@ GET https://graph.microsoft.com/beta/identityGovernance/appConsent/appConsentReq
 -->
 ``` http
 HTTP/1.1 200 OK
-
 Content-Type: application/json
+
 {
   "@odata.context": "https://graph.microsoft.com/beta/$metadata#appConsentRequests",
   "value": [

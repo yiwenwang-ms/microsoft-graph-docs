@@ -82,8 +82,8 @@ GET https://graph.microsoft.com/beta/policies/adminConsentRequestPolicy
 -->
 ``` http
 HTTP/1.1 200 OK
-
 Content-Type: application/json
+
 {
   "@odata.context": "https://graph.microsoft.com/beta/$metadata#policies/adminConsentRequestPolicy/$entity",
   "isEnabled": true,
