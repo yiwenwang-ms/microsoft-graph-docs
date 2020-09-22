@@ -57,7 +57,7 @@ The following is a JSON representation of the resource.
   "consentType": "String",
   "pendingScopes": [
     {
-      "@odata.type": "microsoft.graph.appConsentRequestScope"
+      "@odata.type": "microsoft.graph.accessReviewScope"
     }
   ]
 }
