@@ -130,7 +130,6 @@ Content-length: 1044
     },
     "passwordCredentials": [],
     "requiredResourceAccess": [],
-    "uniqueName": null,
     "web": {
         "redirectUris": [],
         "homePageUrl": null,
