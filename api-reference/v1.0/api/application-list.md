@@ -137,7 +137,6 @@ Content-length: 1229
             },
             "passwordCredentials": [],
             "requiredResourceAccess": [],
-            "uniqueName": null,
             "web": {
                 "redirectUris": [
                     "https://127.0.0.1:444/applications/default.aspx"
