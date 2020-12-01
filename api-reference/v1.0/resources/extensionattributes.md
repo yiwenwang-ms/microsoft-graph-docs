@@ -1,6 +1,6 @@
 ---
 title: "extensionAttributes resource type"
-description: "The **extensionAttributes** property of the device entity contains fifteen custom extension attribute properties. This set of properties is mastered in cloud and may be set during creation or update of a device."
+description: "The **extensionAttributes** property of the device entity contains fifteen custom extension attribute properties."
 localization_priority: Normal
 doc_type: resourcePageType
 ms.prod: "microsoft-identity-platform"
