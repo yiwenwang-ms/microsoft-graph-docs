@@ -13,7 +13,7 @@ Namespace: microsoft.graph
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
-The **extensionAttributes** property of the [device](device.md) entity contains fifteen custom extension attribute properties. This set of properties is mastered in cloud and may be set during creation or update of a device.
+The **extensionAttributes** property of the [device](device.md) resource contains fifteen custom extension attribute properties. This set of properties is mastered in cloud and may be set during creation or update of a device.
 
 
 ## Properties
