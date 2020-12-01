@@ -47,7 +47,7 @@ This resource lets you add your own data to custom properties using [extensions]
 |deviceMetadata|String| For internal use only. Set to null. |
 |deviceVersion|Int32| For internal use only. |
 |displayName|String| The display name for the device. Required. |
-| extensionAttributes | [extensionAttributes](extensionattributes.md) | Contains extensionAttributes 1-15 for the device. Note that the individual extension attributes are neither selectable nor filterable. This set of properties is mastered in cloud and may be set during creation or update of a device. <br><br>Returned only on $select. |
+| extensionAttributes | [extensionAttributes](extensionattributes.md) | Contains extensionAttributes 1-15 for the device. The individual extension attributes are neither selectable nor filterable. This set of properties is mastered in cloud and may be set during creation or update of a device. <br><br>Returned only on $select. |
 |id|String|The unique identifier for the device. Inherited from [directoryObject](directoryobject.md). Key, Not nullable. Read-only.|
 |isCompliant|Boolean|**true** if the device complies with Mobile Device Management (MDM) policies; otherwise, **false**. Read-only. This can only be updated by Intune for any device OS type or by an [approved MDM app](https://docs.microsoft.com/windows/client-management/mdm/azure-active-directory-integration-with-mdm) for Windows OS devices.|
 |isManaged|Boolean|**true** if the device is managed by a Mobile Device Management (MDM) app; otherwise, **false**. This can only be updated by Intune for any device OS type or by an [approved MDM app](https://docs.microsoft.com/windows/client-management/mdm/azure-active-directory-integration-with-mdm) for Windows OS devices. |
