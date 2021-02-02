@@ -13,7 +13,6 @@ var queryOptions = new List<QueryOption>()
 
 var bundles = await graphClient.Drive.Bundles
 	.Request( queryOptions )
-	.Filter("bundle/album ne null")
 	.GetAsync();
 
 ```
