@@ -126,7 +126,7 @@ The following is an example of the request.
 }-->
 
 ```msgraph-interactive
-GET https://graph.microsoft.com/beta/roleManagement/deviceManagement/roleAssignments?$filter = principalIds/any(x:x eq '564ae70c-73d9-476b-820b-fb61eb7384b9')
+GET https://graph.microsoft.com/beta/roleManagement/deviceManagement/roleAssignments?$filter=principalIds/any(x:x eq '564ae70c-73d9-476b-820b-fb61eb7384b9')
 ```
 # [C#](#tab/csharp)
 [!INCLUDE [sample-code](../includes/snippets/csharp/get-unifiedroleassignmentmultiple-csharp-snippets.md)]
