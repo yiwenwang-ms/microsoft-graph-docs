@@ -10,14 +10,9 @@ const options = {
 
 const client = Client.init(options);
 
-const identityUserFlow = {
-  id: "Pol1",
-  userFlowType: "signUpOrSignIn",
-  userFlowTypeVersion: 1
-};
-
-let res = await client.api('/identity/userFlows')
+let res = await client.api('/me/messages('AAMkADA1M-zAAA=')/attachments('AAMkADA1M-CJKtzmnlcqVgqI=')/')
 	.version('beta')
-	.post(identityUserFlow);
+	.expand('itemattachment/item')
+	.get();
 
 ```
