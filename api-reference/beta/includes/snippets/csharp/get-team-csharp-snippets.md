@@ -6,8 +6,8 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var team = await graphClient.Teams["{id}"]
+await graphClient.Teams["{id}"].Channels["{id}"].Tabs["{id}"]
 	.Request()
-	.GetAsync();
+	.DeleteAsync();
 
 ```

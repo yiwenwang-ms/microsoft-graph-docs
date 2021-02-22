@@ -320,7 +320,7 @@ The following is an example of the request.
   "blockType": "ignored",
   "name": "get_signin_last_time_range"
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/users?filter=signInActivity/lastSignInDateTime le 2019-06-01T00:00:00Z
 ```
 

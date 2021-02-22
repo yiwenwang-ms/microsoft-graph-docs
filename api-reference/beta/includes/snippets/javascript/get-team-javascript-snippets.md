@@ -10,8 +10,8 @@ const options = {
 
 const client = Client.init(options);
 
-let res = await client.api('/teams/{id}')
+let res = await client.api('/teams/{id}/channels/{id}/tabs/{id}')
 	.version('beta')
-	.get();
+	.delete();
 
 ```

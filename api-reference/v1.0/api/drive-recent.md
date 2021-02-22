@@ -109,11 +109,31 @@ Content-Type: application/json
 Some driveItems returned from the **recent** action will include the **remoteItem** facet which indicates they are items from another drive.
 To access the original driveItem object, you will need to make a request using the information provided in **remoteItem** in the following format:
 
+
+# [HTTP](#tab/http)
 <!-- { "blockType": "ignored", "name": "drives-get-remoteitem" } -->
 
-```http
+```msgraph-interactive
 GET /drives/{remoteItem-driveId}/items/{remoteItem-id}
 ```
+# [C#](#tab/csharp)
+[!INCLUDE [sample-code](../includes/snippets/csharp/drives-get-remoteitem-csharp-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [JavaScript](#tab/javascript)
+[!INCLUDE [sample-code](../includes/snippets/javascript/drives-get-remoteitem-javascript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [Objective-C](#tab/objc)
+[!INCLUDE [sample-code](../includes/snippets/objc/drives-get-remoteitem-objc-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [Java](#tab/java)
+[!INCLUDE [sample-code](../includes/snippets/java/drives-get-remoteitem-java-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
+
 
 <!-- {
   "type": "#page.annotation",

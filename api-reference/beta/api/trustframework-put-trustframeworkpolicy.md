@@ -60,6 +60,8 @@ The following example updates a **trustFrameworkPolicy**.
 
 ##### Request
 
+
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "ignored",
   "name": "update_trustframeworkpolicy"
@@ -72,6 +74,20 @@ Content-Type: application/xml
     <!---PolicyContent-->
 </TrustFrameworkPolicy>
 ```
+# [C#](#tab/csharp)
+[!INCLUDE [sample-code](../includes/snippets/csharp/update-trustframeworkpolicy-csharp-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [JavaScript](#tab/javascript)
+[!INCLUDE [sample-code](../includes/snippets/javascript/update-trustframeworkpolicy-javascript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [Java](#tab/java)
+[!INCLUDE [sample-code](../includes/snippets/java/update-trustframeworkpolicy-java-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
+
 
 ##### Response
 

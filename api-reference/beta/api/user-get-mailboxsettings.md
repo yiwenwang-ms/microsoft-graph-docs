@@ -258,7 +258,7 @@ The third example gets specifically the working hour settings of the signed-in u
   "blockType": "ignored",
   "name": "get_mailboxsettings_3"
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/me/mailboxSettings/workingHours
 ```
 #### Response

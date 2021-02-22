@@ -54,6 +54,8 @@ The following example creates a **trustFrameworkPolicy**.
 
 ##### Request
 
+
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "ignored",
   "truncated": true,
@@ -67,6 +69,12 @@ Content-Type: application/xml
     <!---PolicyContent-->
 </TrustFrameworkPolicy>
 ```
+# [JavaScript](#tab/javascript)
+[!INCLUDE [sample-code](../includes/snippets/javascript/create-trustframeworkpolicy-from-trustframeworkpolicy-javascript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
+
 
 ##### Response
 

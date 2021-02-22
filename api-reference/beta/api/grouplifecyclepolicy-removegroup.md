@@ -54,6 +54,8 @@ If successful, this method returns `200 OK` response code. If the group is remov
 
 ##### Request
 
+
+# [HTTP](#tab/http)
 <!-- {
   "blockType": "ignored",
   "name": "grouplifecyclepolicy_removegroup"
@@ -67,6 +69,24 @@ Content-length: 57
   "groupId": "ffffffff-ffff-ffff-ffff-ffffffffffff"
 }
 ```
+# [C#](#tab/csharp)
+[!INCLUDE [sample-code](../includes/snippets/csharp/grouplifecyclepolicy-removegroup-csharp-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [JavaScript](#tab/javascript)
+[!INCLUDE [sample-code](../includes/snippets/javascript/grouplifecyclepolicy-removegroup-javascript-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [Objective-C](#tab/objc)
+[!INCLUDE [sample-code](../includes/snippets/objc/grouplifecyclepolicy-removegroup-objc-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [Java](#tab/java)
+[!INCLUDE [sample-code](../includes/snippets/java/grouplifecyclepolicy-removegroup-java-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+---
+
 
 ##### Response
 <!-- { "blockType": "ignored" } -->

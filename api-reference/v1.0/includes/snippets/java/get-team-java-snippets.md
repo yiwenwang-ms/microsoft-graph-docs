@@ -6,8 +6,8 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 IGraphServiceClient graphClient = GraphServiceClient.builder().authenticationProvider( authProvider ).buildClient();
 
-Team team = graphClient.teams("{id}")
+graphClient.teams("{id}").channels("{id}").tabs("{id}")
 	.buildRequest()
-	.get();
+	.delete();
 
 ```
