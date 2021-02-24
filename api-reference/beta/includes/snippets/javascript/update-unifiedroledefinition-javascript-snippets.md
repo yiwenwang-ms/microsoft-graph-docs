@@ -11,14 +11,14 @@ const options = {
 const client = Client.init(options);
 
 const unifiedRoleDefinition = {
-  description: "Update basic properties of application registrations",
-  displayName: "Application Registration Support Administrator",
-  rolePermissions:
+  description: 'Update basic properties of application registrations',
+  displayName: 'Application Registration Support Administrator',
+  rolePermissions: 
     [
         {
             allowedResourceActions: 
             [
-                "microsoft.directory/applications/basic/read"
+                'microsoft.directory/applications/basic/read'
             ]
         }
     ]

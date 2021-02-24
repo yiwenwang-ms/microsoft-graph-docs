@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const inferenceClassificationOverride = {
-  classifyAs: "focused"
+  classifyAs: 'focused'
 };
 
 let res = await client.api('/me/inferenceClassification/overrides/{id}')

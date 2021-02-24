@@ -11,8 +11,8 @@ const options = {
 const client = Client.init(options);
 
 const conversationMember = {
-  @odata.type:"#microsoft.graph.aadUserConversationMember",
-  roles: ["owner"]
+  '@odata.type':'#microsoft.graph.aadUserConversationMember',
+  roles: ['owner']
 };
 
 let res = await client.api('/teams/{id}/channels/{id}/members/{id}')

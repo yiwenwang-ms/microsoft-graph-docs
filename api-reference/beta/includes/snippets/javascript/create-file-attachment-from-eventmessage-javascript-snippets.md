@@ -11,12 +11,12 @@ const options = {
 const client = Client.init(options);
 
 const attachment = {
-  @odata.type: "#Microsoft.OutlookServices.FileAttachment",
-  name: "name-value",
-  contentType: "contentType-value",
+  '@odata.type': '#Microsoft.OutlookServices.FileAttachment',
+  name: 'name-value',
+  contentType: 'contentType-value',
   isInline: false,
-  contentLocation: "contentLocation-value",
-  contentBytes: "contentBytes-value"
+  contentLocation: 'contentLocation-value',
+  contentBytes: 'contentBytes-value'
 };
 
 let res = await client.api('/me/messages/{id}/attachments')

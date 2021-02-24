@@ -11,15 +11,15 @@ const options = {
 const client = Client.init(options);
 
 const workforceIntegration = {
-  displayName: "displayName-value",
+  displayName: 'displayName-value',
   apiVersion: 99,
   encryption: {
-    protocol: "protocol-value",
-    secret: "secret-value"
+    protocol: 'protocol-value',
+    secret: 'secret-value'
   },
   isActive: true,
-  url: "url-value",
-  supports: "supports-value"
+  url: 'url-value',
+  supports: 'supports-value'
 };
 
 let res = await client.api('/teamwork/workforceIntegrations/{workforceIntegrationId}')

@@ -13,13 +13,13 @@ const client = Client.init(options);
 const educationalActivity = {
   institution: {
     location: {
-      type: "business",
+      type: 'business',
       postOfficeBox: null,
-      street: "12000 E Prospect Rd",
-      city: "Fort Collins",
-      state: "Colorado",
-      countryOrRegion: "USA",
-      postalCode: "80525"
+      street: '12000 E Prospect Rd',
+      city: 'Fort Collins',
+      state: 'Colorado',
+      countryOrRegion: 'USA',
+      postalCode: '80525'
     }
   }
 };

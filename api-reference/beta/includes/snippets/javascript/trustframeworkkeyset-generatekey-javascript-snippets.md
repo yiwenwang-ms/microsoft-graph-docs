@@ -11,8 +11,8 @@ const options = {
 const client = Client.init(options);
 
 const trustFrameworkKey = {
-  use: "sig",
-  kty: "RSA",
+  use: 'sig',
+  kty: 'RSA',
   nbf: 1508969811,
   exp: 1508969811
 };

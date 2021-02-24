@@ -11,8 +11,8 @@ const options = {
 const client = Client.init(options);
 
 const authorizationPolicy = {
-   enabledPreviewFeatures:[
-      "assignGroupsToRoles"
+   enabledPreviewFeatures: [
+      'assignGroupsToRoles'
    ]
 };
 

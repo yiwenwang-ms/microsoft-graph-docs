@@ -11,9 +11,9 @@ const options = {
 const client = Client.init(options);
 
 const connectedOrganization = {
-  displayName:"Connected organization new name",
-  description:"Connected organization new description",
-  state:"configured"
+  displayName: 'Connected organization new name',
+  description: 'Connected organization new description',
+  state: 'configured'
 };
 
 let res = await client.api('/identityGovernance/entitlementManagement/connectedOrganizations/{id}')

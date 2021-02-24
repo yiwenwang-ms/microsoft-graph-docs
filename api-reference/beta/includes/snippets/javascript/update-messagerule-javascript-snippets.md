@@ -11,9 +11,9 @@ const options = {
 const client = Client.init(options);
 
 const messageRule = {
-    displayName: "Important from partner",
+    displayName: 'Important from partner',
     actions: {
-        markImportance: "high"
+        markImportance: 'high'
      }
 };
 

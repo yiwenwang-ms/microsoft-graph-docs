@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const connectorGroup = {
-  name: "name-value",
+  name: 'name-value',
   isDefault: false
 };
 

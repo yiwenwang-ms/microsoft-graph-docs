@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const applicationServicePrincipal = {
-  displayName: "My custom name"
+  displayName: 'My custom name'
 };
 
 let res = await client.api('/applicationTemplates/{id}/instantiate')

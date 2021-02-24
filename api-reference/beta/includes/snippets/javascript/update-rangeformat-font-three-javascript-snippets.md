@@ -11,8 +11,8 @@ const options = {
 const client = Client.init(options);
 
 const workbookRangeFont = {
-  underline: "Single",
-  color: "#FFFFFF",
+  underline: 'Single',
+  color: '#FFFFFF',
   size: 26
 };
 

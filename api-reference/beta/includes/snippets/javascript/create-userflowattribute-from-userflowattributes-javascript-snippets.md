@@ -11,9 +11,9 @@ const options = {
 const client = Client.init(options);
 
 const identityUserFlowAttribute = {
-  displayName: "Hobby",
-  description: "Your hobby",
-  dataType: "string",
+  displayName: 'Hobby',
+  description: 'Your hobby',
+  dataType: 'string',
 };
 
 let res = await client.api('/identity/userFlowAttributes')

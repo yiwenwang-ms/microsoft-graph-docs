@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const passwordSingleSignOnCredentialSet = {
-  id: "5793aa3b-cca9-4794-679a240f8b58"
+  id: '5793aa3b-cca9-4794-679a240f8b58'
 };
 
 let res = await client.api('/servicePrincipals/{id}/getPasswordSingleSignOnCredentials')

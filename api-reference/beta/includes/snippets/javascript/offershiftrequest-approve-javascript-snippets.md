@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const approve = {
-  message: "Approved!"
+  message: 'Approved!'
 };
 
 let res = await client.api('/teams/{teamId}/schedule/offerShiftRequests/{offerShiftRequestId}/approve')

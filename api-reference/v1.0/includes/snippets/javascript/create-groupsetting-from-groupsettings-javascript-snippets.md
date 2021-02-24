@@ -11,12 +11,12 @@ const options = {
 const client = Client.init(options);
 
 const groupSetting = {
-  displayName: "displayName-value",
-  templateId: "templateId-value",
+  displayName: 'displayName-value',
+  templateId: 'templateId-value',
   values: [
     {
-      name: "name-value",
-      value: "value-value"
+      name: 'name-value',
+      value: 'value-value'
     }
   ]
 };

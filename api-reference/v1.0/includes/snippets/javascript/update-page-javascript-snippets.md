@@ -15,7 +15,7 @@ const stream = [
     'target':'#para-id',
     'action':'insert',
     'position':'before',
-    'content':'<img src="image-url-or-part-name" alt="image-alt-text" />'
+    'content':'<img src='image-url-or-part-name' alt='image-alt-text' />'
   }, 
   {
     'target':'#list-id',

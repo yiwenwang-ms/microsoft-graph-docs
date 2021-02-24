@@ -11,8 +11,8 @@ const options = {
 const client = Client.init(options);
 
 const b2xIdentityUserFlow = {
-    id: "Partner",
-    userFlowType: "signUpOrSignIn",
+    id: 'Partner',
+    userFlowType: 'signUpOrSignIn',
     userFlowTypeVersion: 1
 };
 

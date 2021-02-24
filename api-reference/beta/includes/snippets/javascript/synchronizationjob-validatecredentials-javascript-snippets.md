@@ -12,8 +12,8 @@ const client = Client.init(options);
 
 const validateCredentials = {
     credentials: [ 
-        { key: "UserName", value: "user@domain.com" },
-        { key: "Password", value: "password-value" }
+        { key: 'UserName', value: 'user@domain.com' },
+        { key: 'Password', value: 'password-value' }
     ]
 };
 

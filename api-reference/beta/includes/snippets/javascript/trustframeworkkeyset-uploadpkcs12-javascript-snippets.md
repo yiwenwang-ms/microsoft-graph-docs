@@ -11,8 +11,8 @@ const options = {
 const client = Client.init(options);
 
 const trustFrameworkKey = {
-  key: "Base64-encoded-pfx-content",
-  password: "password-value"
+  key: 'Base64-encoded-pfx-content',
+  password: 'password-value'
 };
 
 let res = await client.api('/trustFramework/keySets/{id}/uploadPkcs12')

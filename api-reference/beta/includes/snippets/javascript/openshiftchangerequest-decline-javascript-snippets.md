@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const decline = {
-  message: "message-value"
+  message: 'message-value'
 };
 
 let res = await client.api('/teams/{id}/schedule/openShiftChangeRequests/{openShiftChangeRequestId}/decline')

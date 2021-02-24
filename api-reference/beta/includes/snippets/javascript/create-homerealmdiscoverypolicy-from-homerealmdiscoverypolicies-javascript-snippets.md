@@ -12,9 +12,9 @@ const client = Client.init(options);
 
 const homeRealmDiscoveryPolicy = {
   definition: [
-    "definition-value"
+    'definition-value'
   ],
-  displayName: "displayName-value",
+  displayName: 'displayName-value',
   isOrganizationDefault: true
 };
 

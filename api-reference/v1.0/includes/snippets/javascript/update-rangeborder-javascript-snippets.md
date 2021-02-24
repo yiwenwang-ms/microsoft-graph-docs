@@ -11,10 +11,10 @@ const options = {
 const client = Client.init(options);
 
 const workbookRangeBorder = {
-  color: "color-value",
-  style: "style-value",
-  sideIndex: "sideIndex-value",
-  weight: "weight-value"
+  color: 'color-value',
+  style: 'style-value',
+  sideIndex: 'sideIndex-value',
+  weight: 'weight-value'
 };
 
 let res = await client.api('/me/drive/items/{id}/workbook/names/{name}/range/format/borders/{sideIndex}')

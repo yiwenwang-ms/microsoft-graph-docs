@@ -11,15 +11,15 @@ const options = {
 const client = Client.init(options);
 
 const b2cIdentityUserFlow = {
-    id: "UserFlowWithAPIConnector",
-    userFlowType: "signUpOrSignIn",
+    id: 'UserFlowWithAPIConnector',
+    userFlowType: 'signUpOrSignIn',
     userFlowTypeVersion: 1,
-    apiConnectorConfiguration:{
-        postFederationSignup:{
-            @odata.id: "https://graph.microsoft.com/beta/identity/apiConnectors/{id}"
+    apiConnectorConfiguration: {
+        postFederationSignup: {
+            '@odata.id': 'https://graph.microsoft.com/beta/identity/apiConnectors/{id}'
         },
-        postAttributeCollection:{
-            @odata.id: "https://graph.microsoft.com/beta/identity/apiConnectors/{id}"
+        postAttributeCollection: {
+            '@odata.id': 'https://graph.microsoft.com/beta/identity/apiConnectors/{id}'
         }
     }
 };

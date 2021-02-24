@@ -11,9 +11,9 @@ const options = {
 const client = Client.init(options);
 
 const attachment = {
-    @odata.type: "#microsoft.graph.fileAttachment",
-    name: "menu.txt",
-    contentBytes: "base64bWFjIGFuZCBjaGVlc2UgdG9kYXk="   
+    '@odata.type': '#microsoft.graph.fileAttachment',
+    name: 'menu.txt',
+    contentBytes: 'base64bWFjIGFuZCBjaGVlc2UgdG9kYXk='   
 };
 
 let res = await client.api('/me/events/AAMkAGI1AAAt9AHjAAA=/attachments')

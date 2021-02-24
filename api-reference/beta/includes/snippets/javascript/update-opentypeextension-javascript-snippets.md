@@ -11,15 +11,15 @@ const options = {
 const client = Client.init(options);
 
 const extension = {
-   @odata.type: "#microsoft.outlookServices.openTypeExtension",
-   extensionName: "Com.Contoso.Estimate",
-   companyName: "Contoso",
-   expirationDate: "2016-07-30T11:00:00.000Z",
+   '@odata.type': '#microsoft.outlookServices.openTypeExtension',
+   extensionName: 'Com.Contoso.Estimate',
+   companyName: 'Contoso',
+   expirationDate: '2016-07-30T11:00:00.000Z',
    DealValue: 1010100,
    topPicks: [
-       "Employees only",
-       "Add spouse or guest",
-       "Add family"
+       'Employees only',
+       'Add spouse or guest',
+       'Add family'
     ]
 };
 

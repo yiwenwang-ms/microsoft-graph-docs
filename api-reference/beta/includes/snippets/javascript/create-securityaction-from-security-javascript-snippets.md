@@ -11,17 +11,17 @@ const options = {
 const client = Client.init(options);
 
 const securityAction = {
-  name: "BlockIp",
-  actionReason: "Test",
+  name: 'BlockIp',
+  actionReason: 'Test',
   parameters: [
     {
-      name: "IP",
-      value: "1.2.3.4"
+      name: 'IP',
+      value: '1.2.3.4'
     }
   ],
   vendorInformation: {
-    provider: "Windows Defender ATP",
-    vendor: "Microsoft"
+    provider: 'Windows Defender ATP',
+    vendor: 'Microsoft'
   }
 };
 

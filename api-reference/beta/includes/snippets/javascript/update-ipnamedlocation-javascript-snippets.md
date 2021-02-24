@@ -11,13 +11,13 @@ const options = {
 const client = Client.init(options);
 
 const namedLocation = {
-    @odata.type: "#microsoft.graph.ipNamedLocation",
-    displayName: "Untrusted named location with only IPv4 address",
+    '@odata.type': '#microsoft.graph.ipNamedLocation',
+    displayName: 'Untrusted named location with only IPv4 address',
     isTrusted: false,
     ipRanges: [
         {
-            @odata.type: "#microsoft.graph.iPv4CidrRange",
-            cidrAddress: "6.5.4.3/18"
+            '@odata.type': '#microsoft.graph.iPv4CidrRange',
+            cidrAddress: '6.5.4.3/18'
         }
 
     ]

@@ -11,10 +11,10 @@ const options = {
 const client = Client.init(options);
 
 const governanceRoleSetting = {
-   adminEligibleSettings:[
+   adminEligibleSettings: [
       {
-         ruleIdentifier:"ExpirationRule",
-         setting:{\"permanentAssignment\:false,\maximumGrantPeriodInMinutes\:129600}"
+         ruleIdentifier: 'ExpirationRule',
+         setting: '{\"permanentAssignment\':false,\'maximumGrantPeriodInMinutes\':129600}"
       }
    ]
 };

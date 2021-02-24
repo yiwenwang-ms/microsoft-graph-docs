@@ -11,12 +11,12 @@ const options = {
 const client = Client.init(options);
 
 const channel = {
-    displayName: "TestChannelModeration",
-    description: "Test channel moderation.",
-    membershipType: "standard",
+    displayName: 'TestChannelModeration',
+    description: 'Test channel moderation.',
+    membershipType: 'standard',
     moderationSettings: {
-        userNewMessageRestriction: "everyoneExceptGuests",
-        replyRestriction: "everyone",
+        userNewMessageRestriction: 'everyoneExceptGuests',
+        replyRestriction: 'everyone',
         allowNewMessageFromBots: true,
         allowNewMessageFromConnectors: true
     }

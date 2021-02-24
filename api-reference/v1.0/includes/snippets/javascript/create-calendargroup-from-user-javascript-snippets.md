@@ -11,9 +11,9 @@ const options = {
 const client = Client.init(options);
 
 const calendarGroup = {
-  name: "name-value",
-  classId: "classId-value",
-  changeKey: "changeKey-value"
+  name: 'name-value',
+  classId: 'classId-value',
+  changeKey: 'changeKey-value'
 };
 
 let res = await client.api('/me/calendarGroups')

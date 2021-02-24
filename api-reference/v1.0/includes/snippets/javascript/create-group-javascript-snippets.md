@@ -11,13 +11,13 @@ const options = {
 const client = Client.init(options);
 
 const group = {
-  description: "Self help community for library",
-  displayName: "Library Assist",
+  description: 'Self help community for library',
+  displayName: 'Library Assist',
   groupTypes: [
-    "Unified"
+    'Unified'
   ],
   mailEnabled: true,
-  mailNickname: "library",
+  mailNickname: 'library',
   securityEnabled: false
 };
 

@@ -11,8 +11,8 @@ const options = {
 const client = Client.init(options);
 
 const privilegedRoleAssignment = {
-  userId: "userId-value",
-  roleId: "roleId-value"
+  userId: 'userId-value',
+  roleId: 'roleId-value'
 };
 
 let res = await client.api('/privilegedRoleAssignments')

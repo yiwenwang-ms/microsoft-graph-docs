@@ -13,7 +13,7 @@ const client = Client.init(options);
 const acquireAccessToken = {
   credentials: [
     {
-      @odata.type: "microsoft.graph.synchronizationSecretKeyStringValuePair"
+      '@odata.type': 'microsoft.graph.synchronizationSecretKeyStringValuePair'
     }
   ]
 };

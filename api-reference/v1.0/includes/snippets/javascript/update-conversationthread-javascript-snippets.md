@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const conversationThread = {
-  @odata.type:"#Microsoft.OutlookServices.ConversationThread",
+  '@odata.type':'#Microsoft.OutlookServices.ConversationThread',
   isLocked: true
 };
 

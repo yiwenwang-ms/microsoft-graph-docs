@@ -11,12 +11,12 @@ const options = {
 const client = Client.init(options);
 
 const driveItem = {
-  name: "Just some files",
-  "@microsoft.graph.conflictBehavior" : "rename",
+  name: 'Just some files',
+  '@microsoft.graph.conflictBehavior': 'rename',
   bundle: { },
   children: [
-    { id: "1234asdf" },
-    { id: "1234qwerty" }
+    { id: '1234asdf' },
+    { id: '1234qwerty' }
   ]
 };
 

@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const sectionGroup = {
-  displayName: "Section group name"
+  displayName: 'Section group name'
 };
 
 let res = await client.api('/me/onenote/sectionGroups/{id}/sectionGroups')

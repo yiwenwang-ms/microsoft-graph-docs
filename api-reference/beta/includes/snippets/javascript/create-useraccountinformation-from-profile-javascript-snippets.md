@@ -11,8 +11,8 @@ const options = {
 const client = Client.init(options);
 
 const userAccountInformation = {
-  allowedAudiences: "organization",
-  countryCode: "NO",
+  allowedAudiences: 'organization',
+  countryCode: 'NO',
 };
 
 let res = await client.api('/me/profile/account')

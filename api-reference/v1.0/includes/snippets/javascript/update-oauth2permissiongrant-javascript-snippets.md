@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const oAuth2PermissionGrant = {
-  scope: "scope-value"
+  scope: 'scope-value'
 };
 
 let res = await client.api('/oauth2PermissionGrants/{id}')

@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const mailFolder = {
-  displayName: "Clutter",
+  displayName: 'Clutter',
   isHidden: true
 };
 

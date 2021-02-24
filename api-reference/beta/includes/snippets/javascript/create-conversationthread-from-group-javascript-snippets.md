@@ -11,16 +11,16 @@ const options = {
 const client = Client.init(options);
 
 const conversationThread = {
-  topic: "New Conversation Thread Topic",
+  topic: 'New Conversation Thread Topic',
   posts: [{
     body: {
-      contentType: "html",
-      content: "this is body content"
+      contentType: 'html',
+      content: 'this is body content'
     },
     newParticipants: [{
       emailAddress: {
-        name: "Alex Darrow",
-        address: "alexd@contoso.com"
+        name: 'Alex Darrow',
+        address: 'alexd@contoso.com'
       }
     }]
   }]

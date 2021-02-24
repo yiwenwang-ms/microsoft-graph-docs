@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const workbookChartAxisTitle = {
-  text: "text-value",
+  text: 'text-value',
   visible: true
 };
 

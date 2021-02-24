@@ -11,11 +11,11 @@ const options = {
 const client = Client.init(options);
 
 const educationOutcome = {
-    @odata.type:"#microsoft.graph.educationFeedbackOutcome",
-    feedback:{
-        text:{
-            content:"This is feedback for the assignment as a whole.",
-            contentType:"text"
+    '@odata.type':'#microsoft.graph.educationFeedbackOutcome',
+    feedback: {
+        text: {
+            content: 'This is feedback for the assignment as a whole.',
+            contentType: 'text'
         }
     }
 };

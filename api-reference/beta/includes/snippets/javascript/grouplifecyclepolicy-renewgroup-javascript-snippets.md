@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const _boolean = {
-  groupId: "ffffffff-ffff-ffff-ffff-ffffffffffff"
+  groupId: 'ffffffff-ffff-ffff-ffff-ffffffffffff'
 };
 
 let res = await client.api('/groupLifecyclePolicies/renewGroup')

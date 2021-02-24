@@ -15,8 +15,8 @@ const profileCardProperty = {
     {
       localizations: [
         {
-          languageTag: "no-NB",
-          displayName: "Kostnads Senter"
+          languageTag: 'no-NB',
+          displayName: 'Kostnads Senter'
         }
       ]
     }

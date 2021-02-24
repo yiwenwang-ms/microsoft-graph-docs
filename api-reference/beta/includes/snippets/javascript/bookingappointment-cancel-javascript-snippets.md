@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const cancel = {
-  cancellationMessage: "Your appointment has been successfully cancelled. Please call us again."
+  cancellationMessage: 'Your appointment has been successfully cancelled. Please call us again.'
 };
 
 let res = await client.api('/bookingBusinesses/Contosolunchdelivery@M365B489948.onmicrosoft.com/appointments/AAMkADKoAAA=/cancel')

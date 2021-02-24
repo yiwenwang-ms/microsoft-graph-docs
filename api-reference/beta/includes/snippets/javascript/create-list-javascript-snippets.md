@@ -11,19 +11,19 @@ const options = {
 const client = Client.init(options);
 
 const list = {
-  displayName: "Books",
+  displayName: 'Books',
   columns: [
     {
-      name: "Author",
+      name: 'Author',
       text: { }
     },
     {
-      name: "PageCount",
+      name: 'PageCount',
       number: { }
     }
   ],
   list: {
-    template: "genericList"
+    template: 'genericList'
   }
 };
 

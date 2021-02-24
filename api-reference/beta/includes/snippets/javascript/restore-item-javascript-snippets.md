@@ -12,9 +12,9 @@ const client = Client.init(options);
 
 const driveItem = {
   parentReference: {
-    id: "String",
+    id: 'String',
   },
-  name: "String"
+  name: 'String'
 };
 
 let res = await client.api('/me/drive/items/{item-id}/restore')

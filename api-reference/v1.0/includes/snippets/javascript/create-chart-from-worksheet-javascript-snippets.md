@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const workbookChart = {
-  id: "id-value",
+  id: 'id-value',
   height: 99,
   left: 99
 };

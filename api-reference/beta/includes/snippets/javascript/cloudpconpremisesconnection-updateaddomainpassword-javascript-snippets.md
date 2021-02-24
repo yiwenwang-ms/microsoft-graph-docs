@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const updateAdDomainPassword = {
-  adDomainPassword: "AdDomainPassword value"
+  adDomainPassword: 'AdDomainPassword value'
 };
 
 let res = await client.api('/deviceManagement/virtualEndpoint/onPremisesConnections/{Id}/UpdateAdDomainPassword')

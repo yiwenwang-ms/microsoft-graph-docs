@@ -12,8 +12,8 @@ const client = Client.init(options);
 
 const resultInfo = {
   value: [
-    "id-value1",
-    "id-value2"
+    'id-value1',
+    'id-value2'
   ]
 };
 

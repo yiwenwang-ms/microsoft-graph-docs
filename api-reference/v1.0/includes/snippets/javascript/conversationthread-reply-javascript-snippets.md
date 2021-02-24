@@ -13,8 +13,8 @@ const client = Client.init(options);
 const reply = {
   post: {
     body: {
-      contentType: "",
-      content: "content-value"
+      contentType: '',
+      content: 'content-value'
     }
   }
 };

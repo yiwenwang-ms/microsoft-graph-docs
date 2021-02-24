@@ -12,7 +12,7 @@ const client = Client.init(options);
 
 const workbookRangeFont = {
   bold: true,
-  color: "#4B180E",
+  color: '#4B180E',
   size: 26
 };
 

@@ -11,8 +11,8 @@ const options = {
 const client = Client.init(options);
 
 const event = {
-  location:{
-      displayName:"Conf Room 2"
+  location: {
+      displayName: 'Conf Room 2'
   }
 };
 

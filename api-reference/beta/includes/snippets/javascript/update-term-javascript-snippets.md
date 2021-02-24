@@ -11,11 +11,11 @@ const options = {
 const client = Client.init(options);
 
 const term = {
-  "labels" : [
+  labels: [
       {
-          "name" : "changedLabel",
-          "languageTag" : "en-US",
-          "isDefault" : true
+          name: 'changedLabel',
+          languageTag: 'en-US',
+          isDefault: true
       }
   ]
 };

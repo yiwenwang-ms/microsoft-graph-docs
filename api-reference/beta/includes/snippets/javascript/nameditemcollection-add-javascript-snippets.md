@@ -11,9 +11,9 @@ const options = {
 const client = Client.init(options);
 
 const workbookNamedItem = {
-  name: "test5",
-  reference: "=Sheet1!$F$15:$N$27",
-  comment: "Comment for the named item"
+  name: 'test5',
+  reference: '=Sheet1!$F$15:$N$27',
+  comment: 'Comment for the named item'
 };
 
 let res = await client.api('/me/drive/items/{id}/workbook/names/add')

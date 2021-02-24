@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const replyAll = {
-  comment: "comment-value"
+  comment: 'comment-value'
 };
 
 let res = await client.api('/me/messages/{id}/replyAll')

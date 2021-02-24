@@ -11,24 +11,24 @@ const options = {
 const client = Client.init(options);
 
 const message = {
-  subject: "Annual review",
+  subject: 'Annual review',
   body: {
-    contentType: "HTML",
-    content: "You should be proud!"
+    contentType: 'HTML',
+    content: 'You should be proud!'
   },
   toRecipients: [
     {
       emailAddress: {
-        address: "rufus@contoso.com"
+        address: 'rufus@contoso.com'
       }
     }
   ],
   extensions: [
     {
-      @odata.type: "microsoft.graph.openTypeExtension",
-      extensionName: "Com.Contoso.Referral",
-      companyName: "Wingtip Toys",
-      expirationDate: "2015-12-30T11:00:00.000Z",
+      '@odata.type': 'microsoft.graph.openTypeExtension',
+      extensionName: 'Com.Contoso.Referral',
+      companyName: 'Wingtip Toys',
+      expirationDate: '2015-12-30T11:00:00.000Z',
       dealValue: 10000
     }
   ]

@@ -11,11 +11,11 @@ const options = {
 const client = Client.init(options);
 
 const channel = {
-    displayName: "UpdateChannelModeration",
-    description: "Update channel moderation.",
+    displayName: 'UpdateChannelModeration',
+    description: 'Update channel moderation.',
     moderationSettings: {
-        userNewMessageRestriction: "moderators",
-        replyRestriction: "everyone",
+        userNewMessageRestriction: 'moderators',
+        replyRestriction: 'everyone',
         allowNewMessageFromBots: true,
         allowNewMessageFromConnectors: true
     }

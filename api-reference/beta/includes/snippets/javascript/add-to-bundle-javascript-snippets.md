@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const driveItem = {
-  id: "123456!87"
+  id: '123456!87'
 };
 
 let res = await client.api('/drive/bundles/{bundle-id}/children')

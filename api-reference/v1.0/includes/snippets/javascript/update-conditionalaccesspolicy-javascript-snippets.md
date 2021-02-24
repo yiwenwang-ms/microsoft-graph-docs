@@ -13,9 +13,9 @@ const client = Client.init(options);
 const conditionalAccessPolicy = {
     conditions: {
         signInRiskLevels: [
-            "high",
-            "medium",
-            "low",
+            'high',
+            'medium',
+            'low',
         ]
     }
 };

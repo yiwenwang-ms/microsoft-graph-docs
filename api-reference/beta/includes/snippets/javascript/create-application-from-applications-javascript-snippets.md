@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const application = {
-  displayName: "Display name"
+  displayName: 'Display name'
 };
 
 let res = await client.api('/applications')

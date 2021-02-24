@@ -11,11 +11,11 @@ const options = {
 const client = Client.init(options);
 
 const bookingBusiness = {
-  email: "admin@fabrikam.com",
+  email: 'admin@fabrikam.com',
   schedulingPolicy: {
-      timeSlotInterval: "PT60M",
-      minimumLeadTime: "P1D",
-      maximumAdvance: "P30D",
+      timeSlotInterval: 'PT60M',
+      minimumLeadTime: 'P1D',
+      maximumAdvance: 'P30D',
       sendConfirmationsToOwner: true,
       allowStaffSelection: true
   }

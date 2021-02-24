@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const directoryObject = {
-  @odata.id: " https://graph.microsoft.com/beta/directoryObjects/2441b489-4f12-4882-b039-8f6006bd66da"
+  '@odata.id': ' https://graph.microsoft.com/beta/directoryObjects/2441b489-4f12-4882-b039-8f6006bd66da'
 };
 
 let res = await client.api('/directory/featureRolloutPolicies/{id}/appliesTo/$ref')

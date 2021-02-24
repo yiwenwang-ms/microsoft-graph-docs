@@ -11,9 +11,9 @@ const options = {
 const client = Client.init(options);
 
 const todoTask = {
-   dueDateTime:{
-      dateTime:"2020-07-25T16:00:00",
-      timeZone:"Eastern Standard Time"
+   dueDateTime: {
+      dateTime: '2020-07-25T16:00:00',
+      timeZone: 'Eastern Standard Time'
    }
 };
 

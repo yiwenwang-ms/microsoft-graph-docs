@@ -14,7 +14,7 @@ const certificateBasedAuthConfiguration = {
   certificateAuthorities: [
     {
       isRootAuthority: true,
-      certificate: "Binary"
+      certificate: 'Binary'
     }
   ]
 };

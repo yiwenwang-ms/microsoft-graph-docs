@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const permissionGrantPolicy = {
-  displayName: "Custom permission grant policy"
+  displayName: 'Custom permission grant policy'
 };
 
 let res = await client.api('/policies/permissionGrantPolicies/my-custom-consent-policy')

@@ -11,8 +11,8 @@ const options = {
 const client = Client.init(options);
 
 const invitation = {
-  invitedUserEmailAddress: "yyy@test.com",
-  inviteRedirectUrl: "https://myapp.contoso.com"
+  invitedUserEmailAddress: 'yyy@test.com',
+  inviteRedirectUrl: 'https://myapp.contoso.com'
 };
 
 let res = await client.api('/invitations')

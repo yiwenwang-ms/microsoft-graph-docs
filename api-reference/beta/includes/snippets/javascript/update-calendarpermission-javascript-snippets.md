@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const calendarPermission = {
-  role: "write"
+  role: 'write'
 };
 
 let res = await client.api('/users/{id}/calendar/calendarPermissions/RGVmYXVsdA==')

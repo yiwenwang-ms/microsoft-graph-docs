@@ -11,18 +11,18 @@ const options = {
 const client = Client.init(options);
 
 const answer = {
-  callbackUri: "https://bot.contoso.com/api/calls",
-  acceptedModalities: [ "audio" ],
+  callbackUri: 'https://bot.contoso.com/api/calls',
+  acceptedModalities: [ 'audio' ],
   mediaConfig: {
-    @odata.type: "#microsoft.graph.serviceHostedMediaConfig",
+    '@odata.type': '#microsoft.graph.serviceHostedMediaConfig',
     preFetchMedia: [
       {
-        uri: "https://cdn.contoso.com/beep.wav",
-        resourceId: "1D6DE2D4-CD51-4309-8DAA-70768651088E"
+        uri: 'https://cdn.contoso.com/beep.wav',
+        resourceId: '1D6DE2D4-CD51-4309-8DAA-70768651088E'
       },
       {
-        uri: "https://cdn.contoso.com/cool.wav",
-        resourceId: "1D6DE2D4-CD51-4309-8DAA-70768651088F"
+        uri: 'https://cdn.contoso.com/cool.wav',
+        resourceId: '1D6DE2D4-CD51-4309-8DAA-70768651088F'
       }
     ]
   }

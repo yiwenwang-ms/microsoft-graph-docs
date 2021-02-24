@@ -13,9 +13,9 @@ const client = Client.init(options);
 const term = {
   labels: [
     {
-      "languageTag" : "en-US",
-      "name" : "Car",
-      "isDefault" : true
+      languageTag: 'en-US',
+      name: 'Car',
+      isDefault: true
     }
   ]
 };

@@ -13,8 +13,8 @@ const client = Client.init(options);
 const setOrder = {
   newAssignmentOrder: {
     order: [
-        "City",
-        "extension_GUID_ShoeSize"
+        'City',
+        'extension_GUID_ShoeSize'
     ]
   }
 };

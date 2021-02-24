@@ -11,17 +11,17 @@ const options = {
 const client = Client.init(options);
 
 const contact = {
-    emailAddresses:[
+    emailAddresses: [
         {
-            type:"personal",
-            name:"Pavel Bansky",
-            address:"pavelb@adatum.onmicrosoft.com"
+            type: 'personal',
+            name: 'Pavel Bansky',
+            address: 'pavelb@adatum.onmicrosoft.com'
         },
         {
-          address: "pavelb@fabrikam.onmicrosoft.com",
-          name: "Pavel Bansky",
-          type: "other",
-          otherLabel: "Volunteer work"
+          address: 'pavelb@fabrikam.onmicrosoft.com',
+          name: 'Pavel Bansky',
+          type: 'other',
+          otherLabel: 'Volunteer work'
         }
     ]
 };

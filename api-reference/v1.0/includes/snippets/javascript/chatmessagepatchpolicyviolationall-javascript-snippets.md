@@ -13,12 +13,12 @@ const client = Client.init(options);
 const chatMessage = {
   policyViolation: {
     policyTip: {
-      "generalText" : "This item has been blocked by the administrator.",
-      "complianceUrl" : "https://contoso.com/dlp-policy-page",
-      "matchedConditionDescriptions" : ["Credit Card Number"]
+      generalText: 'This item has been blocked by the administrator.',
+      complianceUrl: 'https://contoso.com/dlp-policy-page',
+      matchedConditionDescriptions: ['Credit Card Number']
     },
-    "verdictDetails" : "AllowOverrideWithoutJustification,AllowFalsePositiveOverride",
-    "dlpAction" : "BlockAccess"
+    verdictDetails: 'AllowOverrideWithoutJustification,AllowFalsePositiveOverride',
+    dlpAction: 'BlockAccess'
   }
 };
 

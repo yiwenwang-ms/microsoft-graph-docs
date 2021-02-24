@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const accept = {
-  comment: "comment-value",
+  comment: 'comment-value',
   sendResponse: true
 };
 

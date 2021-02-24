@@ -11,9 +11,9 @@ const options = {
 const client = Client.init(options);
 
 const featureRolloutPolicy = {
-  displayName: "PassthroughAuthentication rollout policy",
-  description: "PassthroughAuthentication rollout policy",
-  feature: "passthroughAuthentication",
+  displayName: 'PassthroughAuthentication rollout policy',
+  description: 'PassthroughAuthentication rollout policy',
+  feature: 'passthroughAuthentication',
   isEnabled: true,
   isAppliedToOrganization: false
 };

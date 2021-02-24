@@ -11,10 +11,10 @@ const options = {
 const client = Client.init(options);
 
 const educationUser = {
-  displayName: "Rogelio Cazares",
-  givenName: "Rogelio",
-  middleName: "Fernando",
-  surname: "Cazares",
+  displayName: 'Rogelio Cazares',
+  givenName: 'Rogelio',
+  middleName: 'Fernando',
+  surname: 'Cazares',
 };
 
 let res = await client.api('/education/users/{user-id}')

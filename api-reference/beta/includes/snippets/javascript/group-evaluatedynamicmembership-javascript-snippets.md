@@ -11,8 +11,8 @@ const options = {
 const client = Client.init(options);
 
 const evaluateDynamicMembershipResult = {
-  memberId: "319b41e8-d9e4-42f8-bdc9-741113f48b33",
-  membershipRule: "(user.displayName -startsWith \"EndTestUser\")"
+  memberId: '319b41e8-d9e4-42f8-bdc9-741113f48b33',
+  membershipRule: '(user.displayName -startsWith \"EndTestUser\")'
 };
 
 let res = await client.api('/groups/evaluateDynamicMembership')

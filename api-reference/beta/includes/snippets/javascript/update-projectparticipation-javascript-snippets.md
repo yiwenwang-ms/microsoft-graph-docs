@@ -11,10 +11,10 @@ const options = {
 const client = Client.init(options);
 
 const projectParticipation = {
-  allowedAudiences: "organization",
+  allowedAudiences: 'organization',
   client: {
-    department: "Corporate Marketing",
-    webUrl: "https://www.contoso.com"
+    department: 'Corporate Marketing',
+    webUrl: 'https://www.contoso.com'
   }
 };
 

@@ -11,9 +11,9 @@ const options = {
 const client = Client.init(options);
 
 const outlookTask = {
-  dueDateTime:  {
-      dateTime: "2016-05-06T16:00:00",
-      timeZone: "Eastern Standard Time"
+  dueDateTime: {
+      dateTime: '2016-05-06T16:00:00',
+      timeZone: 'Eastern Standard Time'
   }
 };
 

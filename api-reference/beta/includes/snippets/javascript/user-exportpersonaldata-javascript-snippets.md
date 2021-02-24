@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const exportPersonalData = {
-  storageLocation: "storageLocation-value"
+  storageLocation: 'storageLocation-value'
 };
 
 let res = await client.api('/users/{id}/exportPersonalData')

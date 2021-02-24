@@ -11,8 +11,8 @@ const options = {
 const client = Client.init(options);
 
 const updateMetadata = {
-  metadata: "metadata-value",
-  clientContext: "clientContext-value"
+  metadata: 'metadata-value',
+  clientContext: 'clientContext-value'
 };
 
 let res = await client.api('/communications/calls/{id}/updateMetadata')

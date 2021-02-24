@@ -12,8 +12,8 @@ const client = Client.init(options);
 
 const printTask = {
   status: {
-    state: "completed",
-    description: "completed"
+    state: 'completed',
+    description: 'completed'
   }
 };
 

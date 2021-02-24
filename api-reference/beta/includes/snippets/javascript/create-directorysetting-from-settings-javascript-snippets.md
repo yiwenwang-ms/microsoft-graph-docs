@@ -11,11 +11,11 @@ const options = {
 const client = Client.init(options);
 
 const directorySetting = {
-  templateId: "templateId-value",
+  templateId: 'templateId-value',
   values: [
     {
-      name: "name-value",
-      value: "value-value"
+      name: 'name-value',
+      value: 'value-value'
     }
   ]
 };

@@ -11,9 +11,9 @@ const options = {
 const client = Client.init(options);
 
 const printTaskDefinition = {
-  displayName: "Test TaskDefinitionName",
+  displayName: 'Test TaskDefinitionName',
   createdBy: {
-    displayName: "Requesting App Display Name"
+    displayName: 'Requesting App Display Name'
   }
 };
 

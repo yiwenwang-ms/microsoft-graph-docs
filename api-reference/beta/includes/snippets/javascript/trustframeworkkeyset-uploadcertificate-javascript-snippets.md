@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const trustFrameworkKey = {
-  key: "key-value"
+  key: 'key-value'
 };
 
 let res = await client.api('/trustFramework/keySets/{id}/uploadCertificate')

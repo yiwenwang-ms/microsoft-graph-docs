@@ -11,11 +11,11 @@ const options = {
 const client = Client.init(options);
 
 const answer = {
-  callbackUri: "https://bot.contoso.com/api/calls",
-  acceptedModalities: [ "audio" ],
+  callbackUri: 'https://bot.contoso.com/api/calls',
+  acceptedModalities: [ 'audio' ],
   mediaConfig: {
-    @odata.type: "#microsoft.graph.appHostedMediaConfig",
-    blob: "<Media Session Configuration Blob>"
+    '@odata.type': '#microsoft.graph.appHostedMediaConfig',
+    blob: '<Media Session Configuration Blob>'
   }
 };
 

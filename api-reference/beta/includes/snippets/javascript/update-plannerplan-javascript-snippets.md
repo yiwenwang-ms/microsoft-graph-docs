@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const plannerPlan = {
-  title: "title-value"
+  title: 'title-value'
 };
 
 let res = await client.api('/planner/plans/{id}')

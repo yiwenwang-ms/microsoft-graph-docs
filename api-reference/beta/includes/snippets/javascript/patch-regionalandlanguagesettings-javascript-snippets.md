@@ -13,12 +13,12 @@ const client = Client.init(options);
 const regionalAndLanguageSettings = {
   authoringLanguages: [
     {
-     locale: "en-US" },
+     locale: 'en-US' },
     {
-     locale: "es-MX" }
+     locale: 'es-MX' }
   ],
   defaultRegionalFormat: {
-     locale: "en-US"
+     locale: 'en-US'
    }
 };
 

@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const webAccount = {
-  webUrl: "https://github.com/innocenty.popov"
+  webUrl: 'https://github.com/innocenty.popov'
 };
 
 let res = await client.api('/me/profile/webAccounts/{id}')

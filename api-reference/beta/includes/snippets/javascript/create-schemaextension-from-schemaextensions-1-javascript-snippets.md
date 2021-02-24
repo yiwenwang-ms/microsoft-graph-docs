@@ -11,23 +11,23 @@ const options = {
 const client = Client.init(options);
 
 const schemaExtension = {
-    id:"graphlearn_courses",
-    description: "Graph Learn training courses extensions",
+    id: 'graphlearn_courses',
+    description: 'Graph Learn training courses extensions',
     targetTypes: [
-        "Group"
+        'Group'
     ],
     properties: [
         {
-            name: "courseId",
-            type: "Integer"
+            name: 'courseId',
+            type: 'Integer'
         },
         {
-            name: "courseName",
-            type: "String"
+            name: 'courseName',
+            type: 'String'
         },
         {
-            name: "courseType",
-            type: "String"
+            name: 'courseType',
+            type: 'String'
         }
     ]
 };

@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const accessPackageCatalog = {
-  displayName:"Catalog One"
+  displayName: 'Catalog One'
 };
 
 let res = await client.api('/identityGovernance/entitlementManagement/accessPackageCatalogs/{accessPackageCatalogId}')

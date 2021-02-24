@@ -12,8 +12,8 @@ const client = Client.init(options);
 
 const listItem = {
   fields: {
-    Title: "Widget",
-    Color: "Purple",
+    Title: 'Widget',
+    Color: 'Purple',
     Weight: 32
   }
 };

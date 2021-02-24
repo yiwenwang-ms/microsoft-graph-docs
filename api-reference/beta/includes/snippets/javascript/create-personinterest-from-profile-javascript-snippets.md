@@ -12,11 +12,11 @@ const client = Client.init(options);
 
 const personInterest = {
   categories: [
-    "Sports"
+    'Sports'
   ],
-  description: "World's greatest football club",
-  displayName: "Chelsea FC",
-  webUrl: "https://www.chelseafc.com"
+  description: 'World's greatest football club',
+  displayName: 'Chelsea FC',
+  webUrl: 'https://www.chelseafc.com'
 };
 
 let res = await client.api('/me/profile/interests')

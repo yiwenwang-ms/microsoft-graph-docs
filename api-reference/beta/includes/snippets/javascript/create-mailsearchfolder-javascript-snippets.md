@@ -11,11 +11,11 @@ const options = {
 const client = Client.init(options);
 
 const mailFolder = {
-  @odata.type: "microsoft.graph.mailSearchFolder",
-  displayName: "Weekly digests",
+  '@odata.type': 'microsoft.graph.mailSearchFolder',
+  displayName: 'Weekly digests',
   includeNestedFolders: true,
-  sourceFolderIds: ["AQMkADYAAAIBDAAAAA=="],
-  filterQuery: "contains(subject, 'weekly digest')"
+  sourceFolderIds: ['AQMkADYAAAIBDAAAAA=='],
+  filterQuery: 'contains(subject, 'weekly digest')'
 };
 
 let res = await client.api('/me/mailfolders/AQMkADYAAAIBDAAAAA==/childfolders')

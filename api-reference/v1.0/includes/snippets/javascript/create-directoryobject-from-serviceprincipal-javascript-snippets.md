@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const directoryObject = {
-    @odata.id: "https://graph.microsoft.com/v1.0/directoryObjects/{id}"
+    '@odata.id': 'https://graph.microsoft.com/v1.0/directoryObjects/{id}'
 };
 
 let res = await client.api('/servicePrincipals/{id}/owners/$ref')

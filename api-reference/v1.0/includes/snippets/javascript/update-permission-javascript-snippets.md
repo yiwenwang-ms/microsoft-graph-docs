@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const permission = {
-  roles: [ "read" ]
+  roles: [ 'read' ]
 };
 
 let res = await client.api('/me/drive/items/{item-id}/permissions/{perm-id}')

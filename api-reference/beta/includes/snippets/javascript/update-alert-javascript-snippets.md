@@ -11,16 +11,16 @@ const options = {
 const client = Client.init(options);
 
 const alert = {
-  assignedTo: "String",
-  closedDateTime: "String (timestamp)",
-  comments: ["String"],
-  feedback: "@odata.type: microsoft.graph.alertFeedback",
-  status: "@odata.type: microsoft.graph.alertStatus",
-  tags: ["String"],
-  vendorInformation:
+  assignedTo: 'String',
+  closedDateTime: 'String (timestamp)',
+  comments: ['String'],
+  feedback: '@odata.type: microsoft.graph.alertFeedback',
+  status: '@odata.type: microsoft.graph.alertStatus',
+  tags: ['String'],
+  vendorInformation: 
     {
-      provider: "String",
-      vendor: "String"
+      provider: 'String',
+      vendor: 'String'
     }
 };
 

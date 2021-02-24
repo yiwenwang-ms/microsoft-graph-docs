@@ -12,7 +12,7 @@ const client = Client.init(options);
 
 const addPassword = {
   passwordCredential: {
-    displayName: "Password friendly name"
+    displayName: 'Password friendly name'
   }
 };
 

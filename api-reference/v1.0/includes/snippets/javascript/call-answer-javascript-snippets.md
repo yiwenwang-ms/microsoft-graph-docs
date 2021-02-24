@@ -11,13 +11,13 @@ const options = {
 const client = Client.init(options);
 
 const answer = {
-  callbackUri: "callbackUri-value",
+  callbackUri: 'callbackUri-value',
   mediaConfig: {
-    @odata.type: "#microsoft.graph.appHostedMediaConfig",
-    blob: "<Media Session Configuration Blob>"
+    '@odata.type': '#microsoft.graph.appHostedMediaConfig',
+    blob: '<Media Session Configuration Blob>'
   },
   acceptedModalities: [
-    "audio"
+    'audio'
   ]
 };
 

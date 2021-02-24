@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const muteParticipantOperation = {
-  clientContext: "clientContext-value"
+  clientContext: 'clientContext-value'
 };
 
 let res = await client.api('/communications/calls/57dab8b1-894c-409a-b240-bd8beae78896/mute')

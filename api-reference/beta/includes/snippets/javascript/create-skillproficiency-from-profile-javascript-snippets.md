@@ -12,13 +12,13 @@ const client = Client.init(options);
 
 const skillProficiency = {
   categories: [
-    "Professional"
+    'Professional'
   ],
-  allowedAudiences: "organization",
-  displayName: "API Design",
-  proficiency: "generalProfessional",
+  allowedAudiences: 'organization',
+  displayName: 'API Design',
+  proficiency: 'generalProfessional',
   collaborationTags: [
-    "ableToMentor"
+    'ableToMentor'
   ]
 };
 

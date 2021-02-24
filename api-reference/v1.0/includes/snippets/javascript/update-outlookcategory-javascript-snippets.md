@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const outlookCategory = {
-  color:"preset15"
+  color: 'preset15'
 };
 
 let res = await client.api('/me/outlook/masterCategories/bac262b7-485d-4739-b436-e31467d64fac')

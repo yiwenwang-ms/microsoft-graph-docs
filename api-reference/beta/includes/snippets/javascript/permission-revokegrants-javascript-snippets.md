@@ -13,7 +13,7 @@ const client = Client.init(options);
 const permission = {
   grantees: [
     {
-      email: "ryan@contoso.com"
+      email: 'ryan@contoso.com'
     }
   ]
 };

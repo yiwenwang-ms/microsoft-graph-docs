@@ -11,10 +11,10 @@ const options = {
 const client = Client.init(options);
 
 const inferenceClassificationOverride = {
-  classifyAs: "focused",
+  classifyAs: 'focused',
   senderEmailAddress: {
-    name: "Samantha Booth",
-    address: "samanthab@adatum.onmicrosoft.com"
+    name: 'Samantha Booth',
+    address: 'samanthab@adatum.onmicrosoft.com'
   }
 };
 

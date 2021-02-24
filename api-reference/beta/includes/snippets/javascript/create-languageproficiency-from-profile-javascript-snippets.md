@@ -11,11 +11,11 @@ const options = {
 const client = Client.init(options);
 
 const languageProficiency = {
-  displayName: "Norwegian Bokmål",
-  tag: "nb-NO",
-  spoken: "nativeOrBilingual",
-  written: "nativeOrBilingual",
-  reading: "nativeOrBilingual"
+  displayName: 'Norwegian Bokmål',
+  tag: 'nb-NO',
+  spoken: 'nativeOrBilingual',
+  written: 'nativeOrBilingual',
+  reading: 'nativeOrBilingual'
 };
 
 let res = await client.api('/me/profile/languages')

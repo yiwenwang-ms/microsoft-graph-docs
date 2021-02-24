@@ -12,9 +12,9 @@ const client = Client.init(options);
 
 const tokenLifetimePolicy = {
   definition: [
-    "definition-value"
+    'definition-value'
   ],
-  displayName: "displayName-value",
+  displayName: 'displayName-value',
   isOrganizationDefault: true
 };
 

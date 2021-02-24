@@ -12,7 +12,7 @@ const client = Client.init(options);
 
 const restart = {
    criteria: {
-       resetScope: "Watermark, Escrows, QuarantineState"
+       resetScope: 'Watermark, Escrows, QuarantineState'
    }
 };
 

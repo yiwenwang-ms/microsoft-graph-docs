@@ -12,8 +12,8 @@ const client = Client.init(options);
 
 const snoozeReminder = {
   newReminderTime: {
-    dateTime: "2016-10-19T10:37:00Z",
-    timeZone: "timeZone-value"
+    dateTime: '2016-10-19T10:37:00Z',
+    timeZone: 'timeZone-value'
   }
 };
 

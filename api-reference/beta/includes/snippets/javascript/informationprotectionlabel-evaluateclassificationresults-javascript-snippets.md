@@ -12,16 +12,16 @@ const client = Client.init(options);
 
 const informationProtectionAction = {
   contentInfo: {
-    @odata.type: "#microsoft.graph.contentInfo",
-    format@odata.type: "#microsoft.graph.contentFormat",
-    format: "default",
+    '@odata.type': '#microsoft.graph.contentInfo',
+    'format@odata.type': '#microsoft.graph.contentFormat',
+    format: 'default',
     identifier: null,
-    state@odata.type: "#microsoft.graph.contentState",
-    state: "rest"
+    'state@odata.type': '#microsoft.graph.contentState',
+    state: 'rest'
   },
   classificationResults: [
     {
-      sensitiveTypeId: "cb353f78-2b72-4c3c-8827-92ebe4f69fdf",
+      sensitiveTypeId: 'cb353f78-2b72-4c3c-8827-92ebe4f69fdf',
       count: 4,
       confidenceLevel: 75
     }

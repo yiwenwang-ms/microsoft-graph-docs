@@ -11,11 +11,11 @@ const options = {
 const client = Client.init(options);
 
 const oAuth2PermissionGrant = {
-  clientId: "clientId-value",
-  consentType: "consentType-value",
-  principalId: "principalId-value",
-  resourceId: "resourceId-value",
-  scope: "scope-value"
+  clientId: 'clientId-value',
+  consentType: 'consentType-value',
+  principalId: 'principalId-value',
+  resourceId: 'resourceId-value',
+  scope: 'scope-value'
 };
 
 let res = await client.api('/oauth2PermissionGrants')

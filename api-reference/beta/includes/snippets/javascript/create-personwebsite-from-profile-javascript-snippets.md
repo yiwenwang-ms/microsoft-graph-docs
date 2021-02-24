@@ -12,10 +12,10 @@ const client = Client.init(options);
 
 const personWebsite = {
   categories: [
-    "football"
+    'football'
   ],
-  displayName: "Lyn Damer",
-  webUrl: "www.lyndamer.no"
+  displayName: 'Lyn Damer',
+  webUrl: 'www.lyndamer.no'
 };
 
 let res = await client.api('/me/profile/websites')

@@ -12,8 +12,8 @@ const client = Client.init(options);
 
 const chatMessage = {
   body: {
-    contentType: "html",
-    content: "Hello World"
+    contentType: 'html',
+    content: 'Hello World'
   }
 };
 

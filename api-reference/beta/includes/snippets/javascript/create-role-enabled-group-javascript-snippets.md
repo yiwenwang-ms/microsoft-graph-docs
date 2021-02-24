@@ -11,16 +11,16 @@ const options = {
 const client = Client.init(options);
 
 const group = {
-  description: "Group assignable to a role",
-  displayName: "Role assignable group",
+  description: 'Group assignable to a role',
+  displayName: 'Role assignable group',
   groupTypes: [
-    "Unified"
+    'Unified'
   ],
   isAssignableToRole: true,
   mailEnabled: true,
   securityEnabled: true,
-  mailNickname: "contosohelpdeskadministrators",
-  "visibility" : "Private"
+  mailNickname: 'contosohelpdeskadministrators',
+  visibility: 'Private'
 };
 
 let res = await client.api('/groups')

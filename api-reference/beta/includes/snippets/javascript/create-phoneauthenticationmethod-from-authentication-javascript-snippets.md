@@ -11,8 +11,8 @@ const options = {
 const client = Client.init(options);
 
 const phoneAuthenticationMethod = {
-  phoneNumber: "+1 2065555555",
-  phoneType: "mobile"
+  phoneNumber: '+1 2065555555',
+  phoneType: 'mobile'
 };
 
 let res = await client.api('/me/authentication/phoneMethods')

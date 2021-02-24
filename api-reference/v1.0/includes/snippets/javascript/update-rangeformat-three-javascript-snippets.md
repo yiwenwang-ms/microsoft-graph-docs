@@ -12,8 +12,8 @@ const client = Client.init(options);
 
 const workbookRangeFormat = {
   columnWidth: 135,
-  horizontalAlignment: "Right",
-  verticalAlignment: "Top",
+  horizontalAlignment: 'Right',
+  verticalAlignment: 'Top',
   rowHeight: 49,
   wrapText: false
 };

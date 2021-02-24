@@ -11,10 +11,10 @@ const options = {
 const client = Client.init(options);
 
 const group = {
-  members@odata.bind: [
-    "https://graph.microsoft.com/v1.0/directoryObjects/{id}",
-    "https://graph.microsoft.com/v1.0/directoryObjects/{id}",
-    "https://graph.microsoft.com/v1.0/directoryObjects/{id}"
+  'members@odata.bind': [
+    'https://graph.microsoft.com/v1.0/directoryObjects/{id}',
+    'https://graph.microsoft.com/v1.0/directoryObjects/{id}',
+    'https://graph.microsoft.com/v1.0/directoryObjects/{id}'
     ]
 };
 

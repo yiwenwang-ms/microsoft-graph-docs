@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const languageProficiency = {
-  allowedAudiences: "organization"
+  allowedAudiences: 'organization'
 };
 
 let res = await client.api('/me/profile/languages/{id}')

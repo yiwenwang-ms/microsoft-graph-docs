@@ -13,11 +13,11 @@ const client = Client.init(options);
 const identityUserFlowAttributeAssignment = {
     isOptional: false,
     requiresVerification: false,
-    userInputType: "TextBox",
-    displayName: "Shoe size",
+    userInputType: 'TextBox',
+    displayName: 'Shoe size',
     userAttributeValues: [],
     userAttribute: {
-        id: "extension_guid_shoeSize"
+        id: 'extension_guid_shoeSize'
     }
 };
 

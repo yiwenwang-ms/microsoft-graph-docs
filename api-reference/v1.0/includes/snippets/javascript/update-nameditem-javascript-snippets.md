@@ -11,9 +11,9 @@ const options = {
 const client = Client.init(options);
 
 const workbookNamedItem = {
-  type: "type-value",
-  scope: "scope-value",
-  comment: "comment-value",
+  type: 'type-value',
+  scope: 'scope-value',
+  comment: 'comment-value',
   value: {
   },
   visible: true

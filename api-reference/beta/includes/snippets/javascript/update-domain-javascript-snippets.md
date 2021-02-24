@@ -13,8 +13,8 @@ const client = Client.init(options);
 const domain = {
   isDefault: true,
   supportedServices: [
-    "Email",
-    "OfficeCommunicationsOnline"
+    'Email',
+    'OfficeCommunicationsOnline'
   ]
 };
 

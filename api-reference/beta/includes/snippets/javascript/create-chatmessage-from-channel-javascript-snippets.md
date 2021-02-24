@@ -12,7 +12,7 @@ const client = Client.init(options);
 
 const chatMessage = {
   body: {
-    content: "Hello World"
+    content: 'Hello World'
   }
 };
 

@@ -11,8 +11,8 @@ const options = {
 const client = Client.init(options);
 
 const accessPackageCatalog = {
-  displayName: "sales",
-  description: "for employees working with sales and outside sales partners",
+  displayName: 'sales',
+  description: 'for employees working with sales and outside sales partners',
   isExternallyVisible: true
 };
 

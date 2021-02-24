@@ -11,8 +11,8 @@ const options = {
 const client = Client.init(options);
 
 const timeOffReason = {
-  displayName: "Vacation",
-  iconType: "plane",
+  displayName: 'Vacation',
+  iconType: 'plane',
   isActive: true
 };
 

@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const educationRubric = {
-  displayName: "Example Credit Rubric after display name patch"
+  displayName: 'Example Credit Rubric after display name patch'
 };
 
 let res = await client.api('/education/me/rubrics/{id}')

@@ -11,10 +11,10 @@ const options = {
 const client = Client.init(options);
 
 const attachment = {
-  @odata.type: "#Microsoft.OutlookServices.ItemAttachment",
-  name: "name-value",
+  '@odata.type': '#Microsoft.OutlookServices.ItemAttachment',
+  name: 'name-value',
   item: {
-    @odata.type: "microsoft.graph.message"
+    '@odata.type': 'microsoft.graph.message'
   }
 };
 

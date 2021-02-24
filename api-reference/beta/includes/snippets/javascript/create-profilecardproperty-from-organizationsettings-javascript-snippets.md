@@ -11,14 +11,14 @@ const options = {
 const client = Client.init(options);
 
 const profileCardProperty = {
-  directoryPropertyName: "CustomAttribute1",
+  directoryPropertyName: 'CustomAttribute1',
   annotations: [
     {
-      displayName: "Cost Center",
+      displayName: 'Cost Center',
       localizations: [
         {
-          languageTag: "ru-RU",
-          displayName: "центр затрат"
+          languageTag: 'ru-RU',
+          displayName: 'центр затрат'
         }
       ]
     }

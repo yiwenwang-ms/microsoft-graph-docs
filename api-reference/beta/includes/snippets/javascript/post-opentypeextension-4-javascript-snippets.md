@@ -13,19 +13,19 @@ const client = Client.init(options);
 const reply = {
   post: {
     body: {
-      contentType: "html",
-      content: "<html><body><div><div><div><div>When and where? </div></div></div></div></body></html>"
+      contentType: 'html',
+      content: '<html><body><div><div><div><div>When and where? </div></div></div></div></body></html>'
     },
   extensions: [
     {
-      @odata.type: "microsoft.graph.openTypeExtension",
-      extensionName: "Com.Contoso.HR",
-      companyName: "Contoso",
-      expirationDate: "2015-07-03T13:04:00.000Z",
+      '@odata.type': 'microsoft.graph.openTypeExtension',
+      extensionName: 'Com.Contoso.HR',
+      companyName: 'Contoso',
+      expirationDate: '2015-07-03T13:04:00.000Z',
       topPicks: [
-        "Employees only",
-        "Add spouse or guest",
-        "Add family"
+        'Employees only',
+        'Add spouse or guest',
+        'Add family'
       ]
     }
   ]

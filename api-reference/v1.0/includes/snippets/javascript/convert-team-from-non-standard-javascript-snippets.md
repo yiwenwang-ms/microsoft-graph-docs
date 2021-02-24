@@ -11,9 +11,9 @@ const options = {
 const client = Client.init(options);
 
 const team = {
-  template@odata.bind: "https://graph.microsoft.com/v1.0/teamsTemplates('educationClass')",
-  displayName: "My Class Team",
-  description: "My Class Team’s Description"
+  'template@odata.bind': 'https://graph.microsoft.com/v1.0/teamsTemplates('educationClass')',
+  displayName: 'My Class Team',
+  description: 'My Class Team’s Description'
 };
 
 let res = await client.api('/teams')

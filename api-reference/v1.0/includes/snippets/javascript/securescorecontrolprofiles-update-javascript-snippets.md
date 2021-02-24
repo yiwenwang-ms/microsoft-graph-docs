@@ -11,14 +11,14 @@ const options = {
 const client = Client.init(options);
 
 const secureScoreControlProfile = {
-  assignedTo: "",
-  comment: "control is reviewed",
-  state: "Reviewed",
+  assignedTo: '',
+  comment: 'control is reviewed',
+  state: 'Reviewed',
   vendorInformation: {
-    provider: "SecureScore",
+    provider: 'SecureScore',
     providerVersion: null,
     subProvider: null,
-    vendor: "Microsoft"
+    vendor: 'Microsoft'
   }
 };
 

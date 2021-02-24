@@ -11,11 +11,11 @@ const options = {
 const client = Client.init(options);
 
 const namedLocation = {
-    @odata.type: "#microsoft.graph.countryNamedLocation",
-    displayName: "Updated named location without unknown countries and regions",
+    '@odata.type': '#microsoft.graph.countryNamedLocation',
+    displayName: 'Updated named location without unknown countries and regions',
     countriesAndRegions: [
-        "CA",
-        "IN"
+        'CA',
+        'IN'
     ],
     includeUnknownCountriesAndRegions: false
 };

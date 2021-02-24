@@ -11,8 +11,8 @@ const options = {
 const client = Client.init(options);
 
 const authorizationPolicy = {
-   defaultUserRolePermissions:{
-      allowedToCreateApps:false
+   defaultUserRolePermissions: {
+      allowedToCreateApps: false
    }
 };
 

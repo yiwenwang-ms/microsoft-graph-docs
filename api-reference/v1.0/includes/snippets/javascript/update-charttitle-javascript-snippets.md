@@ -12,7 +12,7 @@ const client = Client.init(options);
 
 const workbookChartTitle = {
   overlay: true,
-  text: "text-value",
+  text: 'text-value',
   visible: true
 };
 

@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const directoryRole = {
-  roleTemplateId: "roleTemplateId-value"
+  roleTemplateId: 'roleTemplateId-value'
 };
 
 let res = await client.api('/directoryRoles')

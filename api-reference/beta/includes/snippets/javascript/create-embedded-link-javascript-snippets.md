@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const permission = {
-  type: "embed"
+  type: 'embed'
 };
 
 let res = await client.api('/me/drive/items/{item-id}/createLink')

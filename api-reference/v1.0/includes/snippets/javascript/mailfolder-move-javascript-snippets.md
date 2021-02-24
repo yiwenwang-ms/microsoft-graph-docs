@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const mailFolder = {
-  destinationId: "destinationId-value"
+  destinationId: 'destinationId-value'
 };
 
 let res = await client.api('/me/mailFolders/{id}/move')

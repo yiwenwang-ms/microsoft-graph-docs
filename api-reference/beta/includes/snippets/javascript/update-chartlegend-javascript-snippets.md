@@ -12,7 +12,7 @@ const client = Client.init(options);
 
 const workbookChartLegend = {
   visible: true,
-  position: "position-value",
+  position: 'position-value',
   overlay: true
 };
 

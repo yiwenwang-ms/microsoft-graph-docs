@@ -12,8 +12,8 @@ const client = Client.init(options);
 
 const uploadSession = {
   AttachmentItem: {
-    attachmentType: "file",
-    name: "flower", 
+    attachmentType: 'file',
+    name: 'flower', 
     size: 3483322
   }
 };

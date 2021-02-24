@@ -11,9 +11,9 @@ const options = {
 const client = Client.init(options);
 
 const driveItem = {
-  name: "New Folder",
+  name: 'New Folder',
   folder: { },
-  @microsoft.graph.conflictBehavior: "rename"
+  '@microsoft.graph.conflictBehavior': 'rename'
 };
 
 let res = await client.api('/me/drive/root/children')

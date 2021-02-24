@@ -13,11 +13,11 @@ const client = Client.init(options);
 const stream = {
   LocalizedStrings: [
         {
-            ElementType: "UxElement",
+            ElementType: 'UxElement',
             ElementId: null,
-            StringId: "alert_message",
+            StringId: 'alert_message',
             Override: true,
-            Value: "Are you sure that you want to cancel your selection?"
+            Value: 'Are you sure that you want to cancel your selection?'
         }
     ]
 };

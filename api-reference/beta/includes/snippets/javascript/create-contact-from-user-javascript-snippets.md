@@ -11,25 +11,25 @@ const options = {
 const client = Client.init(options);
 
 const contact = {
-  givenName: "Pavel",
-  surname: "Bansky",
+  givenName: 'Pavel',
+  surname: 'Bansky',
   emailAddresses: [
     {
-      address: "pavelb@contoso.onmicrosoft.com",
-      name: "Pavel Bansky",
-      type: "personal"
+      address: 'pavelb@contoso.onmicrosoft.com',
+      name: 'Pavel Bansky',
+      type: 'personal'
     },
     {
-      address: "pavelb@fabrikam.onmicrosoft.com",
-      name: "Pavel Bansky",
-      type: "other",
-      otherLabel: "Volunteer work"
+      address: 'pavelb@fabrikam.onmicrosoft.com',
+      name: 'Pavel Bansky',
+      type: 'other',
+      otherLabel: 'Volunteer work'
     }
   ],
-  "phones" : [
+  phones: [
     {
-      number: "+1 732 555 0102",
-      type: "business"
+      number: '+1 732 555 0102',
+      type: 'business'
     }
   ]
 };

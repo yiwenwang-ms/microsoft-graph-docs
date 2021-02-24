@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const permissionGrantConditionSet = {
-  permissionType: "delegated",
+  permissionType: 'delegated',
   clientApplicationsFromVerifiedPublisherOnly: true
 };
 

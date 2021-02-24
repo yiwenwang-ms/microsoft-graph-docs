@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const workbookTable = {
-  address: "A1:D8",
+  address: 'A1:D8',
   hasHeaders: false
 };
 

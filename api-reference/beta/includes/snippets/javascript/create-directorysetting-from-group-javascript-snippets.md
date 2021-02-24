@@ -12,12 +12,12 @@ const client = Client.init(options);
 
 const directorySetting = {
   directorySetting: {
-    displayName: "displayName-value",
-    templateId: "templateId-value",
+    displayName: 'displayName-value',
+    templateId: 'templateId-value',
     values: [
       {
-        name: "name-value",
-        value: "value-value"
+        name: 'name-value',
+        value: 'value-value'
       }
     ]
   }

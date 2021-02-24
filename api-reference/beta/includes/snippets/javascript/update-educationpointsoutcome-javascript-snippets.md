@@ -11,10 +11,10 @@ const options = {
 const client = Client.init(options);
 
 const educationOutcome = {
-    @odata.type:"#microsoft.graph.educationPointsOutcome",
-    points:{
-        @odata.type:"#microsoft.graph.educationAssignmentPointsGrade",
-        points:85.0
+    '@odata.type':'#microsoft.graph.educationPointsOutcome',
+    points: {
+        '@odata.type':'#microsoft.graph.educationAssignmentPointsGrade',
+        points: 85.0
     }
 };
 

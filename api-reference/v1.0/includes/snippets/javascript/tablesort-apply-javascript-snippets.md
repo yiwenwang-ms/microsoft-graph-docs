@@ -14,18 +14,18 @@ const apply = {
   fields: [
     {
       key: 99,
-      sortOn: "sortOn-value",
+      sortOn: 'sortOn-value',
       ascending: true,
-      color: "color-value",
-      dataOption: "dataOption-value",
+      color: 'color-value',
+      dataOption: 'dataOption-value',
       icon: {
-        set: "set-value",
+        set: 'set-value',
         index: 99
       }
     }
   ],
   matchCase: true,
-  method: "method-value"
+  method: 'method-value'
 };
 
 let res = await client.api('/me/drive/items/{id}/workbook/tables/{id|name}/sort/apply')

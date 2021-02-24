@@ -11,20 +11,20 @@ const options = {
 const client = Client.init(options);
 
 const messageRule = {
-    displayName: "From partner",      
+    displayName: 'From partner',      
     sequence: 2,      
     isEnabled: true,          
     conditions: {
         senderContains: [
-          "adele"       
+          'adele'       
         ]
      },
      actions: {
         forwardTo: [
           {
              emailAddress: {
-                name: "Alex Wilbur",
-                address: "AlexW@contoso.onmicrosoft.com"
+                name: 'Alex Wilbur',
+                address: 'AlexW@contoso.onmicrosoft.com'
               }
            }
         ],

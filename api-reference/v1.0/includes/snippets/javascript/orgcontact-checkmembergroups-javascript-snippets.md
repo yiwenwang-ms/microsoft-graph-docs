@@ -12,7 +12,7 @@ const client = Client.init(options);
 
 const string = {
   groupIds: [
-    "groupId-value1", "groupId-value2" 
+    'groupId-value1', 'groupId-value2' 
   ]
 };
 
