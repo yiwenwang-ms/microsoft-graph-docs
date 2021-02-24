@@ -49,13 +49,13 @@ const educationRubric = {
             criteria: [
                 {
                     description: {
-                        content: 'The essay's argument is persuasive.',
+                        content: 'The essay\'s argument is persuasive.',
                         contentType: 'text'
                     }
                 },
                 {
                     description: {
-                        content: 'The essay's argument does not make sense.',
+                        content: 'The essay\'s argument does not make sense.',
                         contentType: 'text'
                     }
                 }

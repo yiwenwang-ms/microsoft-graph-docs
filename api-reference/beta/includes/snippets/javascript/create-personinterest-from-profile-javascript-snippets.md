@@ -14,7 +14,7 @@ const personInterest = {
   categories: [
     'Sports'
   ],
-  description: 'World's greatest football club',
+  description: 'World\'s greatest football club',
   displayName: 'Chelsea FC',
   webUrl: 'https://www.chelseafc.com'
 };

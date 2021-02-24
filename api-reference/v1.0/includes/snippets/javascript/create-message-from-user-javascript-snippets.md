@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const message = {
-    subject: 'Did you see last night's game?',
+    subject: 'Did you see last night\'s game?',
     importance: 'Low',
     body: {
         contentType: 'HTML',

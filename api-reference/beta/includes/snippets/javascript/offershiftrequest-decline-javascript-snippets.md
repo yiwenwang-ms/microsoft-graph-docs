@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const decline = {
-  message: 'Sorry, you can't offer this shift.'
+  message: 'Sorry, you can\'t offer this shift.'
 };
 
 let res = await client.api('/teams/{teamId}/schedule/offerShiftRequests/{offerShiftRequestId}/decline')

@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const decline = {
-  comment: 'I won't be able to make this week. How about next week?',
+  comment: 'I won\'t be able to make this week. How about next week?',
   sendResponse: true,
   proposedNewTime: {
       start: { 

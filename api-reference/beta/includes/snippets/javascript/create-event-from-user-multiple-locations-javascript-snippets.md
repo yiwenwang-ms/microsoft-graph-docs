@@ -14,7 +14,7 @@ const event = {
   subject: 'Plan summer company picnic',
   body: {
     contentType: 'HTML',
-    content: 'Let's kick-start this event planning!'
+    content: 'Let\'s kick-start this event planning!'
   },
   start: {
       dateTime: '2017-08-30T11:00:00',

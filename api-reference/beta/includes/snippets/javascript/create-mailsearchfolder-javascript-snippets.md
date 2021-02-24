@@ -15,7 +15,7 @@ const mailFolder = {
   displayName: 'Weekly digests',
   includeNestedFolders: true,
   sourceFolderIds: ['AQMkADYAAAIBDAAAAA=='],
-  filterQuery: 'contains(subject, 'weekly digest')'
+  filterQuery: 'contains(subject, \'weekly digest\')'
 };
 
 let res = await client.api('/me/mailfolders/AQMkADYAAAIBDAAAAA==/childfolders')

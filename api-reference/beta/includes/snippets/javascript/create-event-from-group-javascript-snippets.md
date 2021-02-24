@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const event = {
-  subject: 'Let's go for lunch',
+  subject: 'Let\'s go for lunch',
   body: {
     contentType: 'HTML',
     content: 'Does late morning work for you?'
@@ -25,7 +25,7 @@ const event = {
       timeZone: 'Pacific Standard Time'
   },
   location: {
-      displayName: 'Harry's Bar'
+      displayName: 'Harry\'s Bar'
   },
   attendees: [
     {

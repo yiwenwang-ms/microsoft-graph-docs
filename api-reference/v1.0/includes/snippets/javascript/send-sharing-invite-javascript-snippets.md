@@ -16,7 +16,7 @@ const permission = {
       email: 'ryan@contoso.com'
     }
   ],
-  message: 'Here's the file that we're collaborating on.',
+  message: 'Here\'s the file that we\'re collaborating on.',
   requireSignIn: true,
   sendInvitation: true,
   roles: [ 'write' ],

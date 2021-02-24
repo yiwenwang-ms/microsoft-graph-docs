@@ -18,7 +18,7 @@ const attachment = {
     subject: 'Discuss gifts for children',
     body: {
       contentType: 'HTML',
-      content: 'Let's look for funding!'
+      content: 'Let\'s look for funding!'
     },
     start: {
       dateTime: '2016-12-02T18:00:00',

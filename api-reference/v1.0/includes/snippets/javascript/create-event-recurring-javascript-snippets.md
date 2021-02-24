@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const event = {
-  subject: 'Let's go for lunch',
+  subject: 'Let\'s go for lunch',
   body: {
     contentType: 'HTML',
     content: 'Does noon time work for you?'
@@ -37,7 +37,7 @@ const event = {
     }
   },
   location: {
-      displayName: 'Harry's Bar'
+      displayName: 'Harry\'s Bar'
   },
   attendees: [
     {

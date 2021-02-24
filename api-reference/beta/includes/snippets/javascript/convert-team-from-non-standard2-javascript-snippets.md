@@ -11,7 +11,7 @@ const options = {
 const client = Client.init(options);
 
 const team = {
-   'template@odata.bind':'https://graph.microsoft.com/beta/teamsTemplates('educationClass')',
+   'template@odata.bind':'https://graph.microsoft.com/beta/teamsTemplates(\'educationClass\')',
    displayName: 'My Class Team',
    description: 'My Class Team’s Description',
    channels: [
@@ -33,10 +33,10 @@ const team = {
    },
    installedApps: [
       {
-         'teamsApp@odata.bind':'https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.vsts')'
+         'teamsApp@odata.bind':'https://graph.microsoft.com/v1.0/appCatalogs/teamsApps(\'com.microsoft.teamspace.tab.vsts\')'
       },
       {
-         'teamsApp@odata.bind':'https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('1542629c-01b3-4a6d-8f76-1938b779e48d')'
+         'teamsApp@odata.bind':'https://graph.microsoft.com/v1.0/appCatalogs/teamsApps(\'1542629c-01b3-4a6d-8f76-1938b779e48d\')'
       }
    ]
 };

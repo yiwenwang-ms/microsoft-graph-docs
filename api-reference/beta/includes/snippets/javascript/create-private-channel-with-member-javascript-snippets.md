@@ -19,7 +19,7 @@ const channel = {
      [
         {
            '@odata.type':'#microsoft.graph.aadUserConversationMember',
-           'user@odata.bind':'https://graph.microsoft.com/beta/users('62855810-484b-4823-9e01-60667f8b12ae')',
+           'user@odata.bind':'https://graph.microsoft.com/beta/users(\'62855810-484b-4823-9e01-60667f8b12ae\')',
            roles: ['owner']
         }
      ]
