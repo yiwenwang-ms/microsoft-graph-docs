@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var response = await graphClient.Me.Drive.Items["{item-id}"].Thumbnails["{thumb-id}"]["{size}"]
+var response = await graphClient.Me.Drive.Items["{item-id}"].Thumbnails["{thumb-id}"]["microsoft.graph.thumbnailSet-id"]
 	.Request()
 	.GetAsync();
 
