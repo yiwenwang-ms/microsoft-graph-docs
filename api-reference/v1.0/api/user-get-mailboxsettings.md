@@ -227,7 +227,7 @@ Content-type: application/json
 #### Request
 The third example gets specifically the working hour settings of the signed-in user's mailbox.
 <!-- {
-  "blockType": "ignored",
+  "blockType": "request",
   "name": "get_mailboxsettings_3"
 }-->
 ```http

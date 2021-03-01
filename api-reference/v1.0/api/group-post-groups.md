@@ -179,7 +179,7 @@ The following example creates a Security group with an owner and members specifi
 #### Request
 
 <!-- {
-  "blockType": "ignored",
+  "blockType": "request",
   "name": "create_prepopulated_group"
 }-->
 ``` http

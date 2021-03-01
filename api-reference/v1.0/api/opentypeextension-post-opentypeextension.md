@@ -138,7 +138,7 @@ The first example creates a message and an extension in the same call. The reque
   - Additional data to be stored as three custom properties in the JSON payload: `companyName`, `expirationDate`, and `dealValue`.
 
 <!-- {
-  "blockType": "ignored",
+  "blockType": "request",
   "name": "post_opentypeextension_1"
 }-->
 ```http
@@ -261,7 +261,7 @@ extension:
 - Additional data to be stored as 3 custom properties in the JSON payload: `companyName`, `dealValue`, and `expirationDate`.
 
 <!-- {
-  "blockType": "ignored",
+  "blockType": "request",
   "name": "post_opentypeextension_2"
 }-->
 ```http
@@ -318,7 +318,7 @@ extension:
 - Additional data to be stored as 3 custom properties in the JSON payload: `companyName`, `dealValue`, and `expirationDate`.
 
 <!-- {
-  "blockType": "ignored",
+  "blockType": "request",
   "name": "post_opentypeextension_3"
 }-->
 ```http
@@ -370,7 +370,7 @@ the **body** of the new post, and the following data for the new extension:
 - Additional data to be stored as 3 custom properties in the JSON payload: `companyName`, `expirationDate`, and the array of strings `topPicks`.
 
 <!-- {
-  "blockType": "ignored",
+  "blockType": "request",
   "name": "post_opentypeextension_4"
 }-->
 ```http
@@ -428,7 +428,7 @@ in turn contains the **body** of the new post, and the following data for the ex
 - Additional data to be stored as 3 custom properties in the JSON payload: `companyName`, `expirationDate`, and the array of strings `topPicks`.
 
 <!-- {
-  "blockType": "ignored",
+  "blockType": "request",
   "name": "post_opentypeextension_5"
 }-->
 ```http

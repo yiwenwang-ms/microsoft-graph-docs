@@ -395,7 +395,7 @@ Content-type: application/json
 The fourth example references an extension by its fully qualified name and gets the extension in the specified group post.
 
 <!-- {
-  "blockType": "ignored",
+  "blockType": "request",
   "name": "get_opentypeextension_4"
 }-->
 ```http

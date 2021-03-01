@@ -168,7 +168,7 @@ The second example customizes the time zone for the working hours of the signed-
 to a [custom time zone](../resources/customtimezone.md).
 
 <!-- {
-  "blockType": "ignored",
+  "blockType": "request",
   "name": "update_mailboxsettings_2"
 }-->
 ```http

@@ -197,7 +197,7 @@ with an `expirationDate` value of `2015-07-03T13:04:00Z`:
 The following is the request and request body to change the `expirationDate` to `2016-07-30T11:00:00Z`:
 
 <!-- {
-  "blockType": "ignored",
+  "blockType": "request",
   "sampleKeys": ["Microsoft.OutlookServices.OpenTypeExtension.Com.Contoso.Estimate"],
   "name": "update_opentypeextension"
 }-->

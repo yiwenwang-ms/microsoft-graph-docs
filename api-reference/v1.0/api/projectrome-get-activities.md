@@ -70,7 +70,7 @@ If successful, this method returns the `200 OK` response code with the user's ac
 The following is an example of the request.
 
 <!-- {
-  "blockType": "ignored",
+  "blockType": "request",
   "name": "get_activities"
 }-->
 
