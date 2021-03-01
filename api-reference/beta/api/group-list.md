@@ -406,7 +406,7 @@ Content-type: application/json
 The following is an example of the request.
 
 <!-- {
-  "blockType": "ignored",
+  "blockType": "request",
   "name": "get_enabled_dynamic_groups"
 }-->
 ```http

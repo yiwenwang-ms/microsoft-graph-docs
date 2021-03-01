@@ -72,7 +72,7 @@ If successful, this method returns the `200 OK` response code with the user's re
 The following is an example of the request.
 
 <!-- {
-  "blockType": "ignored",
+  "blockType": "request",
   "name": "get_recent_activities"
 }-->
 

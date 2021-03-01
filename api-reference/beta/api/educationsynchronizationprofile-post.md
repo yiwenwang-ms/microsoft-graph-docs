@@ -46,7 +46,7 @@ If successful, this method returns a `202, Accepted` response code and an [educa
 ##### Request
 The following is an example of the request.
 <!-- {
-  "blockType": "ignored",
+  "blockType": "request",
   "name": "create_educationSynchronizationProfile"
 }-->
 ```http

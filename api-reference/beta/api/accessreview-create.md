@@ -77,7 +77,7 @@ This is an example of creating a one-time (not recurring) access review, explici
 In the request body, supply a JSON representation of the [accessReview](../resources/accessreview.md) object.
 
 <!-- {
-  "blockType": "ignored",
+  "blockType": "request",
   "name": "create_accessReview_from_accessReviews"
 }-->
 ```http

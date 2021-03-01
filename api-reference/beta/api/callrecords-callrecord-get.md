@@ -65,7 +65,7 @@ If successful, this method returns a `200 OK` response code and the requested [m
 The following is an example of the request to get the basic details from a [callRecord](../resources/callrecords-callrecord.md).
 
 <!-- {
-  "blockType": "ignored",
+  "blockType": "request",
   "name": "get_callrecord"
 }-->
 
@@ -133,7 +133,7 @@ Content-type: application/json
 The following is an example of the request to get the full details from a [callRecord](../resources/callrecords-callrecord.md), including session and segment components.
 
 <!-- {
-  "blockType": "ignored",
+  "blockType": "request",
   "name": "get_callrecord_expanded"
 }-->
 

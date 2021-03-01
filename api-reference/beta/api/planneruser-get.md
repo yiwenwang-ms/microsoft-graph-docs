@@ -43,7 +43,7 @@ If successful, this method returns a `200 OK` response code and a [plannerUser](
 ##### Request
 The following is an example of the request.
 <!-- {
-  "blockType": "ignored",
+  "blockType": "request",
   "name": "get_planneruser"
 }-->
 ```http

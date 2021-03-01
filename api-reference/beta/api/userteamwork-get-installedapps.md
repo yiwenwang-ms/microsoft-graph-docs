@@ -113,7 +113,7 @@ Content-type: application/json
 
 The following is an example of the request.
 <!-- {
-  "blockType": "ignored",
+  "blockType": "request",
   "name": "user_list_teamsApps_details"
 }-->
 ```http

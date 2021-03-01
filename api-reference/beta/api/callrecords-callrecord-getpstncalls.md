@@ -66,7 +66,7 @@ If there are more than 1000 entries in the date range, the body also includes an
 ### Request
 
 <!-- {
-  "blockType": "ignored",
+  "blockType": "request",
   "name": "callrecord_getpstncalls"
 }
 -->

@@ -60,7 +60,7 @@ The following example retrieves a specific **trustFrameworkPolicy**.
 ##### Request
 
 <!-- {
-  "blockType": "ignored",
+  "blockType": "request",
   "name": "get_trustFramework"
 }-->
 ```http

@@ -562,7 +562,7 @@ The values of authorization token, callback url, application id, application nam
 ##### Request
 
 <!-- {
-  "blockType": "ignored",
+  "blockType": "request",
   "name": "join-meeting-service-hosted-media",
   "@odata.type": "microsoft.graph.call"
 }-->

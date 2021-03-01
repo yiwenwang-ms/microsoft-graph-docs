@@ -132,7 +132,7 @@ HTTP 201 Created
 Here is an example which attaches an event with another event as an item attachment.
 
 <!-- {
-  "blockType": "ignored",
+  "blockType": "request",
   "name": "add_item_attachment_to_task"
 }-->
 

@@ -52,7 +52,7 @@ The response includes the IDs for the new conversation and thread, which you can
 The following is an example of the request.
 
 <!-- {
-  "blockType": "ignored",
+  "blockType": "request",
   "name": "create_conversation_from_group"
 }-->
 ```http
