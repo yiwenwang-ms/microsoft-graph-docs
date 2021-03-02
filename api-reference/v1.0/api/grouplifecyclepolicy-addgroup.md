@@ -53,7 +53,7 @@ If successful, this method returns `200 OK` response code. If the group is added
 #### Request
 
 <!-- {
-  "blockType": "request",
+  "blockType": "ignored",
   "name": "grouplifecyclepolicy_addgroup"
 } -->
 ```http
@@ -67,7 +67,7 @@ Content-length: 57
 ```
 
 #### Response
-<!-- { "blockType": "response" } -->
+<!-- { "blockType": "ignored" } -->
 
 ```http
 HTTP/1.1 200 OK
