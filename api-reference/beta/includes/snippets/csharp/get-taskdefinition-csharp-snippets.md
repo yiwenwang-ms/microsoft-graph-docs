@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var printTaskDefinition = await graphClient.Print.TaskDefinitions["fab143fd-ee61-4358-8558-2c7dee953982"]
+var printTaskDefinition = await graphClient.Print.TaskDefinitions["{printTaskDefinition-id}"]
 	.Request()
 	.GetAsync();
 

@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var printServiceEndpoint = await graphClient.Print.Services["{id}"].Endpoints["{name}"]
+var printServiceEndpoint = await graphClient.Print.Services["{printService-id}"].Endpoints["{printServiceEndpoint-id}"]
 	.Request()
 	.GetAsync();
 

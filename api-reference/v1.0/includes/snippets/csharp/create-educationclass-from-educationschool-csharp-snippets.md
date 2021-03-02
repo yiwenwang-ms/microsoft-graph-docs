@@ -14,7 +14,7 @@ var educationClass = new EducationClass
 	}
 };
 
-await graphClient.Education.Schools["{school-id}"].Classes.References
+await graphClient.Education.Schools["{educationSchool-id}"].Classes.References
 	.Request()
 	.AddAsync(educationClass);
 

@@ -13,7 +13,7 @@ var appRoleAssignment = new AppRoleAssignment
 	AppRoleId = Guid.Parse("appRoleId-value")
 };
 
-await graphClient.ServicePrincipals["{id}"].AppRoleAssignedTo
+await graphClient.ServicePrincipals["{servicePrincipal-id}"].AppRoleAssignedTo
 	.Request()
 	.AddAsync(appRoleAssignment);
 

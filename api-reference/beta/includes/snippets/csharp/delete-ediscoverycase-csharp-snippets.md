@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-await graphClient.Compliance.Ediscovery.Cases["061b9a92-8926-4bd9-b41d-abf35edc7583"]
+await graphClient.Compliance.Ediscovery.Cases["{ediscovery.case-id}"]
 	.Request()
 	.DeleteAsync();
 

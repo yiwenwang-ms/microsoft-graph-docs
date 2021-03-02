@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-await graphClient.Print.Printers["{id}"]
+await graphClient.Print.Printers["{printer-id}"]
 	.RestoreFactoryDefaults()
 	.Request()
 	.PostAsync();

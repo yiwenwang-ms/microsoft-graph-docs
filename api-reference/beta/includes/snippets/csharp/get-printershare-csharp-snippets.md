@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var printerShare = await graphClient.Print.Shares["{id}"]
+var printerShare = await graphClient.Print.Shares["{printerShare-id}"]
 	.Request()
 	.GetAsync();
 

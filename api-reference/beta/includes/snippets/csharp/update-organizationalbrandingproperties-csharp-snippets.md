@@ -11,7 +11,7 @@ var organizationalBranding = new OrganizationalBranding
 	BackgroundColor = "#FFFF33"
 };
 
-await graphClient.Organization["d69179bf-f4a4-41a9-a9de-249c0f2efb1d"].Branding
+await graphClient.Organization["{organization-id}"].Branding
 	.Request()
 	.PutAsync(organizationalBranding);
 

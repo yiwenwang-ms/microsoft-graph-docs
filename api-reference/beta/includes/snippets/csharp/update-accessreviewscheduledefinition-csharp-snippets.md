@@ -42,7 +42,7 @@ using var accessReviewScheduleDefinition = new System.IO.MemoryStream(Encoding.U
   }
 }"));
 
-await graphClient.IdentityGovernance.AccessReviews.Definitions["60860cdd-fb4d-4054-91ba-f75e04444aa6"]
+await graphClient.IdentityGovernance.AccessReviews.Definitions["{accessReviewScheduleDefinition-id}"]
 	.Request()
 	.PutAsync(accessReviewScheduleDefinition);
 

@@ -14,7 +14,7 @@ var siteSource = new Microsoft.Graph.Ediscovery.SiteSource
 	}
 };
 
-await graphClient.Compliance.Ediscovery.Cases["4c8f8f70-7785-4bd4-b296-c98376a2c5e1"].Custodians["2192ca408ea2410eba3bec8ae873be6b"].SiteSources
+await graphClient.Compliance.Ediscovery.Cases["{ediscovery.case-id}"].Custodians["{ediscovery.custodian-id}"].SiteSources
 	.Request()
 	.AddAsync(siteSource);
 

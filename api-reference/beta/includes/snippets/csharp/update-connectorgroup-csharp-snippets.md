@@ -12,7 +12,7 @@ var connectorGroup = new ConnectorGroup
 	Region = ConnectorGroupRegion.Nam
 };
 
-await graphClient.OnPremisesPublishingProfiles["applicationProxy"].ConnectorGroups["{id}"]
+await graphClient.OnPremisesPublishingProfiles["{onPremisesPublishingProfile-id}"].ConnectorGroups["{connectorGroup-id}"]
 	.Request()
 	.UpdateAsync(connectorGroup);
 

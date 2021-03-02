@@ -15,7 +15,7 @@ var printTask = new PrintTask
 	}
 };
 
-await graphClient.Print.TaskDefinitions["3203656e-6069-4e10-8147-d25290b00a3c"].Tasks["d036638b-1272-4bba-9227-732463823ed3"]
+await graphClient.Print.TaskDefinitions["{printTaskDefinition-id}"].Tasks["{printTask-id}"]
 	.Request()
 	.UpdateAsync(printTask);
 

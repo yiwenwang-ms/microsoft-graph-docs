@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-await graphClient.Print.Connectors["{id}"]
+await graphClient.Print.Connectors["{printConnector-id}"]
 	.Request()
 	.DeleteAsync();
 

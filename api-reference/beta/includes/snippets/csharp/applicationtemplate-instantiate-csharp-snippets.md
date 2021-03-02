@@ -8,7 +8,7 @@ GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
 var displayName = "My custom name";
 
-await graphClient.ApplicationTemplates["{id}"]
+await graphClient.ApplicationTemplates["{applicationTemplate-id}"]
 	.Instantiate(displayName)
 	.Request()
 	.PostAsync();

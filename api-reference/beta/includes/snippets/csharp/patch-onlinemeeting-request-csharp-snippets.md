@@ -13,7 +13,7 @@ var onlineMeeting = new OnlineMeeting
 	Subject = "Patch Meeting Subject"
 };
 
-await graphClient.Me.OnlineMeetings["{id}"]
+await graphClient.Me.OnlineMeetings["{onlineMeeting-id}"]
 	.Request()
 	.UpdateAsync(onlineMeeting);
 
