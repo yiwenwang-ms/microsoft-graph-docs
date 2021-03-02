@@ -11,10 +11,10 @@ const options = {
 const client = Client.init(options);
 
 const workbookRange = {
-  address: "address-value"
+  address: 'address-value'
 };
 
-let res = await client.api('/me/drive/items/{id}/workbook/worksheets/{id|name}/Range')
+await client.api('/me/drive/items/{id}/workbook/worksheets/{id|name}/Range')
 	.version('beta')
 	.post(workbookRange);
 

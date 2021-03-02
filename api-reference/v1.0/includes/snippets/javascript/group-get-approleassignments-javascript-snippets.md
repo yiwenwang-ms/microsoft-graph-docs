@@ -10,7 +10,7 @@ const options = {
 
 const client = Client.init(options);
 
-let res = await client.api('/groups/{id}/appRoleAssignments')
+let appRoleAssignments = await client.api('/groups/{id}/appRoleAssignments')
 	.get();
 
 ```

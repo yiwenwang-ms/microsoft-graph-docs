@@ -11,10 +11,10 @@ const options = {
 const client = Client.init(options);
 
 const _case = {
-    displayName: "My Case 1",
+    displayName: 'My Case 1',
 };
 
-let res = await client.api('/compliance/ediscovery/cases')
+await client.api('/compliance/ediscovery/cases')
 	.version('beta')
 	.post(_case);
 
