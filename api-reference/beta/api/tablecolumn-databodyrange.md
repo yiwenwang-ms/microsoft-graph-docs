@@ -52,7 +52,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "tablecolumn_databodyrange"
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/me/drive/items/{id}/workbook/tables/{id|name}/columns/{id|name}/DataBodyRange
 ```
 # [C#](#tab/csharp)
