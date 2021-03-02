@@ -83,7 +83,7 @@ GET https://graph.microsoft.com/v1.0/me/activities
 The following is an example of the response.
 
 <!-- {
-  "blockType": "ignored",
+  "blockType": "response",
   "truncated": true,
   "@odata.type": "Collection(microsoft.graph.activity)"
 } -->

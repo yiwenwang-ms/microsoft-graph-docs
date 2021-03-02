@@ -224,7 +224,7 @@ Content-type: application/json
 Here is the response of the second example which shows the updated `expirationDate` in the extension.
 
 <!-- {  
-  "blockType": "ignored",  
+  "blockType": "response",  
   "truncated": true,  
   "@odata.type": "microsoft.graph.openTypeExtension"  
 } --> 
