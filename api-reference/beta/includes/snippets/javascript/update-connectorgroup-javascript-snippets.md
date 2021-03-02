@@ -11,11 +11,11 @@ const options = {
 const client = Client.init(options);
 
 const connectorGroup = {
-  name: "name-value",
-  region: "region-value"
+  name: 'name-value',
+  region: 'region-value'
 };
 
-let res = await client.api('/onPremisesPublishingProfiles/applicationProxy/connectorGroups/{id}')
+await client.api('/onPremisesPublishingProfiles/applicationProxy/connectorGroups/{id}')
 	.version('beta')
 	.update(connectorGroup);
 

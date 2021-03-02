@@ -10,7 +10,7 @@ const options = {
 
 const client = Client.init(options);
 
-let res = await client.api('/education/classes/11012/assignments/19002/getResourcesFolderUrl')
+let string = await client.api('/education/classes/11012/assignments/19002/getResourcesFolderUrl')
 	.version('beta')
 	.get();
 
