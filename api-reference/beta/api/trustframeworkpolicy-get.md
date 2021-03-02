@@ -70,7 +70,7 @@ GET https://graph.microsoft.com/beta/trustFramework/policies/B2C_1A_Test/$value
 ##### Response
 
 <!-- {
-  "blockType": "ignored",
+  "blockType": "response",
   "truncated": true,
   "@odata.type": "microsoft.graph.trustFrameworkPolicy"
 } -->

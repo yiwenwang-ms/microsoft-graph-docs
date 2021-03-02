@@ -85,7 +85,7 @@ GET https://graph.microsoft.com/beta/me/activities/recent
 The following is an example of the response.
 
 <!-- {
-  "blockType": "ignored",
+  "blockType": "response",
   "truncated": true,
   "@odata.type": "Collection(microsoft.graph.activity)"
 } -->
