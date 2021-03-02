@@ -63,7 +63,7 @@ If there are more than 1000 entries in the date range, the body also includes an
 ### Request
 
 <!-- {
-  "blockType": "request",
+  "blockType": "ignored",
   "name": "callrecord_getdirectroutingcalls"
 }
 -->
@@ -76,7 +76,7 @@ GET https://graph.microsoft.com/beta/communications/callRecords/getDirectRouting
 
 **Note:** The response object shown here might be shortened for readability.
 <!-- {
-  "blockType": "response",
+  "blockType": "ignored",
   "truncated": true,
   "@odata.type": "microsoft.graph.callRecords.directRoutingLogRow",
   "isCollection": true

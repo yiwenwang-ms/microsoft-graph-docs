@@ -66,7 +66,7 @@ If there are more than 1000 entries in the date range, the body also includes an
 ### Request
 
 <!-- {
-  "blockType": "request",
+  "blockType": "ignored",
   "name": "callrecord_getpstncalls"
 }
 -->
@@ -79,7 +79,7 @@ GET https://graph.microsoft.com/beta/communications/callRecords/getPstnCalls(fro
 
 **Note:** The response object shown here might be shortened for readability.
 <!-- {
-  "blockType": "response",
+  "blockType": "ignored",
   "truncated": true,
   "@odata.type": "Collection(microsoft.graph.callRecords.pstnCallLogRow)"
 }

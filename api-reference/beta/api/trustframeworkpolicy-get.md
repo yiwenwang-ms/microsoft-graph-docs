@@ -60,7 +60,7 @@ The following example retrieves a specific **trustFrameworkPolicy**.
 ##### Request
 
 <!-- {
-  "blockType": "request",
+  "blockType": "ignored",
   "name": "get_trustFramework"
 }-->
 ```http
@@ -70,7 +70,7 @@ GET https://graph.microsoft.com/beta/trustFramework/policies/B2C_1A_Test/$value
 ##### Response
 
 <!-- {
-  "blockType": "response",
+  "blockType": "ignored",
   "truncated": true,
   "@odata.type": "microsoft.graph.trustFrameworkPolicy"
 } -->
