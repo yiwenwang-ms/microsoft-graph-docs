@@ -11,10 +11,10 @@ const options = {
 const client = Client.init(options);
 
 const taskfolders = {
-  name: "Cooking"
+  name: 'Cooking'
 };
 
-let res = await client.api('/me/taskgroups/AAMkADIyAAAhrbe-AAA'/taskfolders')
+await client.api('/me/taskgroups/AAMkADIyAAAhrbe-AAA'/taskfolders')
 	.version('beta')
 	.post(taskfolders);
 
