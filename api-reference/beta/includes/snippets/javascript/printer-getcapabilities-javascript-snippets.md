@@ -10,7 +10,7 @@ const options = {
 
 const client = Client.init(options);
 
-let res = await client.api('/print/printers/{id}/getCapabilities')
+await client.api('/print/printers/{id}/getCapabilities')
 	.version('beta')
 	.post();
 
