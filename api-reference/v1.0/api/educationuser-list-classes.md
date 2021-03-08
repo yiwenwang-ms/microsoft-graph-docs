@@ -31,7 +31,7 @@ One of the following permissions is required to call this API. To learn more, in
 
 ```http
 GET /education/me/classes
-GET /education/users/{id}/classes
+GET /education/users/{educationUserId}/classes
 ```
 
 ## Optional query parameters
