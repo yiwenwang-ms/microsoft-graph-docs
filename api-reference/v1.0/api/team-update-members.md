@@ -71,19 +71,19 @@ content-length: 26
 }
 ```
 # [C#](#tab/csharp)
-[!INCLUDE [sample-code](../includes/snippets/csharp/update-member-csharp-snippets.md)]
+[!INCLUDE [sample-code](../includes/snippets/csharp/update-member-2-csharp-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 # [JavaScript](#tab/javascript)
-[!INCLUDE [sample-code](../includes/snippets/javascript/update-member-javascript-snippets.md)]
+[!INCLUDE [sample-code](../includes/snippets/javascript/update-member-2-javascript-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 # [Objective-C](#tab/objc)
-[!INCLUDE [sample-code](../includes/snippets/objc/update-member-objc-snippets.md)]
+[!INCLUDE [sample-code](../includes/snippets/objc/update-member-2-objc-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 # [Java](#tab/java)
-[!INCLUDE [sample-code](../includes/snippets/java/update-member-java-snippets.md)]
+[!INCLUDE [sample-code](../includes/snippets/java/update-member-2-java-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 ---
