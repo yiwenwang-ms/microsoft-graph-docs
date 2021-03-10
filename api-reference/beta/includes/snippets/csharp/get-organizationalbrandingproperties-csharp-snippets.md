@@ -12,7 +12,7 @@ var organizationalBrandingLocalization = new OrganizationalBrandingLocalization
 	Id = "fr"
 };
 
-await graphClient.Organization["d69179bf-f4a4-41a9-a9de-249c0f2efb1d"].Branding.Localizations
+await graphClient.Organization["{organization-id}"].Branding.Localizations
 	.Request()
 	.AddAsync(organizationalBrandingLocalization);
 
