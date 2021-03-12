@@ -7,7 +7,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 IGraphServiceClient graphClient = GraphServiceClient.builder().authenticationProvider( authProvider ).buildClient();
 
 IOutlookUserSupportedTimeZonesCollectionPage supportedTimeZones = graphClient.me().outlook()
-	.supportedTimeZones(microsoft.graph.timeZoneStandard'Iana')
+	.supportedTimeZones(microsoft.graph.timeZoneStandardmicrosoft.graph.timeZoneStandard'Iana')
 	.buildRequest()
 	.get();
 

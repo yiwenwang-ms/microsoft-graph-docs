@@ -7,7 +7,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 IGraphServiceClient graphClient = GraphServiceClient.builder().authenticationProvider( authProvider ).buildClient();
 
 UserRegistrationFeatureSummary userRegistrationFeatureSummary = graphClient.reports().authenticationMethods()
-	.usersRegisteredByFeature('all','all')
+	.usersRegisteredByFeature(microsoft.graph.includedUserTypes'all',microsoft.graph.includedUserRoles'all')
 	.buildRequest()
 	.get();
 
