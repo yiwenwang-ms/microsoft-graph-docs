@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var channel = new Channel
+var channel = new Microsoft.Graph.Channel
 {
 	MembershipType = ChannelMembershipType.Private,
 	DisplayName = "My First Private Channel",
