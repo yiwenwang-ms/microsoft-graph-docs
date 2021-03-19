@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var attachment = new FileAttachment
+var attachment = new Attachment
 {
 	Name = "name-value",
 	ContentType = "contentType-value",
