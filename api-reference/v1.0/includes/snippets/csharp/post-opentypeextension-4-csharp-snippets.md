@@ -15,7 +15,7 @@ var post = new Post
 	},
 	Extensions = new PostExtensionsCollectionPage()
 	{
-		new OpenTypeExtension
+		new Icrosoft.Graph.OpenTypeExtension
 		{
 			ExtensionName = "Com.Contoso.HR",
 			AdditionalData = new Dictionary<string, object>()

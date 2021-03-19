@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var identityProvider = new IdentityProvider
+var identityProvider = new Icrosoft.Graph.IdentityProvider
 {
 	Name = "Login with Amazon",
 	Type = "Amazon",

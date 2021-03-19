@@ -16,11 +16,11 @@ var value = new List<Alert>()
 		{
 			"String"
 		},
-		Feedback = new AlertFeedback
+		Feedback = new Icrosoft.Graph.AlertFeedback
 		{
 		},
 		Id = "String (identifier)",
-		Status = new AlertStatus
+		Status = new Icrosoft.Graph.AlertStatus
 		{
 		},
 		Tags = new List<String>()

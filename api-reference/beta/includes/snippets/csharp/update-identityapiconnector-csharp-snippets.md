@@ -10,7 +10,7 @@ var identityApiConnector = new IdentityApiConnector
 {
 	DisplayName = "New Test API",
 	TargetUrl = "https://otherapi.com/api/endpoint",
-	AuthenticationConfiguration = new BasicAuthentication
+	AuthenticationConfiguration = new Icrosoft.Graph.BasicAuthentication
 	{
 		Username = "<NEW_USERNAME>",
 		Password = "<NEW_PASSWORD>"

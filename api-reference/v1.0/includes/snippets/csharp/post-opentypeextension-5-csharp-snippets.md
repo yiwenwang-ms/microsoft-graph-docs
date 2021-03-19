@@ -24,7 +24,7 @@ var conversation = new Conversation
 					},
 					Extensions = new PostExtensionsCollectionPage()
 					{
-						new OpenTypeExtension
+						new Icrosoft.Graph.OpenTypeExtension
 						{
 							ExtensionName = "Com.Contoso.Benefits",
 							AdditionalData = new Dictionary<string, object>()

@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var extension = new OpenTypeExtension
+var extension = new Icrosoft.Graph.OpenTypeExtension
 {
 	ExtensionName = "Com.Contoso.Deal",
 	AdditionalData = new Dictionary<string, object>()

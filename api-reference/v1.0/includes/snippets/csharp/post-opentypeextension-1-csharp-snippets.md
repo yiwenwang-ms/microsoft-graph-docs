@@ -26,7 +26,7 @@ var message = new Message
 	},
 	Extensions = new MessageExtensionsCollectionPage()
 	{
-		new OpenTypeExtension
+		new Icrosoft.Graph.OpenTypeExtension
 		{
 			ExtensionName = "Com.Contoso.Referral",
 			AdditionalData = new Dictionary<string, object>()

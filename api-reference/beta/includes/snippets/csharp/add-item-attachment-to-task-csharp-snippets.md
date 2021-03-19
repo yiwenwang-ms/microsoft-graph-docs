@@ -9,7 +9,7 @@ GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 var attachment = new ItemAttachment
 {
 	Name = "Holiday event",
-	Item = new Event
+	Item = new Icrosoft.Graph.Event
 	{
 		Subject = "Discuss gifts for children",
 		Body = new ItemBody

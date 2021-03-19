@@ -8,7 +8,7 @@ GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
 var values = new List<ConversationMember>()
 {
-	new AadUserConversationMember
+	new Icrosoft.Graph.AadUserConversationMember
 	{
 		Roles = new List<String>()
 		{
@@ -18,7 +18,7 @@ var values = new List<ConversationMember>()
 			{"user@odata.bind", "https://graph.microsoft.com/beta/users('18a80140-b0fb-4489-b360-2f6efaf225a0')"}
 		}
 	},
-	new AadUserConversationMember
+	new Icrosoft.Graph.AadUserConversationMember
 	{
 		Roles = new List<String>()
 		{
