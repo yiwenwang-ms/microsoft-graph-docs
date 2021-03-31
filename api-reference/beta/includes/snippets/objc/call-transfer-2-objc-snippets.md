@@ -7,7 +7,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 MSHTTPClient *httpClient = [MSClientFactory createHTTPClientWithAuthenticationProvider:authenticationProvider];
 
 NSString *MSGraphBaseURL = @"https://graph.microsoft.com/beta/";
-NSMutableURLRequest *urlRequest = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:[MSGraphBaseURL stringByAppendingString:@"/communications/calls/{id}/transfer"]]];
+NSMutableURLRequest *urlRequest = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:[MSGraphBaseURL stringByAppendingString:@"/communications/calls/341a0500-d4bf-4224-8b19-1581168d328b/transfer"]]];
 [urlRequest setHTTPMethod:@"POST"];
 [urlRequest setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
 
@@ -22,8 +22,9 @@ MSGraphIdentity *user = [[MSGraphIdentity alloc] init];
 [user setDisplayName:@"Heidi Steen"];
 [identity setUser:user];
 [transferTarget setIdentity:identity];
-[transferTarget setLanguageId:@"languageId-value"];
-[transferTarget setRegion:@"region-value"];
+[transferTarget setLanguageId:@"en-us"];
+[transferTarget setRegion:@"amer"];
+[transferTarget setReplacesCallId:@"e5d39592-99bd-4db8-bca8-30fb894ec51d"];
 payloadDictionary[@"transferTarget"] = transferTarget;
 
 NSData *data = [NSJSONSerialization dataWithJSONObject:payloadDictionary options:kNilOptions error:&error];
