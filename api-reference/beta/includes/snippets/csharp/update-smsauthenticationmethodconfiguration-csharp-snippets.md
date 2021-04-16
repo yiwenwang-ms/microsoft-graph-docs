@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var authenticationMethodConfiguration = new SmsAuthenticationMethodConfiguration
+var authenticationMethodConfiguration = new Microsoft.Graph.SmsAuthenticationMethodConfiguration
 {
 	Id = "Sms",
 	State = AuthenticationMethodState.Enabled

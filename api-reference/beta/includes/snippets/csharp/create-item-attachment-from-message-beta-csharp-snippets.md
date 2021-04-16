@@ -6,10 +6,10 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var attachment = new ItemAttachment
+var attachment = new Microsoft.Graph.ItemAttachment
 {
 	Name = "Holiday event",
-	Item = new Event
+	Item = new Microsoft.Graph.Event
 	{
 		Subject = "Discuss gifts for children",
 		Body = new ItemBody

@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var plannerRosterMember = new PlannerRosterMember
+var plannerRosterMember = new Microsoft.Graph.PlannerRosterMember
 {
 	UserId = "String"
 };

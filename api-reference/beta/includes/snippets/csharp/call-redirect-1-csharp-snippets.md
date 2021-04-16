@@ -8,11 +8,11 @@ GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
 var targets = new List<InvitationParticipantInfo>()
 {
-	new InvitationParticipantInfo
+	new Microsoft.Graph.InvitationParticipantInfo
 	{
-		Identity = new IdentitySet
+		Identity = new Microsoft.Graph.IdentitySet
 		{
-			Application = new Identity
+			Application = new Microsoft.Graph.Identity
 			{
 				DisplayName = "test bot 2",
 				Id = "22bfd41f-550e-477d-8789-f6f7bd2a5e8b"

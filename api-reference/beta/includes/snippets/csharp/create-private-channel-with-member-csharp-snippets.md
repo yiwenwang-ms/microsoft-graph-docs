@@ -6,14 +6,14 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var channel = new Channel
+var channel = new Microsoft.Graph.Channel
 {
 	MembershipType = ChannelMembershipType.Private,
 	DisplayName = "My First Private Channel",
 	Description = "This is my first private channels",
 	Members = new ChannelMembersCollectionPage()
 	{
-		new AadUserConversationMember
+		new Microsoft.Graph.AadUserConversationMember
 		{
 			Roles = new List<String>()
 			{

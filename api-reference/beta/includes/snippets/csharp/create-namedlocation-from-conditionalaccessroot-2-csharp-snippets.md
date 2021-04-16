@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var namedLocation = new CountryNamedLocation
+var namedLocation = new Microsoft.Graph.CountryNamedLocation
 {
 	DisplayName = "Named location with unknown countries and regions",
 	CountriesAndRegions = new List<String>()

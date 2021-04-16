@@ -8,9 +8,9 @@ GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
 var participants = new List<InvitationParticipantInfo>()
 {
-	new InvitationParticipantInfo
+	new Microsoft.Graph.InvitationParticipantInfo
 	{
-		Identity = new IdentitySet
+		Identity = new Microsoft.Graph.IdentitySet
 		{
 			AdditionalData = new Dictionary<string, object>()
 			{

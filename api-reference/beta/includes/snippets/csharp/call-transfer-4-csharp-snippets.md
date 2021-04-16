@@ -6,10 +6,10 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var transferTarget = new InvitationParticipantInfo
+var transferTarget = new Microsoft.Graph.InvitationParticipantInfo
 {
 	EndpointType = EndpointType.Default,
-	Identity = new IdentitySet
+	Identity = new Microsoft.Graph.IdentitySet
 	{
 		AdditionalData = new Dictionary<string, object>()
 		{

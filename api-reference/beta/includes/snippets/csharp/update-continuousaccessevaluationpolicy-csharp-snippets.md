@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var continuousAccessEvaluationPolicy = new ContinuousAccessEvaluationPolicy
+var continuousAccessEvaluationPolicy = new Microsoft.Graph.ContinuousAccessEvaluationPolicy
 {
 	Users = new List<String>()
 	{

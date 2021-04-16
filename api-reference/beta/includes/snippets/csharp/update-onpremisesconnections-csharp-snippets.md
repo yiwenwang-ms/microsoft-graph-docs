@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var cloudPcOnPremisesConnection = new CloudPcOnPremisesConnection
+var cloudPcOnPremisesConnection = new Microsoft.Graph.CloudPcOnPremisesConnection
 {
 	DisplayName = "Display Name value",
 	SubscriptionId = "0ac520ee-14c0-480f-b6c9-0a90c585ffff",

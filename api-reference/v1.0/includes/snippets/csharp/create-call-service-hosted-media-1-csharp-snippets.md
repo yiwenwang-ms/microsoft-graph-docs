@@ -6,16 +6,16 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var call = new Call
+var call = new Microsoft.Graph.Call
 {
 	CallbackUri = "https://bot.contoso.com/callback",
 	Targets = new List<InvitationParticipantInfo>()
 	{
-		new InvitationParticipantInfo
+		new Microsoft.Graph.InvitationParticipantInfo
 		{
-			Identity = new IdentitySet
+			Identity = new Microsoft.Graph.IdentitySet
 			{
-				User = new Identity
+				User = new Microsoft.Graph.Identity
 				{
 					DisplayName = "John",
 					Id = "112f7296-5fa4-42ca-bae8-6a692b15d4b8"
@@ -27,7 +27,7 @@ var call = new Call
 	{
 		Modality.Audio
 	},
-	MediaConfig = new ServiceHostedMediaConfig
+	MediaConfig = new Microsoft.Graph.ServiceHostedMediaConfig
 	{
 	}
 };

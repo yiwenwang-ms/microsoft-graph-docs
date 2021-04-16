@@ -13,7 +13,7 @@ var acceptedModalities = new List<Modality>()
 	Modality.Audio
 };
 
-var mediaConfig = new AppHostedMediaConfig
+var mediaConfig = new Microsoft.Graph.AppHostedMediaConfig
 {
 	Blob = "<Media Session Configuration Blob>"
 };

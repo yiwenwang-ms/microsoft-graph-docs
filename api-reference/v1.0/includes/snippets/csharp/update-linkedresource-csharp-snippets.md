@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var linkedResource = new LinkedResource
+var linkedResource = new Microsoft.Graph.LinkedResource
 {
 	WebUrl = "http://microsoft.com",
 	ApplicationName = "Microsoft",

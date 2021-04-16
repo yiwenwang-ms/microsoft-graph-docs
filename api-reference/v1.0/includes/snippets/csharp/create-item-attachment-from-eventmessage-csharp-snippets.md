@@ -6,10 +6,10 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var attachment = new ItemAttachment
+var attachment = new Microsoft.OutlookServices.ItemAttachment
 {
 	Name = "name-value",
-	Item = new Message
+	Item = new Microsoft.Graph.Message
 	{
 	}
 };

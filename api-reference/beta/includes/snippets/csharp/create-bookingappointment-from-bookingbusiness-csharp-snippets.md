@@ -6,12 +6,12 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var bookingAppointment = new BookingAppointment
+var bookingAppointment = new Microsoft.Graph.BookingAppointment
 {
 	CustomerEmailAddress = "jordanm@contoso.com",
-	CustomerLocation = new Location
+	CustomerLocation = new Microsoft.Graph.Location
 	{
-		Address = new PhysicalAddress
+		Address = new Microsoft.Graph.PhysicalAddress
 		{
 			City = "Buffalo",
 			CountryOrRegion = "USA",
@@ -41,13 +41,13 @@ var bookingAppointment = new BookingAppointment
 	CustomerName = "Jordan Miller",
 	CustomerNotes = "Please be on time.",
 	CustomerPhone = "213-555-0199",
-	End = new DateTimeTimeZone
+	End = new Microsoft.Graph.DateTimeTimeZone
 	{
 		DateTime = "2018-05-01T12:30:00+00:00",
 		TimeZone = "UTC"
 	},
 	InvoiceAmount = 10,
-	InvoiceDate = new DateTimeTimeZone
+	InvoiceDate = new Microsoft.Graph.DateTimeTimeZone
 	{
 		DateTime = "2018-05-01T12:30:00+00:00",
 		TimeZone = "UTC"
@@ -62,7 +62,7 @@ var bookingAppointment = new BookingAppointment
 	PriceType = BookingPriceType.FixedPrice,
 	Reminders = new List<BookingReminder>()
 	{
-		new BookingReminder
+		new Microsoft.Graph.BookingReminder
 		{
 			Message = "This service is tomorrow",
 			Offset = new Duration("P1D"),
@@ -72,7 +72,7 @@ var bookingAppointment = new BookingAppointment
 				{"recipients@odata.type", "#microsoft.graph.bookingReminderRecipients"}
 			}
 		},
-		new BookingReminder
+		new Microsoft.Graph.BookingReminder
 		{
 			Message = "Please be available to enjoy your lunch service.",
 			Offset = new Duration("PT1H"),
@@ -82,7 +82,7 @@ var bookingAppointment = new BookingAppointment
 				{"recipients@odata.type", "#microsoft.graph.bookingReminderRecipients"}
 			}
 		},
-		new BookingReminder
+		new Microsoft.Graph.BookingReminder
 		{
 			Message = "Please check traffic for next cater.",
 			Offset = new Duration("PT2H"),
@@ -94,9 +94,9 @@ var bookingAppointment = new BookingAppointment
 		}
 	},
 	ServiceId = "57da6774-a087-4d69-b0e6-6fb82c339976",
-	ServiceLocation = new Location
+	ServiceLocation = new Microsoft.Graph.Location
 	{
-		Address = new PhysicalAddress
+		Address = new Microsoft.Graph.PhysicalAddress
 		{
 			City = "Buffalo",
 			CountryOrRegion = "USA",
@@ -125,7 +125,7 @@ var bookingAppointment = new BookingAppointment
 	},
 	ServiceName = "Catered bento",
 	ServiceNotes = "Customer requires punctual service.",
-	Start = new DateTimeTimeZone
+	Start = new Microsoft.Graph.DateTimeTimeZone
 	{
 		DateTime = "2018-05-01T12:00:00+00:00",
 		TimeZone = "UTC"

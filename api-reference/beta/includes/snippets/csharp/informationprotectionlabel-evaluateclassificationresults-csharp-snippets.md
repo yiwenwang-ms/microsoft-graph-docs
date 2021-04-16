@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var contentInfo = new ContentInfo
+var contentInfo = new Microsoft.Graph.ContentInfo
 {
 	Format = ContentFormat.Default,
 	Identifier = null,

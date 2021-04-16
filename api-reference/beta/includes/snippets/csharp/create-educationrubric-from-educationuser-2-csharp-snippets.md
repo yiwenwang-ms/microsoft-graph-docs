@@ -24,7 +24,7 @@ var educationRubric = new EducationRubric
 				Content = "",
 				ContentType = BodyType.Text
 			},
-			Grading = new EducationAssignmentPointsGradeType
+			Grading = new Microsoft.Graph.EducationAssignmentPointsGradeType
 			{
 				MaxPoints = 2f
 			}
@@ -37,7 +37,7 @@ var educationRubric = new EducationRubric
 				Content = "",
 				ContentType = BodyType.Text
 			},
-			Grading = new EducationAssignmentPointsGradeType
+			Grading = new Microsoft.Graph.EducationAssignmentPointsGradeType
 			{
 				MaxPoints = 1f
 			}
@@ -102,7 +102,7 @@ var educationRubric = new EducationRubric
 			Weight = 50f
 		}
 	},
-	Grading = new EducationAssignmentPointsGradeType
+	Grading = new Microsoft.Graph.EducationAssignmentPointsGradeType
 	{
 	}
 };

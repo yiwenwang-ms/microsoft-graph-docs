@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var quality = new TeleconferenceDeviceQuality
+var quality = new Microsoft.Graph.TeleconferenceDeviceQuality
 {
 	CallChainId = Guid.Parse("0622673d-9f69-49b3-9d4f-5ec64f42ecce"),
 	ParticipantId = Guid.Parse("ea078406-b5d4-4d3c-b85e-90103dcec7f6"),
@@ -15,7 +15,7 @@ var quality = new TeleconferenceDeviceQuality
 	DeviceDescription = "TestDescription",
 	MediaQualityList = new List<TeleconferenceDeviceMediaQuality>()
 	{
-		new TeleconferenceDeviceAudioQuality
+		new Microsoft.Graph.TeleconferenceDeviceAudioQuality
 		{
 			ChannelIndex = 1,
 			MediaDuration = new Duration("PT20M"),
@@ -39,7 +39,7 @@ var quality = new TeleconferenceDeviceQuality
 			MaximumInboundJitter = new Duration("PT0.023S"),
 			MaximumOutboundJitter = new Duration("PT0.024S")
 		},
-		new TeleconferenceDeviceVideoQuality
+		new Microsoft.Graph.TeleconferenceDeviceVideoQuality
 		{
 			ChannelIndex = 1,
 			MediaDuration = new Duration("PT20M"),
@@ -63,7 +63,7 @@ var quality = new TeleconferenceDeviceQuality
 			MaximumInboundJitter = new Duration("PT0.023S"),
 			MaximumOutboundJitter = new Duration("PT0.024S")
 		},
-		new TeleconferenceDeviceScreenSharingQuality
+		new Microsoft.Graph.TeleconferenceDeviceScreenSharingQuality
 		{
 			ChannelIndex = 1,
 			MediaDuration = new Duration("PT20M"),

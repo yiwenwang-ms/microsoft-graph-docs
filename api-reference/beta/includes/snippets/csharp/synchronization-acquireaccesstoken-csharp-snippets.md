@@ -8,7 +8,7 @@ GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
 var credentials = new List<SynchronizationSecretKeyStringValuePair>()
 {
-	new SynchronizationSecretKeyStringValuePair
+	new Microsoft.Graph.SynchronizationSecretKeyStringValuePair
 	{
 	}
 };

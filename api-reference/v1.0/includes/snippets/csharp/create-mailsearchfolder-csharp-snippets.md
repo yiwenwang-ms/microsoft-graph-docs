@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var mailFolder = new MailSearchFolder
+var mailFolder = new Microsoft.Graph.MailSearchFolder
 {
 	DisplayName = "Weekly digests",
 	IncludeNestedFolders = true,

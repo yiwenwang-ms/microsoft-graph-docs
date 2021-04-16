@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var attachment = new FileAttachment
+var attachment = new Microsoft.Graph.FileAttachment
 {
 	Name = "smile",
 	ContentBytes = Encoding.ASCII.GetBytes("R0lGODdhEAYEAA7")

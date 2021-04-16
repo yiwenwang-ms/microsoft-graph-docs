@@ -6,19 +6,19 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var bookingAppointment = new BookingAppointment
+var bookingAppointment = new Microsoft.Graph.BookingAppointment
 {
-	End = new DateTimeTimeZone
+	End = new Microsoft.Graph.DateTimeTimeZone
 	{
 		DateTime = "2018-05-06T12:30:00+00:00",
 		TimeZone = "UTC"
 	},
-	InvoiceDate = new DateTimeTimeZone
+	InvoiceDate = new Microsoft.Graph.DateTimeTimeZone
 	{
 		DateTime = "2018-05-06T12:30:00+00:00",
 		TimeZone = "UTC"
 	},
-	Start = new DateTimeTimeZone
+	Start = new Microsoft.Graph.DateTimeTimeZone
 	{
 		DateTime = "2018-05-06T12:00:00+00:00",
 		TimeZone = "UTC"

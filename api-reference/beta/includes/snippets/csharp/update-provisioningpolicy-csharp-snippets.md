@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var cloudPcProvisioningPolicy = new CloudPcProvisioningPolicy
+var cloudPcProvisioningPolicy = new Microsoft.Graph.CloudPcProvisioningPolicy
 {
 	DisplayName = "Display Name value",
 	Description = "Description value",

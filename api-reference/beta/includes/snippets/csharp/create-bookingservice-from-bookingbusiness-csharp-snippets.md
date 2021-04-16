@@ -6,12 +6,12 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var bookingService = new BookingService
+var bookingService = new Microsoft.Graph.BookingService
 {
 	DefaultDuration = new Duration("PT1H30M"),
-	DefaultLocation = new Location
+	DefaultLocation = new Microsoft.Graph.Location
 	{
-		Address = new PhysicalAddress
+		Address = new Microsoft.Graph.PhysicalAddress
 		{
 			City = "Buffalo",
 			CountryOrRegion = "USA",
@@ -42,7 +42,7 @@ var bookingService = new BookingService
 	DefaultPriceType = BookingPriceType.FixedPrice,
 	DefaultReminders = new List<BookingReminder>()
 	{
-		new BookingReminder
+		new Microsoft.Graph.BookingReminder
 		{
 			Message = "Please be reminded that this service is tomorrow.",
 			Offset = new Duration("P1D"),
@@ -59,7 +59,7 @@ var bookingService = new BookingService
 	Notes = "Home-cooked special",
 	PostBuffer = new Duration("PT10M"),
 	PreBuffer = new Duration("PT5M"),
-	SchedulingPolicy = new BookingSchedulingPolicy
+	SchedulingPolicy = new Microsoft.Graph.BookingSchedulingPolicy
 	{
 		AllowStaffSelection = true,
 		MaximumAdvance = new Duration("P10D"),

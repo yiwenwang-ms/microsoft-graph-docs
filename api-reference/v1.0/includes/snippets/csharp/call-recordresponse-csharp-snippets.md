@@ -12,7 +12,7 @@ var clientContext = "d45324c1-fcb5-430a-902c-f20af696537c";
 
 var prompts = new List<Prompt>()
 {
-	new MediaPrompt
+	new Microsoft.Graph.MediaPrompt
 	{
 		MediaInfo = new MediaInfo
 		{

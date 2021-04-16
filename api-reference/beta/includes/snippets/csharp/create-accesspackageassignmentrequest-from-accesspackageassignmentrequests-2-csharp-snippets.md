@@ -17,7 +17,7 @@ var accessPackageAssignmentRequest = new AccessPackageAssignmentRequestObject
 	},
 	Answers = new List<AccessPackageAnswer>()
 	{
-		new AccessPackageAnswerString
+		new Microsoft.Graph.AccessPackageAnswerString
 		{
 			Value = "Arizona",
 			AnsweredQuestion = new AccessPackageQuestion
@@ -25,7 +25,7 @@ var accessPackageAssignmentRequest = new AccessPackageAssignmentRequestObject
 				Id = "A714EC6F-4EE0-4614-BD81-37E0C5ECBBFF"
 			}
 		},
-		new AccessPackageAnswerString
+		new Microsoft.Graph.AccessPackageAnswerString
 		{
 			Value = "Need access to marketing campaign material",
 			AnsweredQuestion = new AccessPackageQuestion

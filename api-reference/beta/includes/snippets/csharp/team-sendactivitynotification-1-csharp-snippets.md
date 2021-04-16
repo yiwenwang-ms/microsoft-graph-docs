@@ -19,7 +19,7 @@ var previewText = new ItemBody
 	Content = "Internal spending team has a pending finance approval requests"
 };
 
-var recipient = new AadUserNotificationRecipient
+var recipient = new Microsoft.Graph.AadUserNotificationRecipient
 {
 	UserId = "569363e2-4e49-4661-87f2-16f245c5d66a"
 };

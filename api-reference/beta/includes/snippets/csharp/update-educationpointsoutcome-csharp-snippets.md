@@ -6,9 +6,9 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var educationOutcome = new EducationPointsOutcome
+var educationOutcome = new Microsoft.Graph.EducationPointsOutcome
 {
-	Points = new EducationAssignmentPointsGrade
+	Points = new Microsoft.Graph.EducationAssignmentPointsGrade
 	{
 		Points = 85f
 	}

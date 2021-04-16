@@ -13,7 +13,7 @@ var acceptedModalities = new List<Modality>()
 	Modality.Audio
 };
 
-var mediaConfig = new ServiceHostedMediaConfig
+var mediaConfig = new Microsoft.Graph.ServiceHostedMediaConfig
 {
 	PreFetchMedia = new List<MediaInfo>()
 	{

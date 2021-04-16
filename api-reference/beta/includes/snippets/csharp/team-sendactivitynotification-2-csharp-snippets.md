@@ -19,7 +19,7 @@ var previewText = new ItemBody
 	Content = "You have moved up the queue"
 };
 
-var recipient = new AadUserNotificationRecipient
+var recipient = new Microsoft.Teams.GraphSvc.AadUserNotificationRecipient
 {
 	UserId = "569363e2-4e49-4661-87f2-16f245c5d66a"
 };

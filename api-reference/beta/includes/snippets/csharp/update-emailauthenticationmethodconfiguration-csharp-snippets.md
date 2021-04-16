@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var authenticationMethodConfiguration = new EmailAuthenticationMethodConfiguration
+var authenticationMethodConfiguration = new Microsoft.Graph.EmailAuthenticationMethodConfiguration
 {
 	AllowExternalIdToUseEmailOtp = ExternalEmailOtpState.Default
 };

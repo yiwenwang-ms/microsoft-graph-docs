@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var identityProvider = new OpenIdConnectProvider
+var identityProvider = new Microsoft.Graph.OpenIdConnectProvider
 {
 	Name = "Login with the Contoso identity provider",
 	Type = "OpenIDConnect",

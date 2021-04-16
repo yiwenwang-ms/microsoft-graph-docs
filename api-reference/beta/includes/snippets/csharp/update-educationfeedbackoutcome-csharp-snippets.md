@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var educationOutcome = new EducationFeedbackOutcome
+var educationOutcome = new Microsoft.Graph.EducationFeedbackOutcome
 {
 	Feedback = new EducationFeedback
 	{

@@ -6,13 +6,13 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var namedLocation = new IpNamedLocation
+var namedLocation = new Microsoft.Graph.IpNamedLocation
 {
 	DisplayName = "Untrusted named location with only IPv4 address",
 	IsTrusted = false,
 	IpRanges = new List<IpRange>()
 	{
-		new IPv4CidrRange
+		new Microsoft.Graph.IPv4CidrRange
 		{
 			CidrAddress = "6.5.4.3/18"
 		}

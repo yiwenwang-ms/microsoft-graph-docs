@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var cloudPcDeviceImage = new CloudPcDeviceImage
+var cloudPcDeviceImage = new Microsoft.Graph.CloudPcDeviceImage
 {
 	DisplayName = "Display Name value",
 	OsBuildNumber = "OS Build Number value",

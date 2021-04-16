@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var place = new Room
+var place = new Microsoft.Graph.Room
 {
 	Nickname = "Conf Room",
 	Building = "1",

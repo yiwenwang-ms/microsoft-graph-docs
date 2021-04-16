@@ -6,14 +6,14 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var call = new Call
+var call = new Microsoft.Graph.Call
 {
 	CallbackUri = "https://bot.contoso.com/callback",
 	RequestedModalities = new List<Modality>()
 	{
 		Modality.Audio
 	},
-	MediaConfig = new ServiceHostedMediaConfig
+	MediaConfig = new Microsoft.Graph.ServiceHostedMediaConfig
 	{
 		PreFetchMedia = new List<MediaInfo>()
 		{
@@ -29,16 +29,16 @@ var call = new Call
 			}
 		}
 	},
-	ChatInfo = new ChatInfo
+	ChatInfo = new Microsoft.Graph.ChatInfo
 	{
 		ThreadId = "19:meeting_Win6Ydo4wsMijFjZS00ZGVjLTk5MGUtOTRjNWY2NmNkYTFm@thread.v2",
 		MessageId = "0"
 	},
-	MeetingInfo = new OrganizerMeetingInfo
+	MeetingInfo = new Microsoft.Graph.OrganizerMeetingInfo
 	{
-		Organizer = new IdentitySet
+		Organizer = new Microsoft.Graph.IdentitySet
 		{
-			User = new Identity
+			User = new Microsoft.Graph.Identity
 			{
 				Id = "5810cede-f3cc-42eb-b2c1-e9bd5d53ec96",
 				DisplayName = "Bob",

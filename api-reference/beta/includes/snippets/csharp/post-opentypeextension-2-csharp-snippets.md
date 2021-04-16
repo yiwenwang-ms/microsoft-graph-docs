@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var extension = new OpenTypeExtension
+var extension = new Microsoft.Graph.OpenTypeExtension
 {
 	ExtensionName = "Com.Contoso.Referral",
 	AdditionalData = new Dictionary<string, object>()

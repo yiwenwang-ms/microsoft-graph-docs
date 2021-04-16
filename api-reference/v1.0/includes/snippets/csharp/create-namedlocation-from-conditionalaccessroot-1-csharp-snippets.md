@@ -6,17 +6,17 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var namedLocation = new IpNamedLocation
+var namedLocation = new Microsoft.Graph.IpNamedLocation
 {
 	DisplayName = "Untrusted IP named location",
 	IsTrusted = false,
 	IpRanges = new List<IpRange>()
 	{
-		new IPv4CidrRange
+		new Microsoft.Graph.IPv4CidrRange
 		{
 			CidrAddress = "12.34.221.11/22"
 		},
-		new IPv6CidrRange
+		new Microsoft.Graph.IPv6CidrRange
 		{
 			CidrAddress = "2001:0:9d38:90d6:0:0:0:0/63"
 		}

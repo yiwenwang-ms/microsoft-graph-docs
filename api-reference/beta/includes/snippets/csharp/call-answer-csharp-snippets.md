@@ -8,7 +8,7 @@ GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
 var callbackUri = "callbackUri-value";
 
-var mediaConfig = new AppHostedMediaConfig
+var mediaConfig = new Microsoft.Graph.AppHostedMediaConfig
 {
 	Blob = "<Media Session Configuration Blob>"
 };

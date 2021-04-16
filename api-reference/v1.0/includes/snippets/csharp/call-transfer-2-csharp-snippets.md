@@ -6,11 +6,11 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var transferTarget = new InvitationParticipantInfo
+var transferTarget = new Microsoft.Graph.InvitationParticipantInfo
 {
-	Identity = new IdentitySet
+	Identity = new Microsoft.Graph.IdentitySet
 	{
-		User = new Identity
+		User = new Microsoft.Graph.Identity
 		{
 			Id = "550fae72-d251-43ec-868c-373732c2704f",
 			DisplayName = "Heidi Steen"

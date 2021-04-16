@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var conversationMember = new AadUserConversationMember
+var conversationMember = new Microsoft.Graph.AadUserConversationMember
 {
 	VisibleHistoryStartDateTime = DateTimeOffset.Parse("0001-01-01T00:00:00Z"),
 	AdditionalData = new Dictionary<string, object>()

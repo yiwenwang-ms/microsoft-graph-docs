@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var conversationMember = new AadUserConversationMember
+var conversationMember = new Microsoft.Graph.AadUserConversationMember
 {
 	Roles = new List<String>()
 	{

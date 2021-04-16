@@ -12,7 +12,7 @@ var connectedOrganization = new ConnectedOrganization
 	Description = "Connected organization description",
 	IdentitySources = new List<IdentitySource>()
 	{
-		new DomainIdentitySource
+		new Microsoft.Graph.DomainIdentitySource
 		{
 			DomainName = "example.com",
 			DisplayName = "example.com"

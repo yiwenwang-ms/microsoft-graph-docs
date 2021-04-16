@@ -12,7 +12,7 @@ var team = new Team
 	Description = "My Sample Team’s Description",
 	Members = new TeamMembersCollectionPage()
 	{
-		new AadUserConversationMember
+		new Microsoft.Graph.AadUserConversationMember
 		{
 			Roles = new List<String>()
 			{

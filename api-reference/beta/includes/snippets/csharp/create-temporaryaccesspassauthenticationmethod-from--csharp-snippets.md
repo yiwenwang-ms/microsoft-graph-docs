@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var temporaryAccessPassAuthenticationMethod = new TemporaryAccessPassAuthenticationMethod
+var temporaryAccessPassAuthenticationMethod = new Microsoft.Graph.TemporaryAccessPassAuthenticationMethod
 {
 	StartDateTime = DateTimeOffset.Parse("2021-01-26T00:00:00Z"),
 	LifetimeInMinutes = 60,

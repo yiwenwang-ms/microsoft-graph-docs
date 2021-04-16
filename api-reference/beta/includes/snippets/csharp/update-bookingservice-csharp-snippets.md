@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var bookingService = new BookingService
+var bookingService = new Microsoft.Graph.BookingService
 {
 	DefaultDuration = new Duration("PT30M")
 };

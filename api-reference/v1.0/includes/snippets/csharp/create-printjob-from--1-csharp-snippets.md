@@ -8,12 +8,12 @@ GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
 var printJob = new PrintJob
 {
-	Configuration = new PrintJobConfiguration
+	Configuration = new Microsoft.Graph.PrintJobConfiguration
 	{
 		FeedOrientation = PrinterFeedOrientation.LongEdgeFirst,
 		PageRanges = new List<IntegerRange>()
 		{
-			new IntegerRange
+			new Microsoft.Graph.IntegerRange
 			{
 				Start = 1,
 				End = 1

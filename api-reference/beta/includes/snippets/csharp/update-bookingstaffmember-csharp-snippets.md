@@ -10,7 +10,7 @@ var bookingStaffMember = new BookingStaffMember
 {
 	WorkingHours = new List<BookingWorkHours>()
 	{
-		new BookingWorkHours
+		new Microsoft.Graph.BookingWorkHours
 		{
 			Day = DayOfWeek.Monday,
 			TimeSlots = new List<BookingWorkTimeSlot>()
@@ -22,12 +22,12 @@ var bookingStaffMember = new BookingStaffMember
 				{"timeSlots@odata.type", "#Collection(microsoft.graph.bookingWorkTimeSlot)"}
 			}
 		},
-		new BookingWorkHours
+		new Microsoft.Graph.BookingWorkHours
 		{
 			Day = DayOfWeek.Tuesday,
 			TimeSlots = new List<BookingWorkTimeSlot>()
 			{
-				new BookingWorkTimeSlot
+				new Microsoft.Graph.BookingWorkTimeSlot
 				{
 					End = new TimeOfDay(17, 0, 0),
 					Start = new TimeOfDay(8, 0, 0)
@@ -39,12 +39,12 @@ var bookingStaffMember = new BookingStaffMember
 				{"timeSlots@odata.type", "#Collection(microsoft.graph.bookingWorkTimeSlot)"}
 			}
 		},
-		new BookingWorkHours
+		new Microsoft.Graph.BookingWorkHours
 		{
 			Day = DayOfWeek.Wednesday,
 			TimeSlots = new List<BookingWorkTimeSlot>()
 			{
-				new BookingWorkTimeSlot
+				new Microsoft.Graph.BookingWorkTimeSlot
 				{
 					End = new TimeOfDay(17, 0, 0),
 					Start = new TimeOfDay(8, 0, 0)
@@ -56,12 +56,12 @@ var bookingStaffMember = new BookingStaffMember
 				{"timeSlots@odata.type", "#Collection(microsoft.graph.bookingWorkTimeSlot)"}
 			}
 		},
-		new BookingWorkHours
+		new Microsoft.Graph.BookingWorkHours
 		{
 			Day = DayOfWeek.Thursday,
 			TimeSlots = new List<BookingWorkTimeSlot>()
 			{
-				new BookingWorkTimeSlot
+				new Microsoft.Graph.BookingWorkTimeSlot
 				{
 					End = new TimeOfDay(17, 0, 0),
 					Start = new TimeOfDay(8, 0, 0)
@@ -73,12 +73,12 @@ var bookingStaffMember = new BookingStaffMember
 				{"timeSlots@odata.type", "#Collection(microsoft.graph.bookingWorkTimeSlot)"}
 			}
 		},
-		new BookingWorkHours
+		new Microsoft.Graph.BookingWorkHours
 		{
 			Day = DayOfWeek.Friday,
 			TimeSlots = new List<BookingWorkTimeSlot>()
 			{
-				new BookingWorkTimeSlot
+				new Microsoft.Graph.BookingWorkTimeSlot
 				{
 					End = new TimeOfDay(17, 0, 0),
 					Start = new TimeOfDay(8, 0, 0)

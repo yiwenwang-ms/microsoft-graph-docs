@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var unifiedRoleAssignmentMultiple = new UnifiedRoleAssignmentMultiple
+var unifiedRoleAssignmentMultiple = new Microsoft.Graph.UnifiedRoleAssignmentMultiple
 {
 	DisplayName = "My test role assignment 1",
 	RoleDefinitionId = "c2cf284d-6c41-4e6b-afac-4b80928c9034",

@@ -39,13 +39,13 @@ var accessPackageAssignmentPolicy = new AccessPackageAssignmentPolicy
 				EscalationTimeInMinutes = 11520,
 				PrimaryApprovers = new List<UserSet>()
 				{
-					new GroupMembers
+					new Microsoft.Graph.GroupMembers
 					{
 						IsBackup = true,
 						Id = "d2dcb9a1-a445-42ee-83a8-476522ed6cbf",
 						Description = "group for users from connected organizations which have no external sponsor"
 					},
-					new ExternalSponsors
+					new Microsoft.Graph.ExternalSponsors
 					{
 						IsBackup = false
 					}
@@ -59,7 +59,7 @@ var accessPackageAssignmentPolicy = new AccessPackageAssignmentPolicy
 	},
 	Questions = new List<AccessPackageQuestion>()
 	{
-		new AccessPackageMultipleChoiceQuestion
+		new Microsoft.Graph.AccessPackageMultipleChoiceQuestion
 		{
 			IsRequired = false,
 			Text = new AccessPackageLocalizedContent
@@ -109,7 +109,7 @@ var accessPackageAssignmentPolicy = new AccessPackageAssignmentPolicy
 			},
 			AllowsMultipleSelection = false
 		},
-		new AccessPackageTextInputQuestion
+		new Microsoft.Graph.AccessPackageTextInputQuestion
 		{
 			IsRequired = false,
 			Text = new AccessPackageLocalizedContent

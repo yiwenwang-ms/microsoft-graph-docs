@@ -11,7 +11,7 @@ var chat = new Chat
 	ChatType = ChatType.OneOnOne,
 	Members = new ChatMembersCollectionPage()
 	{
-		new AadUserConversationMember
+		new Microsoft.Graph.AadUserConversationMember
 		{
 			Roles = new List<String>()
 			{
@@ -22,7 +22,7 @@ var chat = new Chat
 				{"user@odata.bind", "https://graph.microsoft.com/v1.0/users('8b081ef6-4792-4def-b2c9-c363a1bf41d5')"}
 			}
 		},
-		new AadUserConversationMember
+		new Microsoft.Graph.AadUserConversationMember
 		{
 			Roles = new List<String>()
 			{

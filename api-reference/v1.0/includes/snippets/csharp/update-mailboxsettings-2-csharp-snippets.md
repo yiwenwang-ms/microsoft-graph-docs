@@ -20,7 +20,7 @@ var mailboxSettings = new MailboxSettings
 			DayOfWeek.Friday,
 			DayOfWeek.Saturday
 		},
-		TimeZone = new CustomTimeZone
+		TimeZone = new Microsoft.Graph.CustomTimeZone
 		{
 			Bias = -300,
 			Name = "Customized Time Zone",

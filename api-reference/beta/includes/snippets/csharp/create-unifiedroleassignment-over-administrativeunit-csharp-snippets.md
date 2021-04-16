@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var unifiedRoleAssignment = new UnifiedRoleAssignment
+var unifiedRoleAssignment = new Microsoft.Graph.UnifiedRoleAssignment
 {
 	RoleDefinitionId = "fe930be7-5e62-47db-91af-98c3a49a38b1",
 	PrincipalId = "f8ca5a85-489a-49a0-b555-0a6d81e56f0d",

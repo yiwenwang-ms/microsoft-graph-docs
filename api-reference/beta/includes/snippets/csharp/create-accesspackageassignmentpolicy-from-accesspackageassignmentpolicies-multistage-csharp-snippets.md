@@ -38,20 +38,20 @@ var accessPackageAssignmentPolicy = new AccessPackageAssignmentPolicy
 				EscalationTimeInMinutes = 11520,
 				PrimaryApprovers = new List<UserSet>()
 				{
-					new GroupMembers
+					new Microsoft.Graph.GroupMembers
 					{
 						IsBackup = true,
 						Id = "string (identifier)",
 						Description = "group for users from connected organizations which have no external sponsor"
 					},
-					new ExternalSponsors
+					new Microsoft.Graph.ExternalSponsors
 					{
 						IsBackup = false
 					}
 				},
 				EscalationApprovers = new List<UserSet>()
 				{
-					new SingleUser
+					new Microsoft.Graph.SingleUser
 					{
 						IsBackup = true,
 						Id = "string (identifier)",
@@ -67,20 +67,20 @@ var accessPackageAssignmentPolicy = new AccessPackageAssignmentPolicy
 				EscalationTimeInMinutes = 11520,
 				PrimaryApprovers = new List<UserSet>()
 				{
-					new GroupMembers
+					new Microsoft.Graph.GroupMembers
 					{
 						IsBackup = true,
 						Id = "string (identifier)",
 						Description = "group for users from connected organizations which have no internal sponsor"
 					},
-					new InternalSponsors
+					new Microsoft.Graph.InternalSponsors
 					{
 						IsBackup = false
 					}
 				},
 				EscalationApprovers = new List<UserSet>()
 				{
-					new SingleUser
+					new Microsoft.Graph.SingleUser
 					{
 						IsBackup = true,
 						Id = "string (identifier)",

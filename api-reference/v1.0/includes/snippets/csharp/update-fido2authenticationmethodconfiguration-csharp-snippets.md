@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var authenticationMethodConfiguration = new Fido2AuthenticationMethodConfiguration
+var authenticationMethodConfiguration = new Microsoft.Graph.Fido2AuthenticationMethodConfiguration
 {
 	State = AuthenticationMethodState.Enabled,
 	IsAttestationEnforced = true

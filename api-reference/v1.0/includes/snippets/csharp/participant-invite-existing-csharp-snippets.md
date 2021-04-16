@@ -8,12 +8,12 @@ GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
 var participants = new List<InvitationParticipantInfo>()
 {
-	new InvitationParticipantInfo
+	new Microsoft.Graph.InvitationParticipantInfo
 	{
 		ReplacesCallId = "a7ebfb2d-871e-419c-87af-27290b22e8db",
-		Identity = new IdentitySet
+		Identity = new Microsoft.Graph.IdentitySet
 		{
-			User = new Identity
+			User = new Microsoft.Graph.Identity
 			{
 				Id = "7e1b4346-85a6-4bdd-abe3-d11c5d420efe",
 				DisplayName = "string"

@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var bookingStaffMember = new BookingStaffMember
+var bookingStaffMember = new Microsoft.Graph.BookingStaffMember
 {
 	ColorIndex = 1,
 	DisplayName = "Dana Swope",
@@ -15,12 +15,12 @@ var bookingStaffMember = new BookingStaffMember
 	UseBusinessHours = true,
 	WorkingHours = new List<BookingWorkHours>()
 	{
-		new BookingWorkHours
+		new Microsoft.Graph.BookingWorkHours
 		{
 			Day = DayOfWeek.Monday,
 			TimeSlots = new List<BookingWorkTimeSlot>()
 			{
-				new BookingWorkTimeSlot
+				new Microsoft.Graph.BookingWorkTimeSlot
 				{
 					End = new TimeOfDay(17, 0, 0),
 					Start = new TimeOfDay(8, 0, 0)
@@ -32,12 +32,12 @@ var bookingStaffMember = new BookingStaffMember
 				{"timeSlots@odata.type", "#Collection(microsoft.graph.bookingWorkTimeSlot)"}
 			}
 		},
-		new BookingWorkHours
+		new Microsoft.Graph.BookingWorkHours
 		{
 			Day = DayOfWeek.Tuesday,
 			TimeSlots = new List<BookingWorkTimeSlot>()
 			{
-				new BookingWorkTimeSlot
+				new Microsoft.Graph.BookingWorkTimeSlot
 				{
 					End = new TimeOfDay(17, 0, 0),
 					Start = new TimeOfDay(8, 0, 0)
@@ -49,12 +49,12 @@ var bookingStaffMember = new BookingStaffMember
 				{"timeSlots@odata.type", "#Collection(microsoft.graph.bookingWorkTimeSlot)"}
 			}
 		},
-		new BookingWorkHours
+		new Microsoft.Graph.BookingWorkHours
 		{
 			Day = DayOfWeek.Wednesday,
 			TimeSlots = new List<BookingWorkTimeSlot>()
 			{
-				new BookingWorkTimeSlot
+				new Microsoft.Graph.BookingWorkTimeSlot
 				{
 					End = new TimeOfDay(17, 0, 0),
 					Start = new TimeOfDay(8, 0, 0)
@@ -66,12 +66,12 @@ var bookingStaffMember = new BookingStaffMember
 				{"timeSlots@odata.type", "#Collection(microsoft.graph.bookingWorkTimeSlot)"}
 			}
 		},
-		new BookingWorkHours
+		new Microsoft.Graph.BookingWorkHours
 		{
 			Day = DayOfWeek.Thursday,
 			TimeSlots = new List<BookingWorkTimeSlot>()
 			{
-				new BookingWorkTimeSlot
+				new Microsoft.Graph.BookingWorkTimeSlot
 				{
 					End = new TimeOfDay(17, 0, 0),
 					Start = new TimeOfDay(8, 0, 0)
@@ -83,12 +83,12 @@ var bookingStaffMember = new BookingStaffMember
 				{"timeSlots@odata.type", "#Collection(microsoft.graph.bookingWorkTimeSlot)"}
 			}
 		},
-		new BookingWorkHours
+		new Microsoft.Graph.BookingWorkHours
 		{
 			Day = DayOfWeek.Friday,
 			TimeSlots = new List<BookingWorkTimeSlot>()
 			{
-				new BookingWorkTimeSlot
+				new Microsoft.Graph.BookingWorkTimeSlot
 				{
 					End = new TimeOfDay(17, 0, 0),
 					Start = new TimeOfDay(8, 0, 0)

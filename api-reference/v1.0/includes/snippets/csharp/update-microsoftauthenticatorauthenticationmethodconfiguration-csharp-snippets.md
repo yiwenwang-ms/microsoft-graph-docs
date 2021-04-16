@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var authenticationMethodConfiguration = new MicrosoftAuthenticatorAuthenticationMethodConfiguration
+var authenticationMethodConfiguration = new Microsoft.Graph.MicrosoftAuthenticatorAuthenticationMethodConfiguration
 {
 	State = AuthenticationMethodState.Enabled
 };

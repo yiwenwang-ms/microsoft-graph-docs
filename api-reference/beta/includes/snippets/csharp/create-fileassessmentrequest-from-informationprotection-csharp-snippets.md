@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var threatAssessmentRequest = new FileAssessmentRequestObject
+var threatAssessmentRequest = new Microsoft.Graph.FileAssessmentRequestObject
 {
 	ExpectedAssessment = ThreatExpectedAssessment.Block,
 	Category = ThreatCategory.Malware,
