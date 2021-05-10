@@ -128,14 +128,25 @@ Content-Language: en-US
     "backgroundImage@odata.mediaContentType":"image/*",
     "backgroundImage@odata.mediaReadLink": "https://graph.microsoft.com/beta/organization/d69179bf-f4a4-41a9-a9de-249c0f2efb1d/branding/backgroundImage",
     "backgroundImage@odata.mediaEditLink": "https://graph.microsoft.com/beta/organization/d69179bf-f4a4-41a9-a9de-249c0f2efb1d/branding/localizations/en-US/backgroundImage",
+    "backgroundImageRelativeUrl": null,
     "bannerLogo@odata.mediaContentType":"image/*",
     "bannerLogo@odata.mediaReadLink": "https://graph.microsoft.com/beta/organization/d69179bf-f4a4-41a9-a9de-249c0f2efb1d/branding/bannerLogo",
     "bannerLogo@odata.mediaEditLink": "https://graph.microsoft.com/beta/organization/d69179bf-f4a4-41a9-a9de-249c0f2efb1d/branding/localizations/en-US/bannerLogo",
+    "bannerLogoRelativeUrl": null,
+    "cdnList": [
+        "aadcdn.msftauthimages.net",
+        "aadcdn.msauthimages.net"
+    ],
     "id": "und",
     "signInPageText":"Welcome",
     "squareLogo@odata.mediaContentType":"image/*",
     "squareLogo@odata.mediaReadLink": "https://graph.microsoft.com/beta/organization/d69179bf-f4a4-41a9-a9de-249c0f2efb1d/branding/squareLogo",
     "squareLogo@odata.mediaEditLink": "https://graph.microsoft.com/beta/organization/d69179bf-f4a4-41a9-a9de-249c0f2efb1d/branding/localizations/en-US/squareLogo",
+    "squareLogoRelativeUrl": null,
+    "squareLogoDark@odata.mediaContentType":"image/*",
+    "squareLogoDark@odata.mediaReadLink": "https://graph.microsoft.com/beta/organization/d69179bf-f4a4-41a9-a9de-249c0f2efb1d/branding/squareLogoDark",
+    "squareLogoDark@odata.mediaEditLink": "https://graph.microsoft.com/beta/organization/d69179bf-f4a4-41a9-a9de-249c0f2efb1d/branding/localizations/en-US/squareLogoDark",
+    "squareLogoDarkRelativeUrl": null,
     "usernameHintText":"hint"
 }
 ```

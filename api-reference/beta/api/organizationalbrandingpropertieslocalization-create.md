@@ -123,13 +123,20 @@ Content-Type: application/json
     "backgroundImage@odata.mediaContentType":"image/*",
     "backgroundImage@odata.mediaReadLink": null,
     "backgroundImage@odata.mediaEditLink": "https://graph.microsoft.com/beta/organization/d69179bf-f4a4-41a9-a9de-249c0f2efb1d/branding/localizations/fr/backgroundImage",
+    "backgroundImageRelativeUrl": null,
     "bannerLogo@odata.mediaContentType":"image/*",
     "bannerLogo@odata.mediaReadLink": null,
     "bannerLogo@odata.mediaEditLink": "https://graph.microsoft.com/beta/organization/d69179bf-f4a4-41a9-a9de-249c0f2efb1d/branding/localizations/fr/bannerLogo",
+    "bannerLogoRelativeUrl": null,
     "id": "fr",
     "squareLogo@odata.mediaContentType":"image/*",
     "squareLogo@odata.mediaReadLink": null,
-    "squareLogo@odata.mediaEditLink": "https://graph.microsoft.com/beta/organization/d69179bf-f4a4-41a9-a9de-249c0f2efb1d/branding/localizations/fr/squareLogo"
+    "squareLogo@odata.mediaEditLink": "https://graph.microsoft.com/beta/organization/d69179bf-f4a4-41a9-a9de-249c0f2efb1d/branding/localizations/fr/squareLogo",
+    "squareLogoRelativeUrl": null,
+    "squareLogoDark@odata.mediaContentType":"image/*",
+    "squareLogoDark@odata.mediaReadLink": null,
+    "squareLogoDark@odata.mediaEditLink": "https://graph.microsoft.com/beta/organization/d69179bf-f4a4-41a9-a9de-249c0f2efb1d/branding/localizations/fr/squareLogoDark",
+    "squareLogoDarkRelativeUrl": null
 }
 ```
 The **mediaEditLink** specifies where the localized media is written. The mediaReadLink is null because no media has been set for the localization.
