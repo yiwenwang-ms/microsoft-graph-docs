@@ -74,6 +74,7 @@ The following is a JSON representation of the resource.
   "id": "String (identifier)",
   "signInPageText": "String",
   "squareLogo": "Stream",
+  "squareLogoDark": "Stream",
   "usernameHintText": "String"
 }
 ```
