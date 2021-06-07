@@ -1,5 +1,5 @@
 ---
-title: Configure provisioning using Microsoft Graph APIs
+title: Configure provisioning using Microsoft Graph API
 description: Learn how to save time by using the Microsoft Graph APIs to automate the configuration of automatic provisioning.
 author: kenwith
 ms.topic: conceptual
@@ -7,13 +7,17 @@ localization_priority: Normal
 ms.prod: applications
 ---
 
-# Configure provisioning using Microsoft Graph APIs
+# Configure provisioning using the Microsoft Graph API
 
-The Azure portal is a convenient way to configure provisioning for individual apps one at a time. But if you're creating several, or even hundreds of instances of an application, it can be easier to automate app creation and configuration with the Microsoft Graph APIs. This article shows you how to automate configuration of provisioning through APIs.
+The Azure portal is a convenient way to configure provisioning for individual apps, one at a time. But if you're creating several, or even hundreds of instances of an application, it can be easier to automate app creation and configuration with the Microsoft Graph APIs. This article shows you how to automate configuration of provisioning through the Microsoft Graph API.
 
-This article uses the **AWS Single-Account Access** Azure AD application template as an example, but you can use the steps in this article for provisioning any app in the Azure AD Gallery.
+This article uses the **AWS Single-Account Access** Azure AD application template as an example. You can use the steps in this article to provision any app that is enabled for provisioning in the Azure AD Gallery.
 
 ## Prerequisites
+
+To configure the **AWS Single-Account Access**, you must first have the following:
+1. An AWS single sign-on (SSO) enabled subscription.
+2. Configure and test Azure AD SSO for AWS Single-Account Access. This involves establishing a trust between Azure AD and the AWS application and authorizing access to the AWS application. For guidance, refer to the [See also](#see-also) section.
 
 This tutorial assumes that you are using Microsoft Graph Explorer, but you can use Postman, or create your own client app to call Microsoft Graph. To call the Microsoft Graph APIs in this tutorial, you need to use an account with the global administrator role and the appropriate permissions. For this tutorial, the `Directory.ReadWrite.All` delegated permission is needed. Complete the following steps to set permissions in Microsoft Graph Explorer:
 
@@ -21,7 +25,7 @@ This tutorial assumes that you are using Microsoft Graph Explorer, but you can u
 2. Select **Sign-In with Microsoft** and sign in using an Azure AD global administrator account. After you successfully sign in, you can see the user account details in the left-hand pane.
 3. Select the settings icon to the right of the user account details, and then select **Select permissions**.
 
-    ![Select the Microsoft Graph permissions](./images/application-provisioning-configure-api/set-permissions.png)
+    ![Select the Microsoft Graph permissions](./images/application-proxy-configure-api/set-permissions.png)
         
 4. In the list of permissions, scroll down and expand **Directory (3)**, and then select the **Directory.ReadWrite.All** permission. 
 
@@ -38,20 +42,18 @@ This tutorial assumes that you are using Microsoft Graph Explorer, but you can u
     4. In the **Add from the gallery** section, type **AWS Single-Account Access** in the search box.
     5. Select **AWS Single-Account Access** from results panel, click **Create**, and wait a few seconds while the app is added to your tenant.
 
-## Step 1: Create the gallery application
-
-### Retrieve the gallery application template identifier
+## Step 1: Retrieve the gallery application template identifier
 
 Applications in the Azure AD application gallery each have a template that describes the metadata for that application. Using this template, you can create an instance of the application and service principal in your tenant for management. Retrieve the identifier of the application template for **AWS Single-Account Access** and from the response, record the value of the **id** property to use later in this tutorial.
 
-#### Request
+### Request
 
 
 ```http
 GET https://graph.microsoft.com/v1.0/applicationTemplates?$filter=displayName eq 'AWS Single Sign-on'
 ```
 
-#### Response
+### Response
 
 ```http
 HTTP/1.1 200 OK
@@ -85,11 +87,11 @@ Content-type: application/json
 }
 ```
 
-### Create an instance of the application in your tenant
+## Step 2: Create an instance of the gallery application in your tenant
 
-Using the **id** value that you recorded for the application template, create an instance of the application *and* service principal in your tenant. Record the value of the **id** property for the service principal to use later in this tutorial.
+Using the **id** value that you recorded for the application template from Step 1, create an instance of the application *and* service principal in your tenant. Record the value of the **id** property for the service principal to use later in this tutorial.
 
-#### Request
+### Request
 
 ```http
 POST https://graph.microsoft.com/v1.0/applicationTemplates/21ed01d2-ec13-4e9e-86c1-cd546719ebc4/instantiate
@@ -100,7 +102,7 @@ Content-type: application/json
 }
 ```
 
-#### Response
+### Response
 
 ```http
 HTTP/1.1 201 OK
@@ -275,19 +277,17 @@ Content-type: application/json
 }
 ```
 
-## Step 2: Create the provisioning job based on the template
+## Step 3: Retrieve the template for the provisioning connector
 
-### Retrieve the template for the provisioning connector
+Applications in the gallery that are enabled for provisioning have templates to streamline configuration. Use the **id** that you recorded for the service principal that you created in Step 2 to get a synchronization template for the application. Record the **id** that is returned for the provisioning template to use later in this tutorial.
 
-Applications in the gallery that are enabled for provisioning have templates to streamline configuration. Use the **id** that you recorded for the service principal that you created to get a synchronization template for the application. The response has been shortened for readability. Record the **id** that is returned for the provisioning template to use later in this tutorial.
-
-#### Request
+### Request
 
 ```http
 GET https://graph.microsoft.com/beta/servicePrincipals/29f68db3-1000-46bf-a940-f5ea3ecc39e7/synchronization/templates
 ```
 
-#### Response
+### Response
 
 ```http
 HTTP/1.1 200 OK
@@ -416,11 +416,11 @@ Content-type: application/json
 }
 ```
 
-### Create the provisioning job
+## Step 4: Create the provisioning job based on the template
 
-To enable provisioning, you'll first need to create a job. Use the **id** of the service principal for the request and the **id** of the provisioning template that you previously recorded for the **templateId** to create a provisioning job. Record the **id** of the provisioning job that was created.
+To enable provisioning, you'll first need to create a job. Use the **id** of the service principal for the request and the **id** of the provisioning template that you previously recorded for the **templateId** to create a provisioning job. Record the **id** of the provisioning job that is created.
 
-#### Request
+### Request
 
 ```http
 POST https://graph.microsoft.com/beta/servicePrincipals/29f68db3-1000-46bf-a940-f5ea3ecc39e7/synchronization/jobs
@@ -431,7 +431,7 @@ Content-type: application/json
 }
 ```
 
-#### Response
+### Response
 
 ```http
 HTTP/1.1 201 OK
@@ -471,28 +471,27 @@ Content-type: application/json
 
 In this response, the job is in a **Paused** status because it hasn't yet ben started.
 
-## Step 3: Start the provisioning job
-Now that the provisioning job is configured, use the following command to [start the job](/graph/api/synchronization-synchronizationjob-start?tabs=http&view=graph-rest-beta). 
+## Step 5: Start the provisioning job
 
+Now that the provisioning job is configured, start it. This starts the initial sync and imports roles from AWS to Azure AD.
 
-#### Request
+### Request
 
 ```http
 POST https://graph.microsoft.com/beta/servicePrincipals/29f68db3-1000-46bf-a940-f5ea3ecc39e7/synchronization/jobs/aWSSingleSignon.ff8bf889e03141ac8f7baedb059892ee.bfc8712e-0986-4d47-896b-6872713598c6/start
 ```
 
-#### Response
+### Response
 
 ```http
 HTTP/1.1 204 No Content
 ```
 
-
-## Step 4: Monitor provisioning
+## Step 6: Monitor provisioning
 
 ### Monitor the provisioning job status
 
-Now that the provisioning job is running, you can track the progress of the current provisioning cycle as well as statistics, such as the number of users and groups that have been created in the target system. 
+Now that the provisioning job is running, you can track the progress of the current provisioning cycle as well as statistics. For example, for services that provision users and groups from Azure AD to the target system, you can monitor how many users have been created in the target system.
 
 #### Request
 
@@ -570,7 +569,7 @@ Content-type: application/json
 
 ### Monitor provisioning events using the provisioning logs
 
-In addition to monitoring the status of the provisioning job, you can use the provisioning logs to query for all the events that are occurring. For example, query for a particular user and determine if they were successfully provisioned.
+In addition to monitoring the status of the provisioning job, you can use the provisioning logs to query for all the events that are occurring. For example, for services that provision users and groups from Azure AD to the target system, query for a particular user and determine if they were successfully provisioned.
 
 #### Request
 
@@ -695,14 +694,13 @@ Content-type: application/json
        }
     ]
 }
-
 ```
+
 ## See also
 
-- [application template](/graph/api/applicationtemplate-list?tabs=http&view=graph-rest-beta)
-[create an instance](/graph/api/applicationtemplate-instantiate?tabs=http&view=graph-rest-beta)
-[retrieve the template for the provisioning configuration](/graph/api/synchronization-synchronizationtemplate-list?tabs=http&view=graph-rest-beta)
-[create a job](/graph/api/synchronization-synchronizationjob-post?tabs=http&view=graph-rest-beta)
- [provisioning logs](/graph/api/provisioningobjectsummary-list?tabs=http&view=graph-rest-beta)
+- [Tutorial: Azure Active Directory single sign-on (SSO) integration with AWS Single-Account Access](/azure/active-directory/saas-apps/amazon-web-service-tutorial)
+- [Instantiate an application template](/graph/api/applicationtemplate-instantiate?view=graph-rest-beta&preserve-view=true)
+- [List existing synchronization templates](/graph/api/synchronization-synchronizationtemplate-list?view=graph-rest-beta&preserve-view=true)
+- [Create synchronizationJob](/graph/api/synchronization-synchronizationjob-post?view=graph-rest-beta&preserve-view=true)
+- [List provisioning logs](/graph/api/provisioningobjectsummary-list?view=graph-rest-beta&preserve-view=true)
 - [Integrating a custom SCIM app with Azure AD](/azure/active-directory/app-provisioning/use-scim-to-provision-users-and-groups)
-This method is commonly used for applications like [Amazon Web Services](/azure/active-directory/saas-apps/amazon-web-service-tutorial#configure-azure-ad-sso)
