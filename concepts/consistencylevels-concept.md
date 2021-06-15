@@ -7,7 +7,7 @@ localization_priority: Normal
 
 # Consistency levels and querying on Azure AD directory objects
 
-The Azure AD architecture is geographically distributed to deliver company-wide availability and performance to customers. In this model, there are primary replicas to which all writes are performed, and multiple secondary replicas which service all directory reads. Azure AD and Microsoft Graph always try to maintain the same logical authenticated session tied to one primary and one secondary replica—unless there's a failure and re-rerouting is necessary to maintain availability. These primary and secondary replicas are always in the data centres closest to the customer.
+The Azure AD architecture is geographically distributed to deliver company-wide availability and performance to customers. In this model, there are primary replicas to which all writes are performed, and multiple secondary replicas which service all directory reads. Azure AD and Microsoft Graph always try to maintain the same logical authenticated session tied to one primary and one secondary replica, unless there's a failure and rerouting is necessary to maintain availability. These primary and secondary replicas are always in the datacenters closest to the customer.
 
 ## Writes and reads in Azure AD's architecture
 
