@@ -17,7 +17,7 @@ When the same authenticated client makes a write (`POST`, `PUT`, `PATCH`) reques
 1. The change is written to the primary replica A.0.
 2. The change is replicated to a secondary replica to which the logical session's reads were issued, that is, A.1.
 3. The change is replicated to other secondary replicas located across different geographies.
-+ In addition, an index that Microsoft Graph uses to fulfill query requests is updated.
+4. An index that Microsoft Graph uses to fulfill query requests is updated.
 
 When the data is available across all replicas, this is a state of mutual data consistency.
 
