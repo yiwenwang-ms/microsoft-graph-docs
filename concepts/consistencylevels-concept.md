@@ -27,7 +27,7 @@ For more information about Azure AD's architecture, see [What is the Azure Activ
 
 Azure AD deploys a **session consistency** model by default. In this, an authenticated read request is always routed to the secondary replica to which the logical session is tied. If a write was made to primary replica A.0, secondary replica A.1 is the first to be replicated and it fulfills a subsequent read from the same authenticated session. Therefore, geo-redundancy and an asynchronous replication notwithstanding, the object that was created or updated is available to the authenticated client.
 
-However, because the data is also replicated to other secondary replicas located in other geographies, the data is not always immediately available across all data centres. That is, an authenticated read request routed to a secondary replica X.1 may not immediately reflect the change that originated from A.0. This lag may be less than a microsecond and unnoticeable. However, Azure AD will ensure that the change is eventually available at all secondary replicas. This state of mutual data consistency is referred to as **eventual consistency**.
+However, because the data is also replicated to other secondary replicas located in other geographies, the data is not always immediately available across all data centers. That is, an authenticated read request routed to a secondary replica X.1 may not immediately reflect the change that originated from A.0. This lag may be less than a microsecond and unnoticeable. However, Azure AD ensures that the change is eventually available at all secondary replicas. This state of mutual data consistency is referred to as **eventual consistency**.
 
 // More.
 // + How does it impact the development of your apps? 
