@@ -15,7 +15,7 @@ Consider an authenticated session tied to primary replica A.O and secondary repl
 
 When the same authenticated client makes a write (`POST`, `PUT`, `PATCH`) request, the following happens:
 1. The change is written to the primary replica A.0.
-+ The change is replicated to a secondary replica to which the logical session's reads were issued, that is, A.1.
+2. The change is replicated to a secondary replica to which the logical session's reads were issued, that is, A.1.
 + Finally, the change is replicated to other secondary replicas located across different geographies.
 + In addition, an index that Microsoft Graph uses to fulfill query requests is updated.
 
