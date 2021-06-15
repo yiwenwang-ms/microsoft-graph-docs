@@ -21,7 +21,7 @@ When the same authenticated client makes a write (`POST`, `PUT`, `PATCH`) reques
 
 When the data is available across all replicas, this is a state of mutual data consistency.
 
-For more on Azure AD's architecture, see [What is the Azure Active Directory architecture?](/azure/active-directory/fundamentals/active-directory-architecture)
+For more information about Azure AD's architecture, see [What is the Azure Active Directory architecture?](/azure/active-directory/fundamentals/active-directory-architecture).
 
 ## Consistency models and read operations
 
