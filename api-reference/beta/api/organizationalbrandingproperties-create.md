@@ -51,6 +51,8 @@ This method supports some of the OData query parameters to help customize the re
 
 ## Request body
 
+In the request body, supply a JSON representation of [organizationalBrandingProperties](../resources/organizationalbrandingproperties.md) object. The following table lists the properties that are required when you create the default branding.
+
 | Property     | Type        | Description |
 |:-------------|:------------|:------------|
 |backgroundColor|String|Color that will appear in place of the background image in low-bandwidth connections. The primary color of your banner logo or your organization color is recommended to be used here. Specify this in hexadecimal (for example, white is #FFFFFF).|
