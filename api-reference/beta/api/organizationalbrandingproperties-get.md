@@ -132,12 +132,12 @@ Content-Type: application/json
   "squareLogoDarkRelativeUrl": "dbd5a2dd-lu-agg67uefzvwzuov0etfhrxchzcqwll6fkclksmuk/logintenantbranding/0/squarelogodark?ts=637533030475840223"
   "signInPageText":"Default",
   "usernameHintText":"DefaultHint",
-  "customCannotAcessYourAccountText":null,
+  "customCannotAccessYourAccountText":null,
   "customTermsofUseText":null,
   "customPrivacyAndCookiesText":null,
   "customResetItNowText":null,
   "customForgotMyPasswordText":null,
-  "customCannottAcessYourAccountUrl":null,
+  "customCannotAccessYourAccountUrl":null,
   "customTermsofUseUrl":null,
   "customPrivacyAndCookiesUrl":null,
   "customAccountResetCredentialsUrl":null,
@@ -148,7 +148,8 @@ Content-Type: application/json
       "hideForgotMyPassword": false,
       "hideResetItNow":true
   },
-  "favicon":null
+  "favicon":null,
+  "faviconRelativeUrl":null
 }
 ```
 
@@ -240,12 +241,12 @@ Content-Language: fr
     "squareLogoDarkRelativeUrl": "dbd5a2dd-lu-agg67uefzvwzuov0etfhrxchzcqwll6fkclksmuk/logintenantbranding/0/squarelogodark?ts=637533030475840223",
     "signInPageText":"Default",
     "usernameHintText":"DefaultHint",
-    "customCannotAcessYourAccountText":null,
+    "customCannotAccessYourAccountText":null,
     "customTermsofUseText":null,
     "customPrivacyAndCookiesText":null,
     "customResetItNowText":null,
     "customForgotMyPasswordText":null,
-    "customCannottAcessYourAccountUrl":null,
+    "customCannotAccessYourAccountUrl":null,
     "customTermsofUseUrl":null,
     "customPrivacyAndCookiesUrl":null,
     "customAccountResetCredentialsUrl":null,
@@ -256,7 +257,8 @@ Content-Language: fr
         "hideForgotMyPassword": false,
         "hideResetItNow":true
     },
-    "favicon":null
+    "favicon":null,
+    "faviconRelativeUrl":null
 }
 ```
 

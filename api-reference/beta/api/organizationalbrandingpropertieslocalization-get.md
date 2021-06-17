@@ -126,12 +126,12 @@ Content-Type: application/json
 "squareLogoDarkRelativeUrl": null,
 "signInPageText":null,
 "usernameHintText":null,
-"customCannotAcessYourAccountText":null,
+"customCannotAccessYourAccountText":null,
 "customTermsofUseText":null,
 "customPrivacyAndCookiesText":null,
 "customResetItNowText":null,
 "customForgotMyPasswordText":null,
-"customCannottAcessYourAccountUrl":null,
+"customCannotAccessYourAccountUrl":null,
 "customTermsofUseUrl":null,
 "customPrivacyAndCookiesUrl":null,
 "customAccountResetCredentialsUrl":null,
@@ -142,7 +142,8 @@ Content-Type: application/json
     "hideForgotMyPassword": false,
     "hideResetItNow":true
 },
-"favicon":null
+"favicon":null,
+"faviconRelativeUrl":null
 }
 ```
 
@@ -222,12 +223,12 @@ Content-Type: application/json
     "squareLogoDarkRelativeUrl": null,
     "signInPageText":"Welcome",
     "usernameHintText":"hint",
-    "customCannotAcessYourAccountText":null,
+    "customCannotAccessYourAccountText":null,
     "customTermsofUseText":null,
     "customPrivacyAndCookiesText":null,
     "customResetItNowText":null,
     "customForgotMyPasswordText":null,
-    "customCannottAcessYourAccountUrl":null,
+    "customCannotAccessYourAccountUrl":null,
     "customTermsofUseUrl":null,
     "customPrivacyAndCookiesUrl":null,
     "customAccountResetCredentialsUrl":null,
@@ -238,7 +239,8 @@ Content-Type: application/json
         "hideForgotMyPassword": false,
         "hideResetItNow":true
     },
-    "favicon":null
+    "favicon":null,
+    "faviconRelativeUrl":null
    },
    {
     "backgroundColor":"#00000F",
@@ -265,12 +267,12 @@ Content-Type: application/json
     "squareLogoDarkRelativeUrl": null,
     "signInPageText":null,
     "usernameHintText":null,
-    "customCannotAcessYourAccountText":null,
+    "customCannotAccessYourAccountText":null,
     "customTermsofUseText":null,
     "customPrivacyAndCookiesText":null,
     "customResetItNowText":null,
     "customForgotMyPasswordText":null,
-    "customCannottAcessYourAccountUrl":null,
+    "customCannotAccessYourAccountUrl":null,
     "customTermsofUseUrl":null,
     "customPrivacyAndCookiesUrl":null,
     "customAccountResetCredentialsUrl":null,
@@ -281,7 +283,8 @@ Content-Type: application/json
         "hideForgotMyPassword": false,
         "hideResetItNow":true
     },
-    "favicon":null
+    "favicon":null,
+    "faviconRelativeUrl":null
    }
  ]
 }
