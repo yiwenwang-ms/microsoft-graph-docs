@@ -125,7 +125,24 @@ Content-Type: application/json
 "squareLogoDark@odata.mediaEditLink": "https://graph.microsoft.com/beta/organization/d69179bf-f4a4-41a9-a9de-249c0f2efb1d/branding/localizations/fr/squareLogoDark",
 "squareLogoDarkRelativeUrl": null,
 "signInPageText":null,
-"usernameHintText":null
+"usernameHintText":null,
+"customCannotAcessYourAccountText":null,
+"customTermsofUseText":null,
+"customPrivacyAndCookiesText":null,
+"customResetItNowText":null,
+"customForgotMyPasswordText":null,
+"customCannottAcessYourAccountUrl":null,
+"customTermsofUseUrl":null,
+"customPrivacyAndCookiesUrl":null,
+"customAccountResetCredentialsUrl":null,
+" loginPageTextVisibilitySettings":{
+    "hideCannottAccessYourAccount":false,
+    "hideTermsOfUse":false,
+    "hidePrivacyAndCookies": true,
+    "hideForgotMyPassword": false,
+    "hideResetItNow":true
+},
+"favicon":null
 }
 ```
 
@@ -204,7 +221,24 @@ Content-Type: application/json
     "squareLogoDark@odata.mediaEditLink": "https://graph.microsoft.com/beta/organization/d69179bf-f4a4-41a9-a9de-249c0f2efb1d/branding/localizations/en-US/squareLogoDark",
     "squareLogoDarkRelativeUrl": null,
     "signInPageText":"Welcome",
-    "usernameHintText":"hint"
+    "usernameHintText":"hint",
+    "customCannotAcessYourAccountText":null,
+    "customTermsofUseText":null,
+    "customPrivacyAndCookiesText":null,
+    "customResetItNowText":null,
+    "customForgotMyPasswordText":null,
+    "customCannottAcessYourAccountUrl":null,
+    "customTermsofUseUrl":null,
+    "customPrivacyAndCookiesUrl":null,
+    "customAccountResetCredentialsUrl":null,
+    " loginPageTextVisibilitySettings":{
+        "hideCannottAccessYourAccount":false,
+        "hideTermsOfUse":false,
+        "hidePrivacyAndCookies": true,
+        "hideForgotMyPassword": false,
+        "hideResetItNow":true
+    },
+    "favicon":null
    },
    {
     "backgroundColor":"#00000F",
@@ -230,7 +264,24 @@ Content-Type: application/json
     "squareLogoDark@odata.mediaEditLink": "https://graph.microsoft.com/beta/organization/d69179bf-f4a4-41a9-a9de-249c0f2efb1d/branding/localizations/fr/squareLogoDark",
     "squareLogoDarkRelativeUrl": null,
     "signInPageText":null,
-    "usernameHintText":null
+    "usernameHintText":null,
+    "customCannotAcessYourAccountText":null,
+    "customTermsofUseText":null,
+    "customPrivacyAndCookiesText":null,
+    "customResetItNowText":null,
+    "customForgotMyPasswordText":null,
+    "customCannottAcessYourAccountUrl":null,
+    "customTermsofUseUrl":null,
+    "customPrivacyAndCookiesUrl":null,
+    "customAccountResetCredentialsUrl":null,
+    " loginPageTextVisibilitySettings":{
+        "hideCannottAccessYourAccount":false,
+        "hideTermsOfUse":false,
+        "hidePrivacyAndCookies": true,
+        "hideForgotMyPassword": false,
+        "hideResetItNow":true
+    },
+    "favicon":null
    }
  ]
 }

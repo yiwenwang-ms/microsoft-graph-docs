@@ -131,7 +131,24 @@ Content-Type: application/json
   "squareLogoDark@odata.mediaEditLink": "https://graph.microsoft.com/beta/organization/d69179bf-f4a4-41a9-a9de-249c0f2efb1d/branding/squareLogoDark",
   "squareLogoDarkRelativeUrl": "dbd5a2dd-lu-agg67uefzvwzuov0etfhrxchzcqwll6fkclksmuk/logintenantbranding/0/squarelogodark?ts=637533030475840223"
   "signInPageText":"Default",
-  "usernameHintText":"DefaultHint"
+  "usernameHintText":"DefaultHint",
+  "customCannotAcessYourAccountText":null,
+  "customTermsofUseText":null,
+  "customPrivacyAndCookiesText":null,
+  "customResetItNowText":null,
+  "customForgotMyPasswordText":null,
+  "customCannottAcessYourAccountUrl":null,
+  "customTermsofUseUrl":null,
+  "customPrivacyAndCookiesUrl":null,
+  "customAccountResetCredentialsUrl":null,
+  " loginPageTextVisibilitySettings":{
+      "hideCannottAccessYourAccount":false,
+      "hideTermsOfUse":false,
+      "hidePrivacyAndCookies": true,
+      "hideForgotMyPassword": false,
+      "hideResetItNow":true
+  },
+  "favicon":null
 }
 ```
 
@@ -222,7 +239,24 @@ Content-Language: fr
     "squareLogoDark@odata.mediaEditLink": "https://graph.microsoft.com/beta/organization/d69179bf-f4a4-41a9-a9de-249c0f2efb1d/branding/localizations/fr/squareLogoDark",
     "squareLogoDarkRelativeUrl": "dbd5a2dd-lu-agg67uefzvwzuov0etfhrxchzcqwll6fkclksmuk/logintenantbranding/0/squarelogodark?ts=637533030475840223",
     "signInPageText":"Default",
-    "usernameHintText":"DefaultHint"
+    "usernameHintText":"DefaultHint",
+    "customCannotAcessYourAccountText":null,
+    "customTermsofUseText":null,
+    "customPrivacyAndCookiesText":null,
+    "customResetItNowText":null,
+    "customForgotMyPasswordText":null,
+    "customCannottAcessYourAccountUrl":null,
+    "customTermsofUseUrl":null,
+    "customPrivacyAndCookiesUrl":null,
+    "customAccountResetCredentialsUrl":null,
+    " loginPageTextVisibilitySettings":{
+        "hideCannottAccessYourAccount":false,
+        "hideTermsOfUse":false,
+        "hidePrivacyAndCookies": true,
+        "hideForgotMyPassword": false,
+        "hideResetItNow":true
+    },
+    "favicon":null
 }
 ```
 
