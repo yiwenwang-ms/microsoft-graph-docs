@@ -132,24 +132,25 @@ Content-Type: application/json
   "squareLogoDarkRelativeUrl": "dbd5a2dd-lu-agg67uefzvwzuov0etfhrxchzcqwll6fkclksmuk/logintenantbranding/0/squarelogodark?ts=637533030475840223"
   "signInPageText":"Default",
   "usernameHintText":"DefaultHint",
-  "customCannotAccessYourAccountText":null,
-  "customTermsofUseText":null,
-  "customPrivacyAndCookiesText":null,
-  "customResetItNowText":null,
-  "customForgotMyPasswordText":null,
-  "customCannotAccessYourAccountUrl":null,
-  "customTermsofUseUrl":null,
-  "customPrivacyAndCookiesUrl":null,
   "customAccountResetCredentialsUrl":null,
+  "customCannotAccessYourAccountText":null,
+  "customCannotAccessYourAccountUrl":null,
+  "customForgotMyPasswordText":null,
+  "customPrivacyAndCookiesText":null,
+  "customPrivacyAndCookiesUrl":null,
+  "customResetItNowText":null,
+  "customTermsofUseText":null,  
+  "customTermsofUseUrl":null,
+  "favicon":null,
+  "faviconRelativeUrl":null,
+  "headerBackgroundColor":null,
   "loginPageTextVisibilitySettings":{
       "hideCannotAccessYourAccount":false,
       "hideTermsOfUse":false,
       "hidePrivacyAndCookies": true,
       "hideForgotMyPassword": false,
       "hideResetItNow":true
-  },
-  "favicon":null,
-  "faviconRelativeUrl":null
+  }  
 }
 ```
 
@@ -241,24 +242,25 @@ Content-Language: fr
     "squareLogoDarkRelativeUrl": "dbd5a2dd-lu-agg67uefzvwzuov0etfhrxchzcqwll6fkclksmuk/logintenantbranding/0/squarelogodark?ts=637533030475840223",
     "signInPageText":"Default",
     "usernameHintText":"DefaultHint",
-    "customCannotAccessYourAccountText":null,
-    "customTermsofUseText":null,
-    "customPrivacyAndCookiesText":null,
-    "customResetItNowText":null,
-    "customForgotMyPasswordText":null,
-    "customCannotAccessYourAccountUrl":null,
-    "customTermsofUseUrl":null,
-    "customPrivacyAndCookiesUrl":null,
     "customAccountResetCredentialsUrl":null,
+    "customCannotAccessYourAccountText":null,
+    "customCannotAccessYourAccountUrl":null,
+    "customForgotMyPasswordText":null,
+    "customPrivacyAndCookiesText":null,
+    "customPrivacyAndCookiesUrl":null,
+    "customResetItNowText":null,
+    "customTermsofUseText":null,  
+    "customTermsofUseUrl":null,
+    "favicon":null,
+    "faviconRelativeUrl":null,
+    "headerBackgroundColor":null,
     "loginPageTextVisibilitySettings":{
         "hideCannotAccessYourAccount":false,
         "hideTermsOfUse":false,
         "hidePrivacyAndCookies": true,
         "hideForgotMyPassword": false,
         "hideResetItNow":true
-    },
-    "favicon":null,
-    "faviconRelativeUrl":null
+    }  
 }
 ```
 
