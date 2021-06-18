@@ -173,8 +173,8 @@ Content-Language: en-US
     "customTermsofUseUrl":null,
     "customPrivacyAndCookiesUrl":null,
     "customAccountResetCredentialsUrl":null,
-    " loginPageTextVisibilitySettings":{
-        "hideCannottAccessYourAccount":false,
+    "loginPageTextVisibilitySettings":{
+        "hideCannotAccessYourAccount":false,
         "hideTermsOfUse":false,
         "hidePrivacyAndCookies": true,
         "hideForgotMyPassword": false,

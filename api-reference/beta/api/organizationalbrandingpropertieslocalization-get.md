@@ -135,8 +135,8 @@ Content-Type: application/json
 "customTermsofUseUrl":null,
 "customPrivacyAndCookiesUrl":null,
 "customAccountResetCredentialsUrl":null,
-" loginPageTextVisibilitySettings":{
-    "hideCannottAccessYourAccount":false,
+"loginPageTextVisibilitySettings":{
+    "hideCannotAccessYourAccount":false,
     "hideTermsOfUse":false,
     "hidePrivacyAndCookies": true,
     "hideForgotMyPassword": false,
@@ -233,7 +233,7 @@ Content-Type: application/json
     "customPrivacyAndCookiesUrl":null,
     "customAccountResetCredentialsUrl":null,
     " loginPageTextVisibilitySettings":{
-        "hideCannottAccessYourAccount":false,
+        "hideCannotAccessYourAccount":false,
         "hideTermsOfUse":false,
         "hidePrivacyAndCookies": true,
         "hideForgotMyPassword": false,
@@ -276,8 +276,8 @@ Content-Type: application/json
     "customTermsofUseUrl":null,
     "customPrivacyAndCookiesUrl":null,
     "customAccountResetCredentialsUrl":null,
-    " loginPageTextVisibilitySettings":{
-        "hideCannottAccessYourAccount":false,
+    "loginPageTextVisibilitySettings":{
+        "hideCannotAccessYourAccount":false,
         "hideTermsOfUse":false,
         "hidePrivacyAndCookies": true,
         "hideForgotMyPassword": false,
