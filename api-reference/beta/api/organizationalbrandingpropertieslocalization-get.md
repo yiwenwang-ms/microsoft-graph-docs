@@ -232,7 +232,7 @@ Content-Type: application/json
     "customTermsofUseUrl":null,
     "customPrivacyAndCookiesUrl":null,
     "customAccountResetCredentialsUrl":null,
-    " loginPageTextVisibilitySettings":{
+    "loginPageTextVisibilitySettings":{
         "hideCannotAccessYourAccount":false,
         "hideTermsOfUse":false,
         "hidePrivacyAndCookies": true,
