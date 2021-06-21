@@ -45,8 +45,6 @@ Companies can add different branding based on locale. Locale serves as a key in 
 |signInPageText|String| Text that appears at the bottom of the sign-in box. You can use this to communicate additional information, such as the phone number to your help desk or a legal statement. This text must be Unicode and not exceed 1024 characters. |
 |squareLogo|Stream| Square version of your company logo that appears in Windows 10 out-of-box experiences (OOBE) and when Windows Autopilot is enabled for deployment. Allowed types are PNG or JPEG no larger than 240 ⅹ 240 pixels and no more than 10 KB in size. We recommend using a transparent image with no padding around the logo. |
 |squareLogoRelativeUrl |String|A read-only, relative link of the **squareLogo** property served via a CDN provider. Combine it with one value of the **cdnList** property to form the absolute URL. If the current CDN provider is down or responds with an error code, try with a different value of the **cdnList** property. |
-|squareLogoDark|Stream| A dark square version of your company logo that appears in Windows 10 out-of-box experiences (OOBE) and when Windows Autopilot is enabled for deployment. Allowed types are PNG or JPEG no larger than 240 ⅹ 240 pixels and no more than 10 KB in size. We recommend a transparent image with no padding around the logo. |
-|squareLogoDarkRelativeUrl |String|A read-only, relative link of the **squareLogoDark** property served via a CDN provider. Combine it with one value of the **cdnList** property to form the absolute URL. If the current CDN provider is down or responds with an error code, try with a different value of the **cdnList** property. |
 |usernameHintText|String| String that shows as the hint in the username textbox on the sign in screen. This text must be Unicode, without links or code, and can't exceed 64 characters. |
 |customAccountResetCredentialsUrl|String| String of custom URL for reseting account credentials.This text must be Unicode and not exceed 128 characters.|
 |customCannotAcessYourAccountText|String| String to replace the display text for the "Cannot access your account” hyperlink  inside of the sign-in form.This text must be Unicode and not exceed 256 characters.|
@@ -91,8 +89,6 @@ The following is a JSON representation of the resource.
   "signInPageText": "String",
   "squareLogo": "Stream",
   "squareLogoRelativeUrl": "String",
-  "squareLogoDark": "Stream",
-  "squareLogoDarkRelativeUrl": "String",
   "usernameHintText": "String",
   "customAccountResetCredentialsUrl": "String",
   "customCannotAccessYourAccountText": "String",
