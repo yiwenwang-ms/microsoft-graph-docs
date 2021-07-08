@@ -10,8 +10,8 @@ const options = {
 
 const client = Client.init(options);
 
-await client.api('/servicePrincipals/{resource-SP-id}/appRoleAssignedTo/{appRoleAssignment-id}')
+let roleDefinitions = await client.api('/roleManagement/entitlementManagement/roleDefinitions')
 	.version('beta')
-	.delete();
+	.get();
 
 ```

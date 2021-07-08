@@ -6,14 +6,8 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = new GraphServiceClient( authProvider );
 
-var group = new Group
-{
-	Description = "Contoso Life v2.0",
-	DisplayName = "Contoso Life Renewed"
-};
-
-await graphClient.Groups["{group-id}"]
+var unifiedRoleDefinition = await graphClient.RoleManagement.EntitlementManagement.RoleDefinitions["{unifiedRoleDefinition-id}"]
 	.Request()
-	.UpdateAsync(group);
+	.GetAsync();
 
 ```

@@ -6,8 +6,8 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 GraphServiceClient graphClient = GraphServiceClient.builder().authenticationProvider( authProvider ).buildClient();
 
-graphClient.servicePrincipals("{resource-SP-id}").appRoleAssignedTo("{appRoleAssignment-id}")
+UnifiedRoleDefinition unifiedRoleDefinition = graphClient.roleManagement().entitlementManagement().roleDefinitions("ba92d953-d8e0-4e39-a797-0cbedb0a89e8")
 	.buildRequest()
-	.delete();
+	.get();
 
 ```
