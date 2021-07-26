@@ -50,7 +50,7 @@ Applications in the Azure AD application gallery each have a template that descr
 
 
 ```http
-GET https://graph.microsoft.com/v1.0/applicationTemplates?$filter=displayName eq 'AWS Single Sign-on'
+GET https://graph.microsoft.com/beta/applicationTemplates?$filter=displayName eq 'AWS Single-Account Access'
 ```
 
 ### Response
@@ -60,30 +60,29 @@ HTTP/1.1 200 OK
 Content-type: application/json
 
 {
-  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#applicationTemplates",
-  "value": [
-    {
-      "id": "21ed01d2-ec13-4e9e-86c1-cd546719ebc4",
-      "displayName": "AWS Single Sign-on",
-      "homePageUrl": "https://aws.amazon.com/",
-      "supportedSingleSignOnModes": [
-        "saml",
-        "external"
-      ],
-      "supportedProvisioningTypes": [
-        "sync"
-      ],
-      "logoUrl": "https://az495088.vo.msecnd.net/app-logo/awssinglesignon_215.png",
-      "categories": [
-        "developerServices",
-        "itInfrastructure",
-        "security",
-        "New"
-      ],
-      "publisher": "Amazon Web Services, Inc.",
-      "description": "Federate once to AWS SSO & use it to manage access centrally to multiple AWS accounts. Provision users via SCIM & get Azure AD single sign-in access to the AWS Console, CLI, & AWS SSO integrated apps."
-    }
-  ]
+    "@odata.context": "https://graph.microsoft.com/beta/$metadata#applicationTemplates",
+    "value": [
+        {
+            "id": "8b1025e4-1dd2-430b-a150-2ef79cd700f5",
+            "displayName": "AWS Single-Account Access",
+            "homePageUrl": "http://aws.amazon.com/",
+            "supportedSingleSignOnModes": [
+                "password",
+                "saml",
+                "external"
+            ],
+            "supportedProvisioningTypes": [
+                "sync"
+            ],
+            "logoUrl": "https://az495088.vo.msecnd.net/app-logo/aws_215.png",
+            "categories": [
+                "developerServices",
+                "topApps"
+            ],
+            "publisher": "Amazon",
+            "description": "Federate to a single AWS account and use SAML claims to authorize access to AWS IAM roles. If you have many AWS accounts, consider using the AWS Single Sign-On gallery application instead."
+        }
+    ]
 }
 ```
 
