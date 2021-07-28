@@ -9535,7 +9535,7 @@ items:
               href: api/intune-tem-telecomexpensemanagementpartner-delete.md
             - name: Update
               href: api/intune-tem-telecomexpensemanagementpartner-update.md
-      - name: Cloud PC (preview)
+      - name: Cloud PC
         items:
         - name: Virtual endpoint
           href: resources/virtualendpoint.md
