@@ -1,0 +1,104 @@
+---
+title: "Create trustFrameworkKeySet"
+description: "Create a new trustFrameworkKeySet object."
+author: "**TODO: Provide Github Name. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+localization_priority: Normal
+ms.prod: "**TODO: Add MS prod. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+doc_type: apiPageType
+---
+
+# Create trustFrameworkKeySet
+Namespace: microsoft.graph
+
+[!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
+
+Create a new trustFrameworkKeySet object.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
+
+|Permission type|Permissions (from least to most privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
+
+## HTTP request
+
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+POST /trustFramework/keySets
+```
+
+## Request headers
+|Name|Description|
+|:---|:---|
+|Authorization|Bearer {token}. Required.|
+|Content-Type|application/json. Required.|
+
+## Request body
+In the request body, supply a JSON representation of the [trustFrameworkKeySet](../resources/trustframeworkkeyset.md) object.
+
+The following table shows the properties that are required when you create the [trustFrameworkKeySet](../resources/trustframeworkkeyset.md).
+
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String|**TODO: Add Description**|
+|keys|[Microsoft.Cpim.Api.DataModels.trustFrameworkKey](../resources/trustframeworkkey.md) collection|**TODO: Add Description**|
+
+
+
+## Response
+
+If successful, this method returns a `201 Created` response code and a [trustFrameworkKeySet](../resources/trustframeworkkeyset.md) object in the response body.
+
+## Examples
+
+### Request
+<!-- {
+  "blockType": "request",
+  "name": "create_trustframeworkkeyset_from_"
+}
+-->
+``` http
+POST https://graph.microsoft.com/beta/trustFramework/keySets
+Content-Type: application/json
+Content-length: 167
+
+{
+  "@odata.type": "#Microsoft.Cpim.Api.DataModels.trustFrameworkKeySet",
+  "keys": [
+    {
+      "@odata.type": "microsoft.graph.trustFrameworkKey"
+    }
+  ]
+}
+```
+
+
+### Response
+>**Note:** The response object shown here might be shortened for readability.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "Microsoft.Cpim.Api.DataModels.trustFrameworkKeySet"
+}
+-->
+``` http
+HTTP/1.1 201 Created
+Content-Type: application/json
+
+{
+  "@odata.type": "#Microsoft.Cpim.Api.DataModels.trustFrameworkKeySet",
+  "id": "d759f1f7-f1f7-d759-f7f1-59d7f7f159d7",
+  "keys": [
+    {
+      "@odata.type": "microsoft.graph.trustFrameworkKey"
+    }
+  ]
+}
+```
+

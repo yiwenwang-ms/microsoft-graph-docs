@@ -1,0 +1,99 @@
+---
+title: "Create userFlowLanguageConfiguration"
+description: "Create a new userFlowLanguageConfiguration object."
+author: "**TODO: Provide Github Name. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+localization_priority: Normal
+ms.prod: "**TODO: Add MS prod. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+doc_type: apiPageType
+---
+
+# Create userFlowLanguageConfiguration
+Namespace: microsoft.graph
+
+[!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
+
+Create a new [userFlowLanguageConfiguration](../resources/userflowlanguageconfiguration.md) object.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
+
+|Permission type|Permissions (from least to most privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
+
+## HTTP request
+
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+POST ** Collection URI for Microsoft.Cpim.Api.DataModels.userFlowLanguageConfiguration not found
+```
+
+## Request headers
+|Name|Description|
+|:---|:---|
+|Authorization|Bearer {token}. Required.|
+|Content-Type|application/json. Required.|
+
+## Request body
+In the request body, supply a JSON representation of the [userFlowLanguageConfiguration](../resources/userflowlanguageconfiguration.md) object.
+
+The following table shows the properties that are required when you create the [userFlowLanguageConfiguration](../resources/userflowlanguageconfiguration.md).
+
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String|**TODO: Add Description**|
+|isEnabled|Boolean|**TODO: Add Description**|
+|displayName|String|**TODO: Add Description**|
+
+
+
+## Response
+
+If successful, this method returns a `201 Created` response code and a [userFlowLanguageConfiguration](../resources/userflowlanguageconfiguration.md) object in the response body.
+
+## Examples
+
+### Request
+<!-- {
+  "blockType": "request",
+  "name": "create_userflowlanguageconfiguration_from_"
+}
+-->
+``` http
+POST https://graph.microsoft.com/beta** Collection URI for Microsoft.Cpim.Api.DataModels.userFlowLanguageConfiguration not found
+Content-Type: application/json
+Content-length: 140
+
+{
+  "@odata.type": "#Microsoft.Cpim.Api.DataModels.userFlowLanguageConfiguration",
+  "isEnabled": "Boolean",
+  "displayName": "String"
+}
+```
+
+
+### Response
+>**Note:** The response object shown here might be shortened for readability.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "Microsoft.Cpim.Api.DataModels.userFlowLanguageConfiguration"
+}
+-->
+``` http
+HTTP/1.1 201 Created
+Content-Type: application/json
+
+{
+  "@odata.type": "#Microsoft.Cpim.Api.DataModels.userFlowLanguageConfiguration",
+  "id": "6e4e8fd1-8fd1-6e4e-d18f-4e6ed18f4e6e",
+  "isEnabled": "Boolean",
+  "displayName": "String"
+}
+```
+
