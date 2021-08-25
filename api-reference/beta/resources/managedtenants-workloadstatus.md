@@ -1,7 +1,7 @@
 ---
 title: "workloadStatus resource type"
 description: "Represent the status for a workload."
-author: "isaiahwilliams"
+author: "idwilliams"
 localization_priority: Normal
 ms.prod: "microsoft-365-lighthouse"
 doc_type: resourcePageType

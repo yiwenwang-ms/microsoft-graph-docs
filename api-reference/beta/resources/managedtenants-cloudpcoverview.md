@@ -1,7 +1,7 @@
 ---
 title: "cloudPcOverview resource type"
 description: "Represents an overview of cloud PCs for a given managed tenant."
-author: "isaiahwilliams"
+author: "idwilliams"
 localization_priority: Normal
 ms.prod: "microsoft-365-lighthouse"
 doc_type: resourcePageType

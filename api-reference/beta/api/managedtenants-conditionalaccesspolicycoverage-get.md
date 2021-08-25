@@ -1,7 +1,7 @@
 ---
 title: "Get conditionalAccessPolicyCoverage"
 description: "Read the properties and relationships of a conditionalAccessPolicyCoverage object."
-author: "isaiahwilliams"
+author: "idwilliams"
 localization_priority: Normal
 ms.prod: "microsoft-365-lighthouse"
 doc_type: apiPageType

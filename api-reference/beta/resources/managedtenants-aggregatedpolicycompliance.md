@@ -1,7 +1,7 @@
 ---
 title: "aggregatedPolicyCompliance resource type"
 description: "Represents an aggregate view of device compliance for a managed tenant."
-author: "isaiahwilliams"
+author: "idwilliams"
 localization_priority: Normal
 ms.prod: "microsoft-365-lighthouse"
 doc_type: resourcePageType

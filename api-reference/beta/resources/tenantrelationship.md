@@ -1,7 +1,7 @@
 ---
 title: "tenantRelationship resource type"
 description: "Represent the various type of tenant relationships."
-author: "isaiahwilliams"
+author: "idwilliams"
 localization_priority: Normal
 ms.prod: "microsoft-365-lighthouse"
 doc_type: resourcePageType

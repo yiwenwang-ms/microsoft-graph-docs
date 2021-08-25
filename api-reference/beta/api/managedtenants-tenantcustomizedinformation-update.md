@@ -1,7 +1,7 @@
 ---
 title: "Update tenantCustomizedInformation"
 description: "Update the properties of a tenantCustomizedInformation object."
-author: "isaiahwilliams"
+author: "idwilliams"
 localization_priority: Normal
 ms.prod: "microsoft-365-lighthouse"
 doc_type: apiPageType
@@ -75,7 +75,12 @@ Content-length: 278
   "tenantId": "String",
   "contacts": [
     {
-      "@odata.type": "microsoft.graph.managedTenants.tenantContactInformation"
+      "@odata.type": "microsoft.graph.managedTenants.tenantContactInformation",
+      "name": "String",
+      "title": "String",
+      "email": "String",
+      "phone": "String",
+      "notes": "String"
     }
   ],
   "website": "String"

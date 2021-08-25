@@ -1,7 +1,7 @@
 ---
 title: "setting resource type"
 description: "Represents a setting that is used within a baseline."
-author: "isaiahwilliams"
+author: "idwilliams"
 localization_priority: Normal
 ms.prod: "microsoft-365-lighthouse"
 doc_type: resourcePageType

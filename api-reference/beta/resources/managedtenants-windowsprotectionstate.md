@@ -1,7 +1,7 @@
 ---
 title: "windowsProtectionState resource type"
 description: "Represent the Windows protection state for managed devices running Windows."
-author: "isaiahwilliams"
+author: "idwilliams"
 localization_priority: Normal
 ms.prod: "microsoft-365-lighthouse"
 doc_type: resourcePageType

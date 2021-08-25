@@ -1,7 +1,7 @@
 ---
 title: "managementTemplateDetailedInfo resource type"
 description: "Represents detailed information for the management template."
-author: "isaiahwilliams"
+author: "idwilliams"
 localization_priority: Normal
 ms.prod: "microsoft-365-lighthouse"
 doc_type: resourcePageType

@@ -1,7 +1,7 @@
 ---
 title: "deviceCompliancePolicySettingStateSummary resource type"
 description: "Represents a summary of device compliance policy setting states for a given managed tenant."
-author: "isaiahwilliams"
+author: "idwilliams"
 localization_priority: Normal
 ms.prod: "microsoft-365-lighthouse"
 doc_type: resourcePageType

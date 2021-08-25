@@ -1,7 +1,7 @@
 ---
 title: "Get tenantGroup"
 description: "Read the properties and relationships of a tenantGroup object."
-author: "isaiahwilliams"
+author: "idwilliams"
 localization_priority: Normal
 ms.prod: "microsoft-365-lighthouse"
 doc_type: apiPageType

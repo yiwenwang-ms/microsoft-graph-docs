@@ -1,7 +1,7 @@
 ---
 title: "Get riskyUser"
 description: "Read the properties and relationships of a riskyUser object."
-author: "isaiahwilliams"
+author: "idwilliams"
 localization_priority: Normal
 ms.prod: "microsoft-365-lighthouse"
 doc_type: apiPageType

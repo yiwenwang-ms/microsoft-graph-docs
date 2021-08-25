@@ -1,7 +1,7 @@
 ---
 title: "List riskyUsers"
 description: "Get a list of the riskyUser objects and their properties."
-author: "isaiahwilliams"
+author: "idwilliams"
 localization_priority: Normal
 ms.prod: "microsoft-365-lighthouse"
 doc_type: apiPageType

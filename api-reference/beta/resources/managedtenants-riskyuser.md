@@ -1,7 +1,7 @@
 ---
 title: "riskyUser resource type"
 description: "Represents an account flagged for risk across each managed tenants."
-author: "isaiahwilliams"
+author: "idwilliams"
 localization_priority: Normal
 ms.prod: "microsoft-365-lighthouse"
 doc_type: resourcePageType

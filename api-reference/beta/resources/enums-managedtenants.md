@@ -1,7 +1,7 @@
 ---
 title: "Multi-tenant management enumeration values"
 description: "Microsoft Graph multi-tenant management enumeration values"
-author: "isaiahwilliams"
+author: "idwilliams"
 localization_priority: Normal
 ms.prod: "microsoft-365-lighthouse"
 doc_type: enumTypes

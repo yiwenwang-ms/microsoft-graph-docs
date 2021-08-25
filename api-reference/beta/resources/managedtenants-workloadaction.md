@@ -1,7 +1,7 @@
 ---
 title: "workloadAction resource type"
 description: "Represents an action that will be performed for a specific workload."
-author: "isaiahwilliams"
+author: "idwilliams"
 localization_priority: Normal
 ms.prod: "microsoft-365-lighthouse"
 doc_type: resourcePageType

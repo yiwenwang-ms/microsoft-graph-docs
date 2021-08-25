@@ -1,7 +1,7 @@
 ---
 title: "List managedDeviceComplianceTrends"
 description: "Get a list of the managedDeviceComplianceTrend objects and their properties."
-author: "isaiahwilliams"
+author: "idwilliams"
 localization_priority: Normal
 ms.prod: "microsoft-365-lighthouse"
 doc_type: apiPageType

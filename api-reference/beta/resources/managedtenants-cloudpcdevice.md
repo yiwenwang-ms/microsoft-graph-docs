@@ -1,7 +1,7 @@
 ---
 title: "cloudPcDevice resource type"
 description: "Represents a cloud PC device that belongs to a given managed tenant."
-author: "isaiahwilliams"
+author: "idwilliams"
 localization_priority: Normal
 ms.prod: "microsoft-365-lighthouse"
 doc_type: resourcePageType
