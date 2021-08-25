@@ -1,6 +1,6 @@
 ---
 title: "cloudPcOverview resource type"
-description: "Represents an overview of cloud PCs for a given managed tenant."
+description: "Represents an overview of Cloud PCs for a given managed tenant."
 author: "idwilliams"
 localization_priority: Normal
 ms.prod: "microsoft-365-lighthouse"
@@ -13,7 +13,7 @@ Namespace: microsoft.graph.managedTenants
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
-Represents an overview of cloud PCs for a given managed tenant.
+Represents an overview of Cloud PCs for a given managed tenant.
 
 ## Methods
 |Method|Return type|Description|
@@ -24,24 +24,24 @@ Represents an overview of cloud PCs for a given managed tenant.
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String|The unique identifier for the cloud PC overview. Required. Read-only.|
+|id|String|The unique identifier for the Cloud PC overview. Required. Read-only.|
 |lastRefreshedDateTime|DateTimeOffset|Date and time the entity was last updated in the multi-tenant management platform. Optional. Read-only.|
-|numberOfCloudPcConnectionStatusFailed|Int32|The number of cloud PC connections that have a status of `failed`. Optional. Read-only.|
-|numberOfCloudPcConnectionStatusPassed|Int32|The number of cloud PC connections that have a status of `passed`. Optional. Read-only.|
-|numberOfCloudPcConnectionStatusPending|Int32|The number of cloud PC connections that have a status of `pending`. Optional. Read-only.|
-|numberOfCloudPcConnectionStatusRunning|Int32|The number of cloud PC connections that have a status of `running`. Optional. Read-only.|
-|numberOfCloudPcConnectionStatusUnkownFutureValue|Int32|The number of cloud PC connections that have a status of `unknownFutureValue`. Optional. Read-only.|
-|numberOfCloudPcStatusDeprovisioning|Int32|The number of cloud PCs that have a status of `deprovisioning`. Optional. Read-only.|
-|numberOfCloudPcStatusFailed|Int32|The number of cloud PCs that have a status of `failed`. Optional. Read-only.|
-|numberOfCloudPcStatusInGracePeriod|Int32|The number of cloud PCs that have a status of `inGracePeriod`. Optional. Read-only.|
-|numberOfCloudPcStatusNotProvisioned|Int32|The number of cloud PCs that have a status of `notProvisioned`. Optional. Read-only.|
-|numberOfCloudPcStatusProvisioned|Int32|The number of cloud PCs that have a status of `provisioned`. Optional. Read-only.|
-|numberOfCloudPcStatusProvisioning|Int32|The number of cloud PCs that have a status of `provisioning`. Optional. Read-only.|
-|numberOfCloudPcStatusUnknown|Int32|The number of cloud PCs that have a status of `unknown`. Optional. Read-only.|
-|numberOfCloudPcStatusUpgrading|Int32|The number of cloud PCs that have a status of `upgrading`. Optional. Read-only.|
+|numberOfCloudPcConnectionStatusFailed|Int32|The number of Cloud PC connections that have a status of `failed`. Optional. Read-only.|
+|numberOfCloudPcConnectionStatusPassed|Int32|The number of Cloud PC connections that have a status of `passed`. Optional. Read-only.|
+|numberOfCloudPcConnectionStatusPending|Int32|The number of Cloud PC connections that have a status of `pending`. Optional. Read-only.|
+|numberOfCloudPcConnectionStatusRunning|Int32|The number of Cloud PC connections that have a status of `running`. Optional. Read-only.|
+|numberOfCloudPcConnectionStatusUnkownFutureValue|Int32|The number of Cloud PC connections that have a status of `unknownFutureValue`. Optional. Read-only.|
+|numberOfCloudPcStatusDeprovisioning|Int32|The number of Cloud PCs that have a status of `deprovisioning`. Optional. Read-only.|
+|numberOfCloudPcStatusFailed|Int32|The number of Cloud PCs that have a status of `failed`. Optional. Read-only.|
+|numberOfCloudPcStatusInGracePeriod|Int32|The number of Cloud PCs that have a status of `inGracePeriod`. Optional. Read-only.|
+|numberOfCloudPcStatusNotProvisioned|Int32|The number of Cloud PCs that have a status of `notProvisioned`. Optional. Read-only.|
+|numberOfCloudPcStatusProvisioned|Int32|The number of Cloud PCs that have a status of `provisioned`. Optional. Read-only.|
+|numberOfCloudPcStatusProvisioning|Int32|The number of Cloud PCs that have a status of `provisioning`. Optional. Read-only.|
+|numberOfCloudPcStatusUnknown|Int32|The number of Cloud PCs that have a status of `unknown`. Optional. Read-only.|
+|numberOfCloudPcStatusUpgrading|Int32|The number of Cloud PCs that have a status of `upgrading`. Optional. Read-only.|
 |tenantDisplayName|String|The display name for the managed tenant. Optional. Read-only.|
-|totalCloudPcConnectionStatus|Int32|The total number of cloud PC connection statuses for the given managed tenant. Optional. Read-only.|
-|totalCloudPcStatus|Int32|The total number of cloud PC statues for the given managed tenant. Optional. Read-only.|
+|totalCloudPcConnectionStatus|Int32|The total number of Cloud PC connection statuses for the given managed tenant. Optional. Read-only.|
+|totalCloudPcStatus|Int32|The total number of Cloud PC statues for the given managed tenant. Optional. Read-only.|
 
 ## Relationships
 None.

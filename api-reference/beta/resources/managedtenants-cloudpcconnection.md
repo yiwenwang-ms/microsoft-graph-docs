@@ -1,6 +1,6 @@
 ---
 title: "cloudPcConnection resource type"
-description: "Represents a cloud PC connection for a given managed tenant."
+description: "Represents a Cloud PC connection for a given managed tenant."
 author: "idwilliams"
 localization_priority: Normal
 ms.prod: "microsoft-365-lighthouse"
@@ -13,7 +13,7 @@ Namespace: microsoft.graph.managedTenants
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
-Represents a cloud PC connection for a given managed tenant.
+Represents a Cloud PC connection for a given managed tenant.
 
 ## Methods
 |Method|Return type|Description|
@@ -24,9 +24,9 @@ Represents a cloud PC connection for a given managed tenant.
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|displayName|String|The display name of the cloud PC connection. Required. Read-only.|
-|healthCheckStatus|String|The health status of the cloud PC connection. Possible values are: `pending`, `running`, `passed`, `failed`, `unknownFutureValue`.  Required. Read-only.|
-|id|String|The unique identifier for the cloud PC connection. Required. Read-only.|
+|displayName|String|The display name of the Cloud PC connection. Required. Read-only.|
+|healthCheckStatus|String|The health status of the Cloud PC connection. Possible values are: `pending`, `running`, `passed`, `failed`, `unknownFutureValue`.  Required. Read-only.|
+|id|String|The unique identifier for the Cloud PC connection. Required. Read-only.|
 |lastRefreshedDateTime|DateTimeOffset|Date and time the entity was last updated in the multi-tenant management platform. Required. Read-only.|
 |tenantDisplayName|String|The display name for the managed tenant. Required. Read-only.|
 |tenantId|String|The Azure Active Directory tenant identifier for the [managed tenant](../resources/managedtenants-tenant.md). Required. Read-only.|
