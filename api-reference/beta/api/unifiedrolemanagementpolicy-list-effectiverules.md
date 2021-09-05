@@ -1,7 +1,7 @@
 ---
 title: "List effectiveRules"
 description: "Get the unifiedRoleManagementPolicyRule resources from the effectiveRules navigation property."
-author: "shauliu1"
+author: "shauliu"
 localization_priority: Normal
 ms.prod: "governance"
 doc_type: apiPageType

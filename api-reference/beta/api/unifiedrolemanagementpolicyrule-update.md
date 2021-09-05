@@ -1,7 +1,7 @@
 ---
 title: "Update unifiedRoleManagementPolicyRule"
 description: "Update the properties of an unifiedRoleManagementPolicyRule object."
-author: "shauliu1"
+author: "shauliu"
 localization_priority: Normal
 ms.prod: "governance"
 doc_type: apiPageType

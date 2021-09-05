@@ -11,12 +11,6 @@ author: "MSGraphDocsvTeam"
 
 Namespace: microsoft.graph
 
-### authenticatorAppFeatureSettings values
-
-|Member|
-|:---|
-|requireNumberMatching|
-
 ### appCredentialRestrictionType values
 
 |Member|

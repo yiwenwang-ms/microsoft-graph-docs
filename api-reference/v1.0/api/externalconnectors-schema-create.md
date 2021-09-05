@@ -38,7 +38,12 @@ When registering a custom item schema, the `schema` object MUST have the `baseTy
 
 ## Response
 
-If successful, this method returns a `202 Accepted` response code and a URL in the `Location` response header that can be used to [get the operation status](../api/externalconnectors-connectionoperation-get.md).
+With the `Prefer: respond-async` header included in the request, if successful, this method returns a `202 Accepted` response code and a URL in the `Location` response header that can be used to [get the operation status](../api/externalconnectors-connectionoperation-get.md).
+
+Without the `Prefer: respond-async` header included in the request, if successful, this method returns a `201 Created` response code and a new [schema](../resources/externalconnectors-schema.md) object in the response body.
+
+> [!NOTE]
+> Creating a schema is a long-running process prone to gateway timeouts. We recommend using the `Prefer: respond-async` header to avoid timeout errors.
 
 ## Examples
 
@@ -58,6 +63,7 @@ The following is an example of the request.
 ```http
 POST https://graph.microsoft.com/v1.0/external/connections/contosohr/schema
 Content-type: application/json
+Prefer: respond-async
 
 {
   "baseType": "microsoft.graph.externalItem",

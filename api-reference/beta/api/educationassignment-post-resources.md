@@ -59,7 +59,7 @@ Content-length: 212
   "resource": {
     "displayName": "Bing",
     "link": "https://www.bing.com",
-    "@odata.type": "#microsoft.graph.educationLinkResource"
+    "@odata.type": "#microsoft.education.assignments.api.educationLinkResource"
   }
 }
 ```
@@ -86,7 +86,7 @@ Content-length: 229
   "resource": {
     "displayName": "Bing",
     "link": "https://www.bing.com",
-    "@odata.type": "#microsoft.graph.educationLinkResource"
+    "@odata.type": "#microsoft.education.assignments.api.educationLinkResource"
   }
 }
 ```

@@ -61,7 +61,7 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 5418
+Content-Length: 5369
 
 {
   "value": [
@@ -123,6 +123,9 @@ Content-Length: 5418
       "passwordMaximumAttemptCount": 11,
       "passwordMinutesUntilFailedLoginReset": 4,
       "keychainBlockCloudSync": true,
+      "airPrintBlocked": true,
+      "airPrintForceTrustedTLS": true,
+      "airPrintBlockiBeaconDiscovery": true,
       "safariBlockAutofill": true,
       "cameraBlocked": true,
       "iTunesBlockMusicService": true,
@@ -193,11 +196,7 @@ Content-Length: 5418
             }
           ]
         }
-      ],
-      "addingGameCenterFriendsBlocked": true,
-      "gameCenterBlocked": true,
-      "multiplayerGamingBlocked": true,
-      "wallpaperModificationBlocked": true
+      ]
     }
   ]
 }

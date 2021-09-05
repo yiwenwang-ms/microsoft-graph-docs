@@ -76,6 +76,9 @@ The following table shows the properties that are required when you create the [
 |passwordMaximumAttemptCount|Int32|The number of allowed failed attempts to enter the passcode at the device's lock screen. Valid values 2 to 11|
 |passwordMinutesUntilFailedLoginReset|Int32|The number of minutes before the login is reset after the maximum number of unsuccessful login attempts is reached.|
 |keychainBlockCloudSync|Boolean|Indicates whether or not iCloud keychain synchronization is blocked (macOS 10.12 and later).|
+|airPrintBlocked|Boolean|Indicates whether or not AirPrint is blocked (macOS 10.12 and later).|
+|airPrintForceTrustedTLS|Boolean|Indicates if trusted certificates are required for TLS printing communication (macOS 10.13 and later).|
+|airPrintBlockiBeaconDiscovery|Boolean|Indicates whether or not iBeacon discovery of AirPrint printers is blocked. This prevents spurious AirPrint Bluetooth beacons from phishing for network traffic (macOS 10.3 and later).|
 |safariBlockAutofill|Boolean|Indicates whether or not to block the user from using Auto fill in Safari.|
 |cameraBlocked|Boolean|Indicates whether or not to block the user from accessing the camera of the device.|
 |iTunesBlockMusicService|Boolean|Indicates whether or not to block Music service and revert Music app to classic mode.|
@@ -109,10 +112,6 @@ The following table shows the properties that are required when you create the [
 |classroomForceUnpromptedAppAndDeviceLock|Boolean|Indicates whether or not to allow the teacher to lock apps or the device without prompting the student. Requires MDM enrollment via Apple School Manager or Apple Business Manager.|
 |iCloudBlockActivityContinuation|Boolean|Indicates whether or not to block the user from continuing work that they started on a MacOS device on another iOS or MacOS device (MacOS 10.15 or later).|
 |privacyAccessControls|[macOSPrivacyAccessControlItem](../resources/intune-deviceconfig-macosprivacyaccesscontrolitem.md) collection|List of privacy preference policy controls. This collection can contain a maximum of 10000 elements.|
-|addingGameCenterFriendsBlocked|Boolean|Yes prevents users from adding friends to Game Center. Available for devices running macOS versions 10.13 and later.|
-|gameCenterBlocked|Boolean|Yes disables Game Center, and the Game Center icon is removed from the Home screen. Available for devices running macOS versions 10.13 and later.|
-|multiplayerGamingBlocked|Boolean|Yes prevents multiplayer gaming when using Game Center. Available for devices running macOS versions 10.13 and later.|
-|wallpaperModificationBlocked|Boolean|Yes prevents the wallpaper from being changed. Available for devices running macOS versions 10.13 and later.|
 
 
 
@@ -126,7 +125,7 @@ Here is an example of the request.
 ``` http
 PATCH https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations/{deviceConfigurationId}
 Content-type: application/json
-Content-length: 4685
+Content-length: 4640
 
 {
   "@odata.type": "#microsoft.graph.macOSGeneralDeviceConfiguration",
@@ -183,6 +182,9 @@ Content-length: 4685
   "passwordMaximumAttemptCount": 11,
   "passwordMinutesUntilFailedLoginReset": 4,
   "keychainBlockCloudSync": true,
+  "airPrintBlocked": true,
+  "airPrintForceTrustedTLS": true,
+  "airPrintBlockiBeaconDiscovery": true,
   "safariBlockAutofill": true,
   "cameraBlocked": true,
   "iTunesBlockMusicService": true,
@@ -253,11 +255,7 @@ Content-length: 4685
         }
       ]
     }
-  ],
-  "addingGameCenterFriendsBlocked": true,
-  "gameCenterBlocked": true,
-  "multiplayerGamingBlocked": true,
-  "wallpaperModificationBlocked": true
+  ]
 }
 ```
 
@@ -266,7 +264,7 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 4857
+Content-Length: 4812
 
 {
   "@odata.type": "#microsoft.graph.macOSGeneralDeviceConfiguration",
@@ -326,6 +324,9 @@ Content-Length: 4857
   "passwordMaximumAttemptCount": 11,
   "passwordMinutesUntilFailedLoginReset": 4,
   "keychainBlockCloudSync": true,
+  "airPrintBlocked": true,
+  "airPrintForceTrustedTLS": true,
+  "airPrintBlockiBeaconDiscovery": true,
   "safariBlockAutofill": true,
   "cameraBlocked": true,
   "iTunesBlockMusicService": true,
@@ -396,11 +397,7 @@ Content-Length: 4857
         }
       ]
     }
-  ],
-  "addingGameCenterFriendsBlocked": true,
-  "gameCenterBlocked": true,
-  "multiplayerGamingBlocked": true,
-  "wallpaperModificationBlocked": true
+  ]
 }
 ```
 

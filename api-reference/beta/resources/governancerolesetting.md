@@ -4,7 +4,7 @@ description: "Represents a set of configurations on each role definition that ne
 localization_priority: Normal
 doc_type: resourcePageType
 ms.prod: "governance"
-author: "shauliu1"
+author: "shauliu"
 ---
 
 # governanceRoleSetting resource type

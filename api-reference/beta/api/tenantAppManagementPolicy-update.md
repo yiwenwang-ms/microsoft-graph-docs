@@ -30,7 +30,7 @@ One of the following permissions is required to call this API. To learn more, in
 <!-- { "blockType": "ignored" } -->
 
 ```http
-PATCH /policies/defaultAppManagementPolicy
+PATCH /policies/tenantAppManagementPolicy
 ```
 
 ## Request headers
@@ -69,7 +69,7 @@ The following is an example of the request.
 }-->
 
 ```msgraph-interactive
-PATCH https://graph.microsoft.com/beta/policies/defaultAppManagementPolicy
+PATCH https://graph.microsoft.com/beta/policies/tenantAppManagementPolicy
 Content-Type: application/json
 
 {

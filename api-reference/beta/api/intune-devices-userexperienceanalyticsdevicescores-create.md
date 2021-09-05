@@ -22,9 +22,9 @@ One of the following permissions is required to call this API. To learn more, in
 
 |Permission type|Permissions (from least to most privileged)|
 |:---|:---|
-|Delegated (work or school account)|DeviceManagementServiceConfig.ReadWrite.All, DeviceManagementConfiguration.ReadWrite.All, DeviceManagementManagedDevices.ReadWrite.All|
+|Delegated (work or school account)|DeviceManagementManagedDevices.ReadWrite.All|
 |Delegated (personal Microsoft account)|Not supported.|
-|Application|DeviceManagementServiceConfig.ReadWrite.All, DeviceManagementConfiguration.ReadWrite.All, DeviceManagementManagedDevices.ReadWrite.All|
+|Application|DeviceManagementManagedDevices.ReadWrite.All|
 
 ## HTTP Request
 <!-- {
@@ -55,7 +55,6 @@ The following table shows the properties that are required when you create the u
 |endpointAnalyticsScore|Double|The user experience analytics device score. Valid values -1.79769313486232E+308 to 1.79769313486232E+308|
 |startupPerformanceScore|Double|The user experience analytics device startup performance score. Valid values -1.79769313486232E+308 to 1.79769313486232E+308|
 |appReliabilityScore|Double|The user experience analytics device app reliability score. Valid values -1.79769313486232E+308 to 1.79769313486232E+308|
-|healthStatus|[userExperienceAnalyticsHealthState](../resources/intune-devices-userexperienceanalyticshealthstate.md)|The health state of the user experience analytics device. Possible values are: `unknown`, `insufficientData`, `needsAttention`, `meetingGoals`.|
 
 
 
@@ -69,7 +68,7 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/beta/deviceManagement/userExperienceAnalyticsDeviceScores
 Content-type: application/json
-Content-length: 364
+Content-length: 325
 
 {
   "@odata.type": "#microsoft.graph.userExperienceAnalyticsDeviceScores",
@@ -78,8 +77,7 @@ Content-length: 364
   "manufacturer": "Manufacturer value",
   "endpointAnalyticsScore": 7.333333333333333,
   "startupPerformanceScore": 7.666666666666667,
-  "appReliabilityScore": 6.333333333333333,
-  "healthStatus": "insufficientData"
+  "appReliabilityScore": 6.333333333333333
 }
 ```
 
@@ -88,7 +86,7 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 413
+Content-Length: 374
 
 {
   "@odata.type": "#microsoft.graph.userExperienceAnalyticsDeviceScores",
@@ -98,8 +96,7 @@ Content-Length: 413
   "manufacturer": "Manufacturer value",
   "endpointAnalyticsScore": 7.333333333333333,
   "startupPerformanceScore": 7.666666666666667,
-  "appReliabilityScore": 6.333333333333333,
-  "healthStatus": "insufficientData"
+  "appReliabilityScore": 6.333333333333333
 }
 ```
 

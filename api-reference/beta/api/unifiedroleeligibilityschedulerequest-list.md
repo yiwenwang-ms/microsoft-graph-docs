@@ -1,7 +1,7 @@
 ---
 title: "List unifiedRoleEligibilityScheduleRequests"
 description: "Get a list of the unifiedRoleEligibilityScheduleRequest objects and their properties."
-author: "shauliu1"
+author: "shauliu"
 localization_priority: Normal
 ms.prod: "governance"
 doc_type: apiPageType
@@ -82,9 +82,7 @@ GET https://graph.microsoft.com/beta/roleManagement/directory/roleEligibilitySch
 
 
 ### Response
-
-The following is an example of the response.
->**Note:** The response object shown here might be shortened for readability.
+**Note:** The response object shown here might be shortened for readability.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -96,47 +94,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json
 
 {
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleEligibilityScheduleRequests",
   "value": [
     {
-      "id": "19757c21-7844-4478-b4b6-68aed0cd2d52",
-      "status": "Provisioned",
-      "createdDateTime": "2021-07-13T19:17:33.373Z",
-      "completedDateTime": "2021-07-13T19:17:33.427Z",
-      "approvalId": null,
-      "customData": null,
-      "action": "AdminAssign",
-      "principalId": "5659e4d9-9ab6-4678-9f1b-72322d469e9b",
-      "roleDefinitionId": "fdd7a751-b60b-444a-984c-02652fe8fa1c",
-      "directoryScopeId": "/",
-      "appScopeId": null,
-      "isValidationOnly": false,
-      "targetScheduleId": "19757c21-7844-4478-b4b6-68aed0cd2d52",
-      "justification": null,
-      "createdBy": {
-        "application": null,
-        "device": null,
-        "user": {
-          "displayName": null,
-          "id": "fc9a2c2b-1ddc-486d-a211-5fe8ca77fa1f"
-        }
-      },
+      "id": "a2e242a0-42a0-a2e2-a042-e2a2a042e2a2",
+      "action": "String",
+      "principalId": "String",
+      "roleDefinitionId": "String",
+      "directoryScopeId": "String",
+      "appScopeId": "String",
+      "isValidationOnly": "Boolean",
+      "targetScheduleId": "String",
+      "justification": "String",
       "scheduleInfo": {
-        "startDateTime": "2021-07-13T19:17:33.4258055Z",
-        "recurrence": null,
-        "expiration": {
-          "type": "afterDateTime",
-          "endDateTime": "2022-07-13T19:16:02.506Z",
-          "duration": null
-        }
+        "@odata.type": "microsoft.graph.requestSchedule"
       },
       "ticketInfo": {
-      "ticketNumber": null,
-      "ticketSystem": null
+        "@odata.type": "microsoft.graph.ticketInfo"
       }
     }
   ]
 }
-        
 ```
 

@@ -22,9 +22,9 @@ One of the following permissions is required to call this API. To learn more, in
 
 |Permission type|Permissions (from least to most privileged)|
 |:---|:---|
-|Delegated (work or school account)|DeviceManagementServiceConfig.ReadWrite.All, DeviceManagementConfiguration.ReadWrite.All, DeviceManagementManagedDevices.ReadWrite.All|
+|Delegated (work or school account)|DeviceManagementManagedDevices.ReadWrite.All|
 |Delegated (personal Microsoft account)|Not supported.|
-|Application|DeviceManagementServiceConfig.ReadWrite.All, DeviceManagementConfiguration.ReadWrite.All, DeviceManagementManagedDevices.ReadWrite.All|
+|Application|DeviceManagementManagedDevices.ReadWrite.All|
 
 ## HTTP Request
 <!-- {
@@ -54,7 +54,6 @@ The following table shows the properties that are required when you create the u
 |appCrashCount|Int32|The number of app crashes for the device. Valid values -2147483648 to 2147483647|
 |crashedAppCount|Int32|The number of distinct app crashes for the device. Valid values -2147483648 to 2147483647|
 |appHangCount|Int32|The number of app hangs for the device. Valid values -2147483648 to 2147483647|
-|processedDateTime|DateTimeOffset|The date and time when the statistics were last computed.|
 |meanTimeToFailureInMinutes|Int32|The mean time to failure for the device in minutes. Valid values -2147483648 to 2147483647|
 |deviceAppHealthScore|Double|The app health score of the device. Valid values -1.79769313486232E+308 to 1.79769313486232E+308|
 |deviceAppHealthStatus|String|The overall app health status of the device.|
@@ -73,7 +72,7 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/beta/deviceManagement/userExperienceAnalyticsAppHealthDevicePerformance
 Content-type: application/json
-Content-length: 551
+Content-length: 490
 
 {
   "@odata.type": "#microsoft.graph.userExperienceAnalyticsAppHealthDevicePerformance",
@@ -82,7 +81,6 @@ Content-length: 551
   "appCrashCount": 13,
   "crashedAppCount": 15,
   "appHangCount": 12,
-  "processedDateTime": "2017-01-01T00:03:22.2339319-08:00",
   "meanTimeToFailureInMinutes": 10,
   "deviceAppHealthScore": 6.666666666666667,
   "deviceAppHealthStatus": "Device App Health Status value",
@@ -96,7 +94,7 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 600
+Content-Length: 539
 
 {
   "@odata.type": "#microsoft.graph.userExperienceAnalyticsAppHealthDevicePerformance",
@@ -106,7 +104,6 @@ Content-Length: 600
   "appCrashCount": 13,
   "crashedAppCount": 15,
   "appHangCount": 12,
-  "processedDateTime": "2017-01-01T00:03:22.2339319-08:00",
   "meanTimeToFailureInMinutes": 10,
   "deviceAppHealthScore": 6.666666666666667,
   "deviceAppHealthStatus": "Device App Health Status value",
