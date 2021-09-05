@@ -236,7 +236,7 @@
       "ChangeList": [
         {
           "Id": "b09706d4-7465-4d34-bc1a-533e2be0a566",
-          "ApiChange": "EnumType",
+          "ApiChange": "Enum type",
           "ChangedApiName": "bucketAggregationSortProperty",
           "ChangeType": "Addition",
           "Description": "Added the **bucketAggregationSortProperty** enumeration type.",
@@ -244,15 +244,7 @@
         },
         {
           "Id": "b09706d4-7465-4d34-bc1a-533e2be0a566",
-          "ApiChange": "Member",
-          "ChangedApiName": "unknownFutureValue",
-          "ChangeType": "Change",
-          "Description": "Removed the **unknownFutureValue** resource type",
-          "Target": "entityType"
-        },
-        {
-          "Id": "b09706d4-7465-4d34-bc1a-533e2be0a566",
-          "ApiChange": "ComplexType",
+          "ApiChange": "Resource",
           "ChangedApiName": "aggregationOption",
           "ChangeType": "Addition",
           "Description": "Added the [aggregationOption](https://docs.microsoft.com/en-us/graph/api/resources/aggregationOption?view=graph-rest-1.0) resource type.",
@@ -260,7 +252,7 @@
         },
         {
           "Id": "b09706d4-7465-4d34-bc1a-533e2be0a566",
-          "ApiChange": "ComplexType",
+          "ApiChange": "Resource",
           "ChangedApiName": "bucketAggregationDefinition",
           "ChangeType": "Addition",
           "Description": "Added the [bucketAggregationDefinition](https://docs.microsoft.com/en-us/graph/api/resources/bucketAggregationDefinition?view=graph-rest-1.0) resource type.",
@@ -268,7 +260,7 @@
         },
         {
           "Id": "b09706d4-7465-4d34-bc1a-533e2be0a566",
-          "ApiChange": "ComplexType",
+          "ApiChange": "Resource",
           "ChangedApiName": "bucketAggregationRange",
           "ChangeType": "Addition",
           "Description": "Added the [bucketAggregationRange](https://docs.microsoft.com/en-us/graph/api/resources/bucketAggregationRange?view=graph-rest-1.0) resource type.",
@@ -276,7 +268,7 @@
         },
         {
           "Id": "b09706d4-7465-4d34-bc1a-533e2be0a566",
-          "ApiChange": "ComplexType",
+          "ApiChange": "Resource",
           "ChangedApiName": "searchAggregation",
           "ChangeType": "Addition",
           "Description": "Added the [searchAggregation](https://docs.microsoft.com/en-us/graph/api/resources/searchAggregation?view=graph-rest-1.0) resource type.",
@@ -284,7 +276,7 @@
         },
         {
           "Id": "b09706d4-7465-4d34-bc1a-533e2be0a566",
-          "ApiChange": "ComplexType",
+          "ApiChange": "Resource",
           "ChangedApiName": "searchBucket",
           "ChangeType": "Addition",
           "Description": "Added the [searchBucket](https://docs.microsoft.com/en-us/graph/api/resources/searchBucket?view=graph-rest-1.0) resource type.",
@@ -324,7 +316,7 @@
         },
         {
           "Id": "b09706d4-7465-4d34-bc1a-533e2be0a566",
-          "ApiChange": "ComplexType",
+          "ApiChange": "Resource",
           "ChangedApiName": "sortProperty",
           "ChangeType": "Addition",
           "Description": "Added the [sortProperty](https://docs.microsoft.com/en-us/graph/api/resources/sortProperty?view=graph-rest-1.0) resource type.",

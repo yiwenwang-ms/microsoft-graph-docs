@@ -1,6 +1,6 @@
 ---
 title: "sortProperty resource type"
-description: "Provides the option to sort search results."
+description: "Indicates the order to sort search results"
 localization_priority: Normal
 author: "nmoreau"
 ms.prod: "search"
@@ -11,7 +11,7 @@ doc_type: "resourcePageType"
 
 Namespace: microsoft.graph
 
-Represents the sort options to order search results.
+Indicates the order to sort search results.
 
 ## Properties
 
