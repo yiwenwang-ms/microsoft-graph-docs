@@ -60,8 +60,10 @@ Looking for the API reference for this service?
   - [Refine search results](search-concept-aggregation.md) (preview)
   - [Request spelling correction](search-concept-speller.md) (preview)
   - [Search display layout](search-concept-display-layout.md) (preview)
- 
-  
+  - [Trim Duplicates](search-concept-trim-duplicate.md) (preview)
+  - [Query Template](search-concept-query-template.md) (preview)
+
+
 - Explore the search APIs in  [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer).
 - Download the [sample search connector](https://github.com/microsoftgraph/msgraph-search-connector-sample) from GitHub.
 
