@@ -2,7 +2,7 @@
 title: "searchHit resource type"
 description: "Description of searchHit entity"
 ms.localizationpriority: medium
-author: "nmoreau"
+author: "yiwenwang"
 ms.prod: "search"
 doc_type: "resourcePageType"
 ---
@@ -22,6 +22,7 @@ Represents a single result within the list of search results.
 |contentSource|String|The name of the content source which the **externalItem** is part of .|
 |summary|String|A summary of the result, if a summary is available.|
 |resource|[entity](entity.md)|The underlying Microsoft Graph representation of the search result.|
+|resultTemplateId|String|The Id to identify the corresponding result template.|
 
 ## JSON representation
 
