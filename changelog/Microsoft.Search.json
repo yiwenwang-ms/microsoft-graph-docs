@@ -1405,6 +1405,24 @@
       "CreatedDateTime": "2022-09-01T00:00:00",
       "WorkloadArea": "Search",
       "SubArea": ""
-    }
+    },
+    {
+      "ChangeList": [
+          {
+            "Id": "0bbe0afd-1314-4afe-99f3-f509da918b99",
+            "ApiChange": "",
+            "ChangedApiName": "",
+            "ChangeType": "Addition",
+            "Description": "Add support for the interleaving in public documentation.",
+            "Target": "file"
+          }
+        ],
+        "Id": "0bbe0afd-1314-4afe-99f3-f509da918b99",
+        "Cloud": "prd",
+        "Version": "beta",
+        "CreatedDateTime": "2022-11-08T00:00:00",
+        "WorkloadArea": "Search",
+        "SubArea": "Query"
+  }
   ]
 }
