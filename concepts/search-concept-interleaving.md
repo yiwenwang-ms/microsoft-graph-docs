@@ -6,8 +6,6 @@ ms.localizationpriority: medium
 ms.prod: "search"
 ---
 
-[!INCLUDE [search-schema-updated](../includes/search-schema-updated.md)]
-
 # Supported Entity Combination
 
 | Entity Type |message     | chatMessage| drive       | driveItem  | event      |externalItem | list       | listItem   | person     | site       |
