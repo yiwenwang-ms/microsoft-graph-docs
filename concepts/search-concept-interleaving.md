@@ -54,7 +54,7 @@ Content-Type: application/json
 
 ### Response
 
-The following is an example of the response, which contains one message that matches the search criterion.
+The following is an example of interleaving response.
 
 ```HTTP
 HTTP/1.1 200 OK
@@ -123,12 +123,13 @@ Content-type: application/json
 ## Known limitations
 
 - Customized Sort is not supported in interleaving scenario, all of them ordered by relevance.
-- XRank / Collapse is not supported.
+- QueryTemplate is only supported for file items in interleaving query, it cannot filter out any externalItem results in the response.
+- Collapse is not supported.
 - Speller modification is not supported, speller suggestion can be used as normal.
 - Result Template is not supported.
 - Aggregation limitation, if same aggregated field both exist in Sharepoint file types (site, drive, driveItem, list, listItem) and connectors.
 Aggregation result will show two same aggregation buckets with same name, suggest to rename one of its name to bypass the limitation.
-- Specify a signle connection in content source is not supported, there is a plan to change the behavior to allow single connection interleaving search in the future. Please specify only "/external/connections/*" in contentSource.
+- Specifying a single connection in content source is not supported, so please only use "/external/connections/*" in contentSource. Note that there is a plan to change the behavior to allow single connection interleaving search in the future.
 
 ## Next steps
 
