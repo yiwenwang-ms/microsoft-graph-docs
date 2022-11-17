@@ -124,6 +124,7 @@ Content-type: application/json
 
 - Customized Sort is not supported in interleaving scenario, all of them ordered by relevance.
 - QueryTemplate is only supported for file items in interleaving query, it cannot filter out any externalItem results in the response.
+  The behavior could be changed in the future and apply queryTemplate to externalItem, not suggest to use queryTemplate in interleaving request.
 - Collapse is not supported.
 - Speller modification is not supported, speller suggestion can be used as normal.
 - Result Template is not supported.
