@@ -23,9 +23,11 @@ ms.prod: "search"
 
 
 
-## Example 1: Search with SharePoint file types and connecotor combination. 
+## Examples
 
-### Request
+### Example 1: Search with SharePoint file types and connector combination
+
+#### Request
 
 ```HTTP
 POST https://graph.microsoft.com/v1.0/search/query
@@ -52,7 +54,7 @@ Content-Type: application/json
 }
 ```
 
-### Response
+#### Response
 
 The following is an example of interleaving response.
 
@@ -122,14 +124,13 @@ Content-type: application/json
 
 ## Known limitations
 
-- Customized Sort is not supported in interleaving scenario, all of them ordered by relevance.
+- Customized sort is not supported in interleaving scenario, all of them are ordered by relevance.
 - QueryTemplate is only supported for file items in interleaving query, it cannot filter out any externalItem results in the response.
   The behavior could be changed in the future and apply queryTemplate to externalItem, not suggest to use queryTemplate in interleaving request.
 - Collapse is not supported.
 - Speller modification is not supported, speller suggestion can be used as normal.
-- Result Template is not supported.
-- Aggregation limitation, if same aggregated field both exist in Sharepoint file types (site, drive, driveItem, list, listItem) and connectors.
-Aggregation result will show two same aggregation buckets with same name, suggest to rename one of its name to bypass the limitation.
+- Result template is not supported.
+- Aggregation limitation, if same aggregated field both exist in Sharepoint file types (site, drive, driveItem, list, listItem) and connectors. Aggregation result will show two same aggregation buckets with same name, suggest to rename one of its name to bypass the limitation.
 - Specifying a single connection in content source is not supported, so please only use "/external/connections/*" in contentSource. Note that there is a plan to change the behavior to allow single connection interleaving search in the future.
 
 ## Next steps
